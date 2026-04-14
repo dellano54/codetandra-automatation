@@ -1,0 +1,4 @@
+.venv/
+playwright-user-data/
+.env
+credentials.json
