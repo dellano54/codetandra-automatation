@@ -1,0 +1,2217 @@
+{
+  "Introduction to Data": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb0298/67664aa6eae7e444a096383e",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Introduction to File Systems": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb0298/67664e74eae7e444a09641eb",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "What is a Database - Key Features": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb0298/67666c7ceae7e444a0968fdc",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Introduction to Data Abstraction": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb0298/67668399eae7e444a096ce82",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "A Simple Example to Understand Levels of Abstraction": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb0298/659022f5da924947f048f660",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "What is a Database Management System?": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb0298/67669308eae7e444a096f482",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Select the correct answer": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b5/60ed4802490d46066822abd4",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Video Streaming Platforms": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb0298/6767fe5cbccdb27c51435440",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Key Components of DBMS": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb0299/67667edb11119e419fb9909d",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Key Components of DBMS - 2": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb0299/676682e611119e419fb99a36",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Classification of Users in a Database Environment": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb0299/6766946e11119e419fb9cc07",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Applications of DBMS": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb029a/6766a0f0eae7e444a09713bf",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Applications of DBMS - Contd": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb029a/6766a3d6eae7e444a0971950",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "DBMS Architecture": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb029b/6766a90311119e419fb9fa18",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "2-Tier and 3-Tier Architecture": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb029b/6766acc911119e419fba001c",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Three-Schema Architecture": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb029b/6766c4dc11119e419fba2bb6",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Data Independence": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb029c/6766babbeae7e444a097450d",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Relational Database Schema Vs Relational Database Instance": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb029c/6766c0e6eae7e444a0974e7d",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Database Schema": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb029d/6767e652df808e445629468f",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "What is a Database Instance?": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb029d/6767f1d0df808e445629578f",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Introduction to Database Design": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb029e/6766e771b9b6cd2e748bd32b",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Database Design: Key Terms": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb029e/6766ed4b11119e419fba65b7",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Primary & Foreign Keys": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb029e/6766f6ddf576683ab098d88a",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Key Terms - Contd": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb029e/6766fa15f576683ab098dde4",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Database Design Steps": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb029e/6766fbe7f576683ab098e745",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Database Design - Contd": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb029e/6766fd42f576683ab098e9b8",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Types of Database Model": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb029f/67678c5f11119e419fbad505",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Types of Database Model- Contd": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb029f/67678d0e11119e419fbad591",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Introduction to the ER Model": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb02a0/6767b60411119e419fbb1ee3",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Types of Attributes and Keys in the ER Model (Part 1)": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb02a0/6767bdac11119e419fbb2b0a",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Types of Keys and Relationships in the ER Model (Part 2)": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb02a0/6767c24711119e419fbb3384",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Components of ER Diagram: Entities": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb02a0/6767d59e11119e419fbb60a1",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Components of ER Diagram: Attributes": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb02a0/6767d7a211119e419fbb640c",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Components of ER Diagram: Relationship Type and Relationship Set": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb02a0/6767dc3d11119e419fbb6eb8",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Cardinality & Participation Constraint": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb02a0/6767deaa11119e419fbb7404",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Generalization, Specialization and Aggregation": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb02a0/67696184bccdb27c5144f875",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Entity-Relationship (ER) Model for the Banking Management System": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb02a0/678f7c9cd7a9c467917a2c0e",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Online Shopping System": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb02a0/678fa7dcd7a9c467917a6cc4",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "The Relational Model: A Game-Changer in Data Management": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb02a1/6767fd6adf808e4456296c0e",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Relational Model Components": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb02a1/676807f3df808e4456297e10",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Advantages and Features of the Relational Model": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb02a1/67680af6df808e4456298288",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Transforming an Entity-Relationship (ER) Model into a Relational Model": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb02a1/6768114adf808e4456298d12",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Practice Editor": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/6791e2e9dab394026853cc2e",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Introduction to Data Definition Language (DDL)": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/61cc2d7bc7f7be9fac1113b1",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "SQL data types": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/61cc2d7bc7f7be9fac1113b7",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "CREATE DATABASE Command": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/6580fedf24d55f0baeb77c45",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "ALTER DATABASE Command": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/658100d224d55f0baeb77d54",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "SQL ExerciseAdapting to Organizational Changes in Database Naming": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/676d3c6a77167532ea95e710",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "DROP DATABASE Command": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/658103da24d55f0baeb77ee8",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "SQL Exercise": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d6/65882f69211d7e432777c5c2",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "CREATE TABLE Command": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/67931b36e2003a6dbb579285",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Preparing a Table for Customer Records in a Legacy System": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/676d401b77167532ea95ecfa",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Primary Key": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/65810e20032e8c48fd2dcacd",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Composite Key": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/658111c1032e8c48fd2dcec4",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "NOT NULL Constraint": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/6580fbfc24d55f0baeb77a8e",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Not Null Constraint Check": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/676d4a3777167532ea95fd13",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "SERIAL Column": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/6581171c032e8c48fd2dd683",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "UNIQUE column": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/65811a4c032e8c48fd2ddf0d",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "GENERATED ALWAYS AS IDENTITY Column": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/65811cbc032e8c48fd2de358",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "GENERATED BY DEFAULT AS IDENTITY Column": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/65811def032e8c48fd2de641",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "DEFAULT Values": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/65814a09032e8c48fd2e5288",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Introduction to Data Manipulation Language (DML)": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/67726fc4780a296e6d93a79d",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "SELECT Command - Select all rows and columns": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/6581570a032e8c48fd2e6e9d",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "SELECT Command - Retrieve Specific Columns": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/65815809032e8c48fd2e71b4",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "AS for Column Aliasing": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/6581594d032e8c48fd2e760c",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "SELECT - WHERE - Retrieve Specific Rows": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/65815be4032e8c48fd2e80d0",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "WHERE with AND": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/65815d98032e8c48fd2e8940",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "WHERE with OR": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/65815f82032e8c48fd2e923e",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "And + OR Clause Together": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/65816073032e8c48fd2e94a9",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "NOT Operator": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/6581618faeac360b47534ab3",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "LIKE Clause": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/6581657aaeac360b4753544a",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "IN Clause": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/658163cfaeac360b475351af",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "NOT IN Clause": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/65816786aeac360b47535768",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "BETWEEN Clause": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/658168c5aeac360b47535915",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "ORDER BY Clause": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/65817f59aeac360b47538365",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "ORDER BY - DESC Clause": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/6581817baeac360b47539324",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "LIMIT Clause": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/65818769aeac360b47539b3a",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "EXISTS clause": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/65817860aeac360b475378f8",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Understanding ALTER Command": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/61cc2d7bc7f7be9fac1113b3",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "ALTER TABLE Command - Renaming Table": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/65811f10032e8c48fd2de869",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "ALTER TABLE command - Add a column to a table": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/65811ffc032e8c48fd2deb27",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "ALTER TABLE Command - Delete a column from table": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/658120f8032e8c48fd2ded30",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "ALTER TABLE Command - Change the data type of a column": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/658121b3032e8c48fd2deea2",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "ALTER TABLE Command - Renaming a Columns": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/65812308032e8c48fd2df178",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "DROP TABLE command": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/6581255d032e8c48fd2df5a6",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "TRUNCATE TABLE Command": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/65812674032e8c48fd2df81b",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "TRUNCATE ... RESTART IDENTITY Command": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/65812872032e8c48fd2dfd31",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Including comments in PostgreSQL": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/6594a76436649d42a4e19470",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "DDL - Flight Reservation System": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a8/677131614bf15e6446b0f05c",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "DDL - ALTER - Library System Management": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a8/677132d04bf15e6446b0f2dc",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "DDL - Police Department Information Management System": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a8/677140224bf15e6446b110c4",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "DDL - Weather Monitoring System": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a8/6771435c4bf15e6446b1173e",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "DDL - Employee Management System": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a8/677123a34bf15e6446b0d8d3",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "DDL - Adding New Column": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a8/677123ad4bf15e6446b0d8df",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Modifying Table Structures and Data: Alterations in SQL - 2": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a8/677125334bf15e6446b0dbb4",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "DDL - DROP - 1": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a8/677123ba4bf15e6446b0d916",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "DDL - TRUNCATE - 1": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a8/677123d04bf15e6446b0d930",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "DDL - 1": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a8/67711fa74bf15e6446b0d293",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Quick Summary on SELECT Statement with WHERE Clause": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a5/6772764f780a296e6d93b21c",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Quick Summary on WHERE Clause using IN, NULL, and NOT NULL": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a5/67727a7b780a296e6d93b86c",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "SELECT Statement Overview": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a5/61cc2d7bc7f7be9fac1113ae",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Understanding the SQL INSERT Statement": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a5/677290e5780a296e6d93d623",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "INSERT INTO Command - Insert Multiple Rows": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a5/65814461032e8c48fd2e423e",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "INSERT INTO Command - Insert default values": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a5/65814609032e8c48fd2e4646",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Usage of UPDATE Command": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a5/61cc2d7bc7f7be9fac1113c0",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "UPDATE - SET Command using WHERE Clause": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a5/658153d4032e8c48fd2e6689",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "UPDATE SET Command - Update All rows": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a5/65814cd9032e8c48fd2e595e",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "UPSERT": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a5/658148fc032e8c48fd2e4f91",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Introduction to Basic Structure of SQL Query": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a5/61cc2d7bc7f7be9fac1113ad",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Using the LIKE Operator with WHERE Clause": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a5/61cc2d7bc7f7be9fac1113af",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Some Common SQL Functions": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a5/67a1f14a9bee473830f1313b",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Introduction to GROUP BY and HAVING Clauses": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a5/67a1f61e9bee473830f1379e",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Using Compound Conditions in SQL: Queries with AND, OR, IN, BETWEEN, LIKE, and NOT LIKE - 2": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a9/6771568d4bf15e6446b13a58",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Deletions in SQL - 1": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a9/677156d84bf15e6446b13abb",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "SQL Commands for Updating Product Prices and Names - 1": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a9/677156fc4bf15e6446b13ad7",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "SQL Update Commands - 1": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a9/677157284bf15e6446b13b16",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "SQL Queries for Filtering and Sorting Data - 1": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a9/677157644bf15e6446b13b67",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "SQL Function Examples - 1": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a9/6771578a4bf15e6446b13b86",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Create and Manipulate the Table - 1": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a9/677157b54bf15e6446b13bcd",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Employee and Department Analysis: Sorting, Counting, and Averaging - 1": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a9/6771580c4bf15e6446b13c4d",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Deletion - 1": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a9/677157374bf15e6446b13b1e",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Introduction to Data Control Language (DCL) in PostgreSQL": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a6/658ac17d0f6a2c3410535dc1",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "GRANT Command in PostgreSQL": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a6/658ac3a90f6a2c3410535f70",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "REVOKE Command in PostgreSQL": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a6/658ac5080f6a2c3410536053",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Grant SELECT on products Table": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a6/6773d2e4f4ab787eca9cec50",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Revoke User Permissions on Inventory Table": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a6/6773dcecf4ab787eca9cfb5a",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "DCL - GRANT - 2": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02aa/67716c2b4bf15e6446b1567c",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "DCL - REVOKE - 2": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02aa/67716e114bf15e6446b1587c",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Transaction Control Language (TCL)": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a7/6759657b2b48d641c9adf85c",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "What are Keys and what is a Super Key?": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02ae/61cc2d7ac7f7be9fac111333",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Understanding the Primary Key: The Heart of Uniqueness in Databases!": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02ae/61cc2d7ac7f7be9fac111335",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Airport Flight Management System": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02ae/67a7363decf05277327ab876",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Candidate Key: The Essence of Uniqueness and Minimality": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02ae/61cc2d7ac7f7be9fac111334",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Foreign Key": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02ae/61cc2d7bc7f7be9fac111364",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Referential actions applied on Foreign Key": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02ae/61cc2d7bc7f7be9fac111365",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Hospital Management System": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02ae/67a73b68ecf05277327abc26",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Alternate Key": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02ae/61cc2d7bc7f7be9fac111361",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "What is Surrogate Key ?": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02ae/61cc2d7bc7f7be9fac111404",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Example of Surrogate Key": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02ae/61cc2d7bc7f7be9fac111405",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Secondary Key": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02ae/61cc2d7bc7f7be9fac111362",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Foreign Key - 1": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02af/67733f284c0c60429e5e0466",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Primary Key - 2": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02af/677378b3f1f9c5320ca60551",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Foreign Key - 2": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02af/677378c3f1f9c5320ca60559",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Primary Key - 3": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02af/67738a0ef1f9c5320ca61b54",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "What is Data Integrity?": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02ad/61cc2d7bc7f7be9fac111343",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "What are Constraints?": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02ad/61cc2d7bc7f7be9fac11135c",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "DEFAULT Constraint": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02ad/61cc2d7bc7f7be9fac11136b",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Primary Key Constraint": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02ad/67a5df67888b601d648c47ab",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "SQL Exercise - Adding a Primary Key Constraint": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02ad/67a7014fecf05277327a6acf",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Foreign Key Constraint": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02ad/65827c191a4ef93f0e3aabea",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Example on Foreign Key Constraint": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02ad/61cc47b7c1543c066344206c",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Altering an Existing Table to Add a Foreign Key": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02ad/67a74207ecf05277327ac244",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Unique Key Constraint": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02ad/61cc2d7bc7f7be9fac111367",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Not Null Constraint": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02ad/61cc2d7bc7f7be9fac111368",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "CHECK Constraint": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02ad/61cc2d7bc7f7be9fac11136a",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Syntax and Example - CHECK Constraint": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02ad/65827e2b1a4ef93f0e3ab590",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Index Constraint": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02ad/61cc2d7bc7f7be9fac11136c",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Integrity Constraints - 4": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02b1/6773ca30f1f9c5320ca690a8",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Integrity Constraints - 2": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02b1/67739e82f1f9c5320ca63b68",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Integrity Constraints - 5": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02b1/6774019df1f9c5320ca6df63",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Integrity Constraints - 6": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02b1/677403fbf1f9c5320ca6e1da",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Integrity Constraints - 3": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02b1/6773c785f1f9c5320ca68a6f",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Understanding Relational operations": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02b0/61cc2d7ac7f7be9fac111341",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Arithmetic Operations on Column Values in PostgreSql": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02b0/67aee52d75d8cd7346cd5296",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Simple Queries - Arithmetic Operation - 1": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02b2/6771589f4bf15e6446b13d19",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Simple Queries - Distinct Values - 1": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02b2/677158d54bf15e6446b13d4e",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "DML - 1": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02b2/677120f74bf15e6446b0d49a",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Functional Dependency": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/693817154c740e1a3fcaea73/678906389ff79b6ea9e40849",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Types of Functional Dependency": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/693817154c740e1a3fcaea73/678907379ff79b6ea9e40935",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Closure of an Attribute": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/693817154c740e1a3fcaea73/678930c59ff79b6ea9e45d76",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Closure of an Attribute - Example": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/693817154c740e1a3fcaea73/6789361837c1ae5aa3ad0bb3",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "What is Normalization?": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/693817234c740e1a3fcaea91/61cc2d7bc7f7be9fac1113f5",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Purpose of Normalization": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/693817234c740e1a3fcaea91/61cc2d7bc7f7be9fac1113f1",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  " E. F. Codd's Objectives of Normalization": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/693817234c740e1a3fcaea91/61cc2d7bc7f7be9fac1113f4",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "What is an Anamoly?": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/693817234c740e1a3fcaea91/61cc2d7bc7f7be9fac1113ef",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Insert Anomaly": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/693817234c740e1a3fcaea91/61cc2d7bc7f7be9fac1113f0",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Update Anomaly": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/693817234c740e1a3fcaea91/61cc2d7bc7f7be9fac1113f2",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Delete Anomaly": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/693817234c740e1a3fcaea91/61cc2d7bc7f7be9fac1113f3",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "First Normal Form": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6938172b4c740e1a3fcaeaa8/61cc2d7bc7f7be9fac1113fa",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Zero and First Normal Form - Problems": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6938172b4c740e1a3fcaeaa8/61cc2d7bc7f7be9fac1113fb",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Key PostgreSQL Functions for Table Decomposition and Normalization": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6938172b4c740e1a3fcaeaa8/67c6baeca0ab7a36234e6706",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Second Normal Form": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/693817344c740e1a3fcaeac0/61cc2d7bc7f7be9fac1113fe",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "SQL Exercise on 2NF": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/693817344c740e1a3fcaeac0/67c01da9ac2d3b0d22925157",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Third Normal Form": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6938173f4c740e1a3fcaeb54/61cc2d7bc7f7be9fac111402",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "SQL Exercise on 3NF": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6938173f4c740e1a3fcaeb54/67c5ddc59680530a8d4d0ff6",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Boyce-Codd Normal Form (BCNF)": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6938174b4c740e1a3fcaeb72/61cc2d7bc7f7be9fac111407",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Introduction to Aggregate Functions": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b5/63b51cc1c334f00742db16ce",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "The SQL COUNT() ": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b5/63b51b0cc334f00742db13c1",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "COUNT function": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b5/65817a0aaeac360b47537bc8",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Count the Number of Different Species in the Zoo": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b5/6780f2a72431907d725240d8",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "SUM function": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b5/65817b2eaeac360b47537d24",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Calculate the Total Number of Animals in a Zoo": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b5/6780ed322431907d725233dd",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Calculate the Average Price of Electronics Products in a Store": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b5/6780f6132431907d72524a64",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "MAX function": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b5/65817d11aeac360b47537f95",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "MIN Function": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b5/65817e37aeac360b4753816c",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "GROUP BY Clause": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b5/658189f4aeac360b47539dfe",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Track Sales Performance by Product Category in an E-commerce Store": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b5/6780fd332431907d72525879",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "HAVING Clause": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b5/65819bb7aeac360b4753b88f",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Analyzing High-Performing Product Categories in a Retail Chain": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b5/678100582431907d72525d69",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "DISTINCT Clause": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b5/65818ae4aeac360b47539f14",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Find Unique Product Categories in a Retail Store Inventory": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b5/67810a5a2431907d72526bd3",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "FETCH Clause": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b5/6581979caeac360b4753b072",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Aggregate Function - COUNT - 1": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b8/677159814bf15e6446b13e0a",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Aggregate function - AVG - 1": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b8/677159a84bf15e6446b13e42",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Aggregate function - MAX - 1": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b8/677159e84bf15e6446b13ea1",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "What is a JOIN operation and different types of joins": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b6/61cc2d7bc7f7be9fac111390",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Natural Join Operation": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b6/61cc2d7bc7f7be9fac111391",
+    "status": "completed",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "NATURAL JOIN": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b6/658262c31a4ef93f0e3a75f2",
+    "status": "in_progress",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "SQL Exercise on NATURAL JOIN": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b6/67bc719be6504c0fb3a3fafa",
+    "status": "in_progress",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Theta Join and Equi Join": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b6/61cc2d7bc7f7be9fac111392",
+    "status": "in_progress",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Theta JOIN": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b6/67bd482ae093ae36e2462c61",
+    "status": "in_progress",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "SQL Exercise on Theta Join": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b6/67bd5b4ee093ae36e2464dc7",
+    "status": "in_progress",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "EQUI JOIN": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b6/67bd537ee093ae36e2463f5f",
+    "status": "in_progress",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "SQL Exercise on EQUI JOIN": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b6/67bd685ce093ae36e24669c7",
+    "status": "in_progress",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "INNER Join": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b6/65823c3c9df93b0bdf4b2e66",
+    "status": "in_progress",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Fetch Latest Order per Customer Using INNER JOIN": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b6/678147ddac8e20004581ad9c",
+    "status": "in_progress",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "LEFT JOIN": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b6/658241df9df93b0bdf4b3034",
+    "status": "in_progress",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Bookstore Inventory": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b6/67bc45512059151e10918f49",
+    "status": "in_progress",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "RIGHT JOIN": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b6/65825c111a4ef93f0e3a6d7b",
+    "status": "in_progress",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "SQL Exercise on RIGHT JOIN": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b6/67bc6b5ce6504c0fb3a3f5c3",
+    "status": "in_progress",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Perform a Right Join on Product Details and Orders": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b6/67814f3fac8e20004581b813",
+    "status": "in_progress",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "FULL JOIN": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b6/65824c1b9df93b0bdf4b3407",
+    "status": "in_progress",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "CROSS JOIN": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b6/65825e4a1a4ef93f0e3a6f26",
+    "status": "in_progress",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "SELF JOIN": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b6/658260cb1a4ef93f0e3a727c",
+    "status": "in_progress",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "SQL Exercise - Self Join - Restaurant": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b9/677e7b6d0bf9377c04320724",
+    "status": "in_progress",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "SQL Exercise - Inner Join - Navy": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b9/677e76570bf9377c04320229",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "SQL Exercise\t- Right Join 1 - Weather Monitoring Systemstat": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b9/677e7a1c0bf9377c043205bd",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Natural Join - Police Department": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b9/6781f5cdfa36c0414371c9f1",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Cross Join - Police Department": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b9/6781f5ebfa36c0414371ca21",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Left Outer Join - Police Department": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b9/6781f60cfa36c0414371ca66",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Right Outer Join - Police Department": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b9/6781f628fa36c0414371ca9d",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Cross Join - Satellite Communication": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b9/6781f6a8fa36c0414371cba2",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Left Outer Join - Satellite Communication": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b9/6781f6bffa36c0414371cbdb",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Full Outer Join - Satellite Communication": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b9/6781f6e3fa36c0414371cc0b",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Self Join - Satellite Communication": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b9/6781f750fa36c0414371ccc9",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Self Join - Toy System": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b9/6781f7cdfa36c0414371cd7d",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Navy Officer Database": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b9/678296969fc5ca4a8815420f",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Air Force Personnel Database": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b9/67829cfa9fc5ca4a88154e2a",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Left Outer Join": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b9/6765296c4d0b066909e433dc",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Natural Join - Restaurant": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b9/6781f503fa36c0414371c7e0",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Right Outer Join - Restaurant": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b9/6781f55dfa36c0414371c8d3",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "FULL OUTER JOIN on Three Tables in PostgreSQL": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b9/67b727b706475478d16c816d",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Retrieve Innovation Details with Sustainability Focus": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b9/67b819c8be0df85380b5d111",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Movie Database Management": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b9/67b858f4be0df85380b6872a",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Travel Agency Packages": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b9/67bc0fcd2059151e109129c0",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Finding Details of All Tour Packages": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b9/67bc23b22059151e10915218",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "SQL Set Operators": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b7/67800a292431907d7250cb55",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "SQL Set Operators - UNION vs JOIN": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b7/67800c462431907d7250cdbc",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Set Difference": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b7/61cc2d7bc7f7be9fac111387",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Set Union Operation": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b7/61cc2d7bc7f7be9fac111386",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "UNION ": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b7/6582809c1a4ef93f0e3ac03c",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Combined Unique Email List": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b7/6781641bac8e20004581d244",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Set Intersection Operation": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b7/61cc2d7bc7f7be9fac111389",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "INTERSECT": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b7/6582814a1a4ef93f0e3ac26f",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "EXCEPT": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b7/658282161a4ef93f0e3ac5b5",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Cartesian Product Operation": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b7/61cc2d7bc7f7be9fac111388",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "More on Cartesian Product": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b7/61cc2d7bc7f7be9fac11138b",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "The Assignment Operation": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b7/61cc2d7bc7f7be9fac11138a",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "SQL Exercise - Set Operators - Intersect": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02ba/677e72460bf9377c0431fe80",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "SQL Exercise - Set Operators - Except": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02ba/677e72810bf9377c0431fea0",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "SQL Exercise - Set Operators - Union": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02ba/677e71f20bf9377c0431fe43",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "CREATE VIEW Command": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02bd/65819fb2aeac360b4753bf7c",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Create View for Product Insights": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02bd/67816ce2ac8e20004581da2e",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "CREATE OR REPLACE View": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02bd/6581a125aeac360b4753c1c8",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Update Existing Database View": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02bd/67816f59ac8e20004581dbcb",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "DROP VIEW": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02bd/6581a3109df93b0bdf4a8f4f",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "ALTER View - Renaming a View": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02bd/6581a4f19df93b0bdf4a9232",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "SQL Exercise - Views - Replace": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02c0/677e742b0bf9377c04320075",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Introduction to Subquery": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02be/63b55509770348077fe00260",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "What is a Query Tree?": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02be/61cc2d7bc7f7be9fac1113ea",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Query Processing ": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02be/61cc2d7bc7f7be9fac1113e4",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Different types of subqueries": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02be/63b55ad9770348077fe00dfd",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Independent Subquery": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02be/63b56090770348077fe01a27",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Correlated Subquery": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02be/63b5624b770348077fe01d7c",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Execution Plans": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02be/61cc2d7bc7f7be9fac1113e8",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "What is Cost based optimization ?": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02be/61cc2d7bc7f7be9fac1113e7",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Purpose of the Query Optimizer": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02be/61cc2d7bc7f7be9fac1113e6",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Sub Queries": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02be/65815a9c032e8c48fd2e7afe",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Heuristics": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02be/61cc2d7bc7f7be9fac1113eb",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Understanding Heuristics": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02be/61cc2d7bc7f7be9fac1113ec",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Understanding Nested Queries": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02be/677ffbea2431907d7250b860",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Nested Queries - Examples": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02be/677ffdc72431907d7250baf9",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Navy Logistics": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02c1/677e7c9b0bf9377c0432091e",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Weather Monitoring System Query Task": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02c1/6780eed22431907d7252394e",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Selecting Students Based on Grades in the CS Department": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02c1/6780ef0b2431907d725239b6",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "SQL Exercise on Sub Queries": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02c1/6780f1842431907d72523edb",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Sub Queries - 15": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02c1/6780f1df2431907d72523f6d",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Generate a Customer Spending Report": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02c1/6780f51d2431907d725248b6",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Sub Queries - 4": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02c1/6780d6d52431907d7251dbb3",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Sub Queries - 5": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02c1/6780d7112431907d7251dc4f",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "ALL": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02c1/67815944fa36c04143716511",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Introduction to Relational Algebra": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02bf/65916755efa78440cc01dfdb",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Basic Operations: Selection": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02bf/677f6e5d78e44d2a7b5013c4",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Basic Operations: Projection and Renaming": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02bf/677f8ad578e44d2a7b5068f4",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Set Operations: Union and Intersection": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02bf/677f931a78e44d2a7b5078ce",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Set Operations: Difference and Cartesian Product": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02bf/677f9a5578e44d2a7b508aaf",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Relational Algebra Operations: Joins": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02bf/677fa0952431907d725049cb",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Division Operator in Relational Algebra": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02bf/61cc2d7bc7f7be9fac111394",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Introduction to PL/pgSQL": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d0/6587a79a22f2ba2d13d76192",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Variables and Data Types": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d0/6587a86322f2ba2d13d761cb",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Data Conversion": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d0/658f21c364f85b0bd6e8825b",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Advanced Data Type Conversions": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d0/658f235364f85b0bd6e8832b",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Control Structures - IF": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d1/6587bacc22f2ba2d13d76e21",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Control Structures - IF ELSE": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d1/6587bb9622f2ba2d13d76eb9",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Control Structures - LOOP": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d1/678cced143dc7b2131f46aaf",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "LOOP - SQL Exercise": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d1/678cd4b143dc7b2131f470aa",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Control Structures - WHILE": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d1/678cd64f43dc7b2131f471bb",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "WHILE - SQL Exercise": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d1/678cd9a343dc7b2131f47444",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Control Structures - FOR": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d1/678cdfbc43dc7b2131f478a0",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Check the Number - Control Statement - If Else End If 1": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d8/6788f57237c1ae5aa3acb899",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Sum of Integers - Control Statement - For Loop 1": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d8/6788f5a437c1ae5aa3acb8dc",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Arithmetic Functions": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d2/678ce52643dc7b2131f47d11",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Arithmetic Functions - continuation": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d2/678ce6fb43dc7b2131f47ea4",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Character Function": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d2/63b52ce5c334f00742db3065",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "PostgresSQL Functions": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d2/65827f531a4ef93f0e3abaa4",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Creating and Using Functions": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d2/6588447122f2ba2d13d7feab",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Chained Functions": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d2/658845a222f2ba2d13d7ffff",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Practical Assignment": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d2/658846b622f2ba2d13d80121",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "SQL Exercise\t": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d6/658811dd211d7e432777aba5",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Remove the vowels from the string": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d7/6788f73937c1ae5aa3acbafc",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Sum of Even Numbers 1": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d7/6788f61e37c1ae5aa3acb997",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Sum of Odd Numbers - 1": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d7/6788f64a37c1ae5aa3acb9e1",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "fact function to find factorial - 1": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d7/6788f6a637c1ae5aa3acba31",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Functions - 2": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d7/6788f6cf37c1ae5aa3acba9c",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Anonymous Blocks in PostgreSQL": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d3/678d377e4160b053cfecae9d",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Subblocks in PostgreSQL (PL/pgSQL)": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d3/678d399d4160b053cfecb07f",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Procedures in PL/pgSQL": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d3/678d3b4f43dc7b2131f4c09a",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Procedure to Update Marks ": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d9/6789fd8074ab45652a228372",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Procedure to Update Salaries 1": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d9/6788f7ff37c1ae5aa3acbbe4",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Increase the price by 20% of their current price": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d9/6788f81037c1ae5aa3acbc14",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Procedure - Creating Simple Procedure 1": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d9/6788f78937c1ae5aa3acbb4e",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Increase the marks by 10% of their current marks": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d9/6788f7ac37c1ae5aa3acbb83",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "CURSOR and RECORD in PL/SQL": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d4/678d403843dc7b2131f4c4ae",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Working with Cursors - 2": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02dc/678a21cd74ab45652a232ff7",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Working with Cursors - 3": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02dc/678a21f074ab45652a233035",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "CURSOR and RECORD in PL/SQL - 1": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02dc/678a234874ab45652a23343d",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "CURSOR and RECORD in PL/SQL - 2": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02dc/678a235774ab45652a23344f",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Triggers and It's types": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d6/678da8d143dc7b2131f4d95f",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Example on Triggers": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d6/678dacf643dc7b2131f4da62",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Triggers in PL/pgSQL": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d6/678db02c43dc7b2131f4db46",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Examples on Triggers": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d6/678db1dc43dc7b2131f4dbd0",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "CREATE TRIGGER Command": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d6/658265c31a4ef93f0e3a79ae",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "DROP TRIGGER": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d6/65826cd81a4ef93f0e3a8370",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "ALTER Trigger Command": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d6/65826c131a4ef93f0e3a8276",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Enabling Trigger": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d6/65826ee11a4ef93f0e3a873a",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Disabling Trigger": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d6/6582704c1a4ef93f0e3a8974",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Triggers 1": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02db/6788f91e37c1ae5aa3acbdc2",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Trigger after INSERT 1": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02db/6788f95837c1ae5aa3acbe39",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Trigger after DELETE 1": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02db/6788f96a37c1ae5aa3acbe41",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Trigger after UPDATE 1": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02db/6788f98537c1ae5aa3acbe52",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Exception Handling": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d5/658867e083acd8421b298354",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Function Execution and Exception Handling 1": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02da/6788fa5b37c1ae5aa3acbfb8",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Custom Exception 1": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02da/6788fa6a37c1ae5aa3acbfbd",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "What is a Transaction ?": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02df/61cc2d7bc7f7be9fac11141b",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Important Parts of a Transaction": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02df/61cc2d7bc7f7be9fac11141c",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Transaction Management": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02df/61cc2d7bc7f7be9fac111427",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Smart City Data Update with Savepoint and Partial Rollback": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02df/67874fb4872f784d566947ad",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Types of Locks in PostgreSQL": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02df/6787475a872f784d56683a01",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Effective Error Handling within Transactions": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02df/67874c50872f784d56691170",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Atomic Fund Transfer Between Accounts": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02df/678751bc872f784d56694abb",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Introduction to Transactions in PostgreSQL": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02df/658f1a7764f85b0bd6e87e71",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Transfer with Commit and Rollback": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02df/67875927872f784d566958d9",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Understanding ACID properties.": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e0/61cc2d7bc7f7be9fac11141e",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Understanding Atomicity": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e0/61cc2d7bc7f7be9fac11141f",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "What is a Transaction log ?": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e0/61cc2d7bc7f7be9fac111424",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "How are entries written in a Transaction Log?": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e0/61cc2d7bc7f7be9fac111425",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "What is a SavePoint?": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e0/61cc2d7bc7f7be9fac111438",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Features of SavePoint": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e0/61cc2d7bc7f7be9fac111439",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Understanding Consistency": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e0/61cc2d7bc7f7be9fac111420",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Transaction Anomalies": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e0/61cc2d7bc7f7be9fac111429",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Transaction Anomalies - Non Repeatable Reads": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e0/61cc2d7bc7f7be9fac11142a",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  " Transaction Anomalies - Phantom Reads ": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e0/61cc2d7bc7f7be9fac11142b",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Understanding Isolation": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e0/61cc2d7bc7f7be9fac111421",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "The 4 Isolation Levels": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e0/61cc2d7bc7f7be9fac11142e",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Isolation Level - Read_Uncommitted": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e0/61cc2d7bc7f7be9fac11142f",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Isolation Level -- Read_Committed": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e0/61cc2d7bc7f7be9fac111430",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Isolation Level -- Repeatable_Reads": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e0/61cc2d7bc7f7be9fac111431",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Isolation level - Serializable": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e0/61cc2d7bc7f7be9fac111432",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Mapping Isolations Levels ": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e0/61cc2d7bc7f7be9fac11142d",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "What is a Rollback?": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e0/61cc2d7bc7f7be9fac111436",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "What is the Commit statement?": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e0/61cc2d7bc7f7be9fac111434",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "SAVEPOINT 1": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e5/6788f2d437c1ae5aa3acb367",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "ROLLBACK 1": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e5/6788f30637c1ae5aa3acb390",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "What is a Transaction Schedule?": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e1/61cc2d7bc7f7be9fac111455",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Types of Schedule": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e1/61cc2d7bc7f7be9fac111456",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Serial Schedules": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e1/61cc2d7bc7f7be9fac111457",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Non Serial Schedules": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e1/61cc2d7bc7f7be9fac111458",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "The Problem with Concurrent Transactions": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e1/61cc2d7bc7f7be9fac111454",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "What is Serializability?": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e2/61cc2d7bc7f7be9fac11143c",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Types of Serializability": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e2/61cc2d7bc7f7be9fac11143f",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "What is a Conflict?": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e2/61cc2d7bc7f7be9fac11143d",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "View Serializability": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e2/6790bc63f6474f59744b1185",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "What is Serializability Schedule?": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e2/61cc2d7bc7f7be9fac11143b",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "What is Concurrency Control?": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac111447",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Why does Database need Concurrency Control?": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac111448",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Types of Concurrency Control": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac111449",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Pessimistic Concurrency Control": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac11144a",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Optimistic Concurrency Control": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac11144b",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "What is Locking Granularity?": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac11145f",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Features of Lock Granularity": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac111460",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Types of Lock Granularity": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac111461",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "How does Lock Help?": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac11145d",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "What is a Dead Lock?": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac11146a",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Preventing Deadlocks": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac11146e",
+    "status": "in_progress",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Concurrency Control with Locks": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac11145c",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Concurrency Control - Interleaving": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac11144c",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "What is Two-Phase Locking?": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac111466",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Conservative 2 Phase Locking": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac111467",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Strict 2 Phase Locking": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac111468",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Type of Locks": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac111463",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Write Locks": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac111464",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Wait for Graph": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac11146d",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Dead Lock Prevention": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac111473",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Inconsistent Retrievals": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac111452",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Uncommitted dependency": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac111450",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Wait-Die Algorithm for Deadlock Prevention": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac111472",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "What is Time Stamping (TS) Scheme?": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac111470",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "More on Timestamping Schemes": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac111475",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Wound-Wait Scheme": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac111476",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Handling Deadlocks": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac11146c",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "What is a Lost Update?": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac11144e",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "What is Recovery?": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e4/61cc2d7bc7f7be9fac111441",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Types of Recovery": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e4/61cc2d7bc7f7be9fac111443",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Automatic Recovery": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e4/61cc2d7bc7f7be9fac111444",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Introduction to Failures and Its Types": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e4/61cc2d7bc7f7be9fac111442",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "CAP Theorem": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/69394331f7710113f3c33d9e/693944f4f7710113f3c345a0/69394869f7710113f3c3548a",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "The Three Pillars of the CAP Theorem": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/69394331f7710113f3c33d9e/693944f4f7710113f3c345a0/69394fbdf7710113f3c3757e",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Sharding in DBMS": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/69394331f7710113f3c33d9e/693944f4f7710113f3c345a0/693953baf7710113f3c387fa",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Replication": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/69394331f7710113f3c33d9e/693944f4f7710113f3c345a0/68f1ee7e5d135a57b08fbafa",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Redis": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/69394331f7710113f3c33d9e/6939450ef7710113f3c345c8/69395783f7710113f3c39628",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Cassandra": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/69394331f7710113f3c33d9e/6939450ef7710113f3c345c8/69395972f7710113f3c3a338",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "What is Mongo DB": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/69394331f7710113f3c33d9e/6939450ef7710113f3c345c8/664afab8f8c88b6853ce32a2",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Structure of MongoDB": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/69394331f7710113f3c33d9e/6939450ef7710113f3c345c8/664b1013f8c88b6853ce52ec",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Introduction to JSON": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/69394331f7710113f3c33d9e/6939450ef7710113f3c345c8/69395e65d39e423cd191cece",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Introduction to insertOne()": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/69394331f7710113f3c33d9e/6939450ef7710113f3c345c8/664c36a058f5271c467d496c",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Introduction to insertMany()": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/69394331f7710113f3c33d9e/6939450ef7710113f3c345c8/664c43a158f5271c467d63fa",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Using findOne() Method": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/69394331f7710113f3c33d9e/6939450ef7710113f3c345c8/664c748c58f5271c467dd709",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "find() method": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/69394331f7710113f3c33d9e/6939450ef7710113f3c345c8/664c910958f5271c467e3fd2",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Update the record from researcher collection": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/69394331f7710113f3c33d9e/6939450ef7710113f3c345c8/664da5510c99cb40633f478e",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Updation of multiple records in test collection": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/69394331f7710113f3c33d9e/6939450ef7710113f3c345c8/664de7e30c99cb40633fe408",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Deleting a record from mobiles collection": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/69394331f7710113f3c33d9e/6939450ef7710113f3c345c8/664da7cf9804d270be22658b",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Deleting multiple records from students collection": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/69394331f7710113f3c33d9e/6939450ef7710113f3c345c8/664dcce89804d270be22be45",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  },
+  "Updating the record of scores collection by findAndModify": {
+    "link": "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295#/eucs/6937cd430cc4f7020deb0295/contents/69394331f7710113f3c33d9e/6939450ef7710113f3c345c8/664f005a70c9591708a8965a",
+    "status": "not_started",
+    "last_updated": "2026-04-15 08:24:33"
+  }
+}

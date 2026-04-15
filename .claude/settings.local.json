@@ -13,7 +13,8 @@
       "mcp__plugin_chrome-devtools-mcp_chrome-devtools__wait_for",
       "Bash(python:*)",
       "Bash(.venv\\\\Scripts\\\\python.exe:*)",
-      "Bash(.venv/Scripts/python:*)"
+      "Bash(.venv/Scripts/python:*)",
+      "mcp__plugin_chrome-devtools-mcp_chrome-devtools__new_page"
     ]
   }
 }

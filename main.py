@@ -2,11 +2,28 @@ import asyncio
 import os
 import json
 import getpass
+import re
+import datetime
+import sys
 from playwright.async_api import async_playwright
+
+# Fix Windows console encoding for Unicode characters
+if sys.platform == 'win32':
+    import io
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
+from extraction_funcs import (
+    extract_mcq_content,
+    extract_coding_content,
+    wait_for_question_load,
+    format_mcq_output,
+    format_coding_output
+)
 
 CREDENTIALS_FILE = "credentials.json"
 USER_DATA_DIR = "playwright-user-data"
 COURSE_URL = "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295"
+CACHE_FILE = "memory/question_cache.json"
 
 def load_credentials():
     if os.path.exists(CREDENTIALS_FILE):
@@ -17,6 +34,19 @@ def load_credentials():
 def save_credentials(email, password):
     with open(CREDENTIALS_FILE, "w") as f:
         json.dump({"email": email, "password": password}, f)
+
+def load_cache():
+    if os.path.exists(CACHE_FILE):
+        try:
+            with open(CACHE_FILE, "r", encoding='utf-8') as f:
+                return json.load(f)
+        except: pass
+    return {}
+
+def save_cache(cache):
+    os.makedirs("memory", exist_ok=True)
+    with open(CACHE_FILE, "w", encoding='utf-8') as f:
+        json.dump(cache, f, indent=2)
 
 async def login_if_needed(page, credentials):
     print("Navigating to login page...")
@@ -61,819 +91,331 @@ async def login_if_needed(page, credentials):
         print("Login redirection failed. Please check your credentials.")
         return False
 
-async def scan_sidebar_for_unfinished(page, frame):
-    """
-    Scan the sidebar to find the first unfinished question.
-    First expands all unit sections to reveal the questions inside.
-    Returns: (question_button_selector, question_title) or (None, None) if not found
-    """
-    print("Expanding all unit sections in sidebar...")
-
-    # First, click all unit expand buttons using JavaScript on the page
-    # The sidebar is inside an iframe, so we need to use the iframe context
+async def fetch_course_contents(page):
+    """Fetch the full course structure and IDs via the REST API"""
+    print("Fetching course contents structure...")
     try:
-        # Try to get the iframe element and run JS inside it
-        await page.evaluate("""
-            () => {
-                const iframe = document.querySelector('iframe');
-                if (!iframe || !iframe.contentDocument) return 0;
-                const doc = iframe.contentDocument;
-                const buttons = doc.querySelectorAll('button');
-                let expanded = 0;
-                for (const btn of buttons) {
-                    const text = btn.textContent || '';
-                    // Look for unit headers like "Unit 3", "Unit 4" etc.
-                    if (text.includes('Unit') && !text.includes('.')) {
-                        // Check if it has an expand icon
-                        const hasChevron = btn.querySelector('svg') ||
-                                           btn.querySelector('[class*="chevron"]') ||
-                                           btn.querySelector('[class*="arrow"]');
-                        // Check if already expanded
-                        const isExpanded = btn.getAttribute('aria-expanded') === 'true';
-                        if (hasChevron && !isExpanded) {
-                            btn.click();
-                            expanded++;
-                        }
-                    }
-                }
-                return expanded;
-            }
-        """)
-        await asyncio.sleep(1.5)
-    except Exception as e:
-        print(f"  Could not auto-expand units: {e}")
+        euc_id = COURSE_URL.split('eucId=')[1].split('&')[0]
+        api_url = f"https://srmeaswari.codetantra.com/secure/rest/a2/euc/gecc?eucId={euc_id}"
 
-    print("Scanning sidebar for unfinished questions...")
-
-    # Get all question buttons from the sidebar
-    # Questions are identified by having "Question" in their text
-    questions = await frame.locator('button').evaluate_all(r"""
-        (buttons) => {
-            const results = [];
-            for (const btn of buttons) {
-                const text = btn.textContent?.trim() || '';
-                const title = btn.getAttribute('title') || '';
-
-                // Check if this is a question/exercise button
-                // Pattern: "4.9.1. Some Title" or contains "Question" or "Exercise"
-                const questionPattern = /^\d+\.\d+\.\d+\./;
-                const isQuestionPattern = questionPattern.test(title) || questionPattern.test(text);
-                const isExercise = text.includes('Exercise') || title.includes('Exercise');
-                const isQuestion = text.includes('Question') || title.includes('Question');
-
-                if (isQuestionPattern || isExercise || isQuestion) {
-
-                    // Find the SVG icon inside the button
-                    const svg = btn.querySelector('svg');
-                    let status = 'unknown';
-
-                    if (svg) {
-                        const svgClass = (svg.className?.baseVal || svg.className || '').toString();
-
-                        // Check for completion status based on CSS classes
-                        if (svgClass.includes('text-success')) {
-                            status = 'completed';  // Green = finished
-                        } else if (svgClass.includes('text-accent')) {
-                            status = 'in_progress';  // Purple/pink = current/in-progress
-                        } else if (!svgClass.includes('text-success')) {
-                            // No success class = not started (default dark blue/gray)
-                            status = 'not_started';
-                        }
-                    }
-
-                    results.push({
-                        text: text.substring(0, 100),
-                        title: title,
-                        status: status,
-                        // Store button identifying info
-                        buttonText: text,
-                        hasQuestion: text.includes('Question') || text.includes('Exercise'),
-                        isMcq: !text.includes('Exercise') && /^\d+\.\d+\.\d+\./.test(text)
-                    });
-                }
-            }
-            return results;
-        }
-    """)
-
-    print(f"Found {len(questions)} question items in sidebar")
-
-    # Filter for interactive question items
-    is_interactive = lambda q: q.get('hasQuestion') or q.get('isMcq') or 'Exercise' in q['text']
-
-    # Sort all questions by number (4.9.1, 4.9.2, 4.10.1, etc.)
-    import re
-    def extract_sort_key(q):
-        text = q.get('text', '')
-        match = re.match(r'(\d+)\.(\d+)\.(\d+)', text)
-        if match:
-            return (int(match.group(1)), int(match.group(2)), int(match.group(3)))
-        return (999, 999, 999)
-
-    in_progress = sorted([q for q in questions if q['status'] == 'in_progress' and is_interactive(q)], key=extract_sort_key)
-    not_started = sorted([q for q in questions if q['status'] == 'not_started' and is_interactive(q)], key=extract_sort_key)
-    completed = [q for q in questions if q['status'] == 'completed' and is_interactive(q)]
-
-    # Combine all incomplete sorted by number
-    all_incomplete_sorted = sorted(
-        [q for q in questions if q['status'] != 'completed' and is_interactive(q)],
-        key=extract_sort_key
-    )
-
-    print(f"\n{'='*60}")
-    print("INCOMPLETE QUESTIONS (sorted by question number):")
-    print(f"{'='*60}")
-
-    # Show status in the combined sorted list
-    for i, q in enumerate(all_incomplete_sorted[:50], 1):  # Show first 50
-        status_marker = "[P]" if q['status'] == 'in_progress' else "[N]"
-        print(f"    {i}. {status_marker} {q['text'][:65]}")
-
-    if len(all_incomplete_sorted) > 50:
-        print(f"    ... and {len(all_incomplete_sorted) - 50} more")
-
-    print(f"\n{'='*60}")
-    print(f"COMPLETED: {len(completed)} | INCOMPLETE: {len(all_incomplete_sorted)} (P=In Progress, N=Not Started)")
-    print(f"{'='*60}\n")
-
-    # Return first incomplete by number order
-    if all_incomplete_sorted:
-        target = all_incomplete_sorted[0]
-        status_label = "IN PROGRESS" if target['status'] == 'in_progress' else "NOT STARTED"
-        print(f"Target ({status_label}): {target['text'][:80]}")
-        return target
-    else:
-        print("All questions appear to be completed!")
-        return None
-
-async def click_question_by_title(page, frame, question_data):
-    """Click on a question button by its title/text. Uses fast JavaScript click via main page."""
-    title = question_data.get('title', '')
-    text = question_data.get('text', '')
-
-    print(f"Clicking: {text[:70]}...")
-
-    import re
-    import json
-
-    # Extract unit number from question (e.g., "4.9.1." => unit 4)
-    unit_match = re.match(r'(\d+)\.\d+\.\d+\.', text)
-    unit_num = unit_match.group(1) if unit_match else None
-
-    # Quick JS to expand unit and click the question
-    js_title = json.dumps(title[:60])[1:-1]
-    js_text = json.dumps(text[:60])[1:-1]
-
-    try:
         result = await page.evaluate(f"""
-            () => {{
-                const iframe = document.querySelector('iframe');
-                if (!iframe || !iframe.contentDocument) return {{ error: 'no iframe' }};
-                const doc = iframe.contentDocument;
-
-                // Step 1: Expand unit if needed
-                const unitNum = "{unit_num}";
-                if (unitNum) {{
-                    const unitButtons = doc.querySelectorAll('button');
-                    for (const btn of unitButtons) {{
-                        const btnText = btn.textContent || '';
-                        if ((btnText.startsWith(unitNum + '.') || btnText.includes('Unit ' + unitNum)) && btn.querySelector('svg')) {{
-                            const isExpanded = btn.getAttribute('aria-expanded') === 'true';
-                            if (!isExpanded) btn.click();
-                            break;
-                        }}
-                    }}
+            async () => {{
+                try {{
+                    const response = await fetch('{api_url}');
+                    if (!response.ok) return {{ error: 'API failed: ' + response.status }};
+                    return await response.json();
+                }} catch (e) {{
+                    return {{ error: 'Fetch failed: ' + e.message }};
                 }}
-
-                // Step 2: Find and click the question button
-                const buttons = doc.querySelectorAll('button');
-                const searchTitle = "{js_title}";
-                const searchText = "{js_text}";
-
-                for (const btn of buttons) {{
-                    const btnTitle = btn.getAttribute('title') || '';
-                    const btnText = btn.textContent || '';
-
-                    if (btnTitle.includes(searchTitle) || btnText.includes(searchText)) {{
-                        btn.click();
-                        return {{ success: true, text: btnText.substring(0, 60) }};
-                    }}
-                }}
-                return {{ success: false }};
             }}
         """)
 
-        if result and result.get('success'):
-            print(f"  [OK] Clicked: {result.get('text', 'question')}")
-            await asyncio.sleep(1.5)  # Short wait for load
-            return True
+        if result and result.get('result') == 0:
+            return result.get('data', {})
         else:
-            print(f"  [FAIL] Click failed: {result}")
-            return False
-
+            print(f"  [WARN] Failed to fetch contents: {result.get('error') or result.get('msg')}")
+            return None
     except Exception as e:
-        print(f"  [ERROR] {e}")
-        return False
+        print(f"  [ERROR] Error fetching contents: {e}")
+        return None
 
-async def detect_question_type(page):
-    """Detect if current question is MCQ or Coding"""
-    print("Detecting question type...")
+async def scan_sidebar_for_unfinished(page, frame):
+    """Scan sidebar, update cache with links and status, return incomplete questions list"""
+    # 1. Fetch course structure to get links
+    course_data = await fetch_course_contents(page)
+    question_links = {}
+    if course_data:
+        print("Processing course structure to generate direct links...")
+        euc_id = course_data.get('id')
+        # Correct hash format: #/eucs/[EUC_ID]/contents/[UNIT_ID]/[LESSON_ID]/[QUESTION_ID]
+        base_url = f"https://srmeaswari.codetantra.com/secure/course.jsp?eucId={euc_id}#/eucs/{euc_id}/contents"
+        for unit in course_data.get('contents', []):
+            u_id = unit.get('id')
+            for lesson in unit.get('contents', []):
+                l_id = lesson.get('id')
+                for item in lesson.get('contents', []):
+                    if item.get('type') == 'question':
+                        q_id = item.get('id')
+                        if u_id and l_id and q_id:
+                            question_links[item.get('name', '')] = f"{base_url}/{u_id}/{l_id}/{q_id}"
 
-    # Wait a bit for the question to load
-    await asyncio.sleep(1)
-
-    # Check for coding editor elements
-    is_coding = await page.evaluate("""() => {
+    # 2. Expand all units
+    print("Expanding sidebar units...")
+    await page.evaluate("""() => {
         const iframe = document.querySelector('iframe');
-        if (!iframe) return false;
-        const doc = iframe.contentDocument;
-        return !!(
-            doc.querySelector('[role="textbox"]') ||
-            doc.querySelector('.monaco-editor') ||
-            doc.querySelector('.ace_editor') ||
-            doc.querySelector('textarea.inputarea') ||
-            doc.querySelector('.CodeMirror')
-        );
+        if (!iframe || !iframe.contentDocument) return;
+        const buttons = iframe.contentDocument.querySelectorAll('button');
+        for (const btn of buttons) {
+            const text = btn.textContent || '';
+            if (text.includes('Unit') && !text.includes('.') && btn.getAttribute('aria-expanded') !== 'true') {
+                btn.click();
+            }
+        }
     }""")
-
-    if is_coding:
-        return "Coding Task"
-
-    # Check for MCQ elements
-    is_mcq = await page.evaluate("""() => {
-        const iframe = document.querySelector('iframe');
-        if (!iframe) return false;
-        const doc = iframe.contentDocument;
-        return !!(
-            doc.querySelector('[role="radio"]') ||
-            doc.querySelector('[role="checkbox"]') ||
-            doc.querySelector('input[type="radio"]') ||
-            doc.querySelector('input[type="checkbox"]') ||
-            doc.querySelector('.option-container') ||
-            doc.querySelector('.q-mcq-option')
-        );
-    }""")
-
-    if is_mcq:
-        return "MCQ Task"
-
-    return "Unknown"
-
-async def extract_mcq_content(page):
-    """Extract MCQ question text and options"""
-    result = await page.evaluate(r"""() => {
-        const iframe = document.querySelector('iframe');
-        if (!iframe || !iframe.contentDocument) return { error: 'No iframe found' };
-        const doc = iframe.contentDocument;
-
-        // Extract question ID (from URL)
-        let questionId = '';
-        const urlMatch = iframe.src.match(/[?\u0026]questionId=([^\u0026]+)/);
-        if (urlMatch) questionId = urlMatch[1];
-
-        // Find the main question area (not sidebar)
-        const questionArea = doc.querySelector(
-            '[class*="question-container"]:not([class*="sidebar"]), ' +
-            '[class*="mcq-container"], ' +
-            '[class*="quiz-container"], ' +
-            '.main-content [class*="question"], ' +
-            'main [class*="question"]'
-        ) || doc.querySelector('main') || doc.querySelector('[class*="content"]:not([class*="sidebar"])');
-
-        const searchRoot = questionArea || doc.body;
-
-        // Extract question text
-        let questionText = '';
-        const questionSelectors = [
-            '.question-text',
-            '.question-content',
-            '[class*="question-text"]',
-            '[class*="question-content"]',
-            '.problem-statement',
-            'h1.question',
-            'h2.question',
-            'h3.question',
-            '.question-title'
-        ];
-
-        for (const selector of questionSelectors) {
-            const el = searchRoot.querySelector(selector);
-            if (el \u0026\u0026 el.textContent.trim()) {
-                questionText = el.textContent.trim();
-                break;
-            }
-        }
-
-        // If still no text, try to find the first substantial paragraph in question area
-        if (!questionText \u0026\u0026 questionArea) {
-            const paras = questionArea.querySelectorAll('p');
-            for (const p of paras) {
-                const text = p.textContent.trim();
-                if (text.length \u003e 30) {
-                    questionText = text;
-                    break;
-                }
-            }
-        }
-
-        // Extract options - ONLY look within the options/MCQ area
-        const options = [];
-
-        // Find the options container specifically
-        const optionsContainer = searchRoot.querySelector(
-            '[class*="options-container"], ' +
-            '[class*="mcq-options"], ' +
-            '[class*="answer-options"], ' +
-            'form [class*="option"], ' +
-            'fieldset, ' +
-            '.question-options'
-        );
-
-        const optionsRoot = optionsContainer || searchRoot;
-
-        // Strategy 1: Look for radio buttons with associated labels
-        const radioInputs = optionsRoot.querySelectorAll('input[type="radio"], [role="radio"]');
-        const validRadios = Array.from(radioInputs).filter(r => {
-            const parent = r.closest('label, div, li');
-            if (!parent) return false;
-            const text = parent.textContent.trim();
-            // Skip sidebar items (they have pattern like 1.1.1)
-            return text.length \u003e 5 \u0026\u0026 text.length \u003c 400 \u0026\u0026 !text.match(/^\\d+\\.\\d+\\.\\d+/);
-        });
-
-        if (validRadios.length \u003e 0 \u0026\u0026 validRadios.length \u003c= 6) {
-            validRadios.forEach((radio, idx) => {
-                const container = radio.closest('label, div, li');
-                if (!container) return;
-
-                let text = container.textContent.trim();
-
-                // Remove radio button text if present
-                text = text.replace(/^\\s*\\u2713?\\s*/, '').trim();
-
-                // Look for option letter
-                let label = String.fromCharCode(65 + idx);
-                const labelMatch = text.match(/^([A-D])[.)]?\\s*/);
-                if (labelMatch) {
-                    label = labelMatch[1];
-                    text = text.replace(labelMatch[0], '').trim();
-                }
-
-                if (text.length \u003e 0 \u0026\u0026 text.length \u003c 400) {
-                    options.push({ id: label, text: text.substring(0, 300) });
-                }
-            });
-        }
-
-        // Strategy 2: Look for option containers
-        if (options.length === 0 || options.length \u003e 6) {
-            const optionContainers = optionsRoot.querySelectorAll(
-                '[class*="option-item"], [class*="option-container"]:not([class*="sidebar"]), .mcq-option'
-            );
-
-            if (optionContainers.length \u003e 0 \u0026\u0026 optionContainers.length \u003c= 6) {
-                options.length = 0;
-                optionContainers.forEach((container, idx) => {
-                    const text = container.textContent.trim();
-                    if (text.match(/^\\d+\\.\\d+\\.\\d+/)) return;
-                    if (text.length \u003c 5 || text.length \u003e 400) return;
-
-                    let label = String.fromCharCode(65 + idx);
-                    const labelMatch = text.match(/^([A-D])[.)]?\\s*/);
-                    if (labelMatch) {
-                        label = labelMatch[1];
-                    }
-
-                    options.push({ id: label, text: text.substring(0, 300) });
-                });
-            }
-        }
-
-        return {
-            type: 'MCQ',
-            questionId: questionId,
-            questionText: questionText.substring(0, 1500),
-            options: options,
-            optionCount: options.length
-        };
-    }""")
-
-    return result
-
-async def extract_coding_content(page):
-    """Extract coding question text and pre-written code info"""
-    result = await page.evaluate("""() => {
-        const iframe = document.querySelector('iframe');
-        if (!iframe || !iframe.contentDocument) return { error: 'No iframe found' };
-        const doc = iframe.contentDocument;
-
-        // Extract question ID
-        let questionId = '';
-        const urlMatch = iframe.src.match(/[?&]questionId=([^&]+)/);
-        if (urlMatch) questionId = urlMatch[1];
-
-        // Extract question text
-        let questionText = '';
-        const questionSelectors = [
-            '.question-text',
-            '[data-testid="question-text"]',
-            '.problem-statement',
-            '.coding-question',
-            'h1',
-            'h2',
-            '.description',
-            '[class*="description"]',
-            '[class*="problem"]'
-        ];
-
-        for (const selector of questionSelectors) {
-            const el = doc.querySelector(selector);
-            if (el && el.textContent.trim()) {
-                questionText = el.textContent.trim();
-                break;
-            }
-        }
-
-        // If no specific element, try content area
-        if (!questionText) {
-            const content = doc.querySelector('.content, .problem-container, .question-container');
-            if (content) {
-                const text = content.textContent.trim();
-                // Get first paragraph
-                const lines = text.split('\\n').filter(l => l.trim());
-                if (lines.length > 0) questionText = lines[0].substring(0, 500);
-            }
-        }
-
-        // Extract code editor content and pre-written info
-        let codeInfo = {
-            hasPreWrittenCode: false,
-            preWrittenLines: [],
-            writeAboveLines: [],
-            writeBelowLines: [],
-            hints: []
-        };
-
-        // Look for code editor
-        const editorSelectors = [
-            '.monaco-editor',
-            '.ace_editor',
-            '.CodeMirror',
-            '[role="textbox"]',
-            'textarea.inputarea',
-            '.code-editor',
-            'pre code',
-            '.code-block'
-        ];
-
-        let codeElement = null;
-        for (const selector of editorSelectors) {
-            codeElement = doc.querySelector(selector);
-            if (codeElement) break;
-        }
-
-        if (codeElement) {
-            // Try to get initial code content
-            let initialCode = codeElement.textContent || codeElement.value || '';
-
-            // Check for placeholder comments or instructions
-            const codeLines = initialCode.split('\\n');
-            codeLines.forEach((line, idx) => {
-                const trimmed = line.trim();
-
-                // Look for comments indicating where to write
-                if (trimmed.includes('WRITE YOUR CODE HERE') ||
-                    trimmed.includes('Write your code here') ||
-                    trimmed.includes('Your code here') ||
-                    trimmed.includes('// TODO') ||
-                    trimmed.includes('# TODO') ||
-                    trimmed.includes('/* TODO') ||
-                    trimmed.includes('pass') ||
-                    trimmed.includes('// Write')) {
-                    codeInfo.writeAboveLines.push({ line: idx + 1, content: trimmed });
-                    codeInfo.hasPreWrittenCode = true;
-                }
-
-                // Look for pre-existing code (non-comment, non-empty lines that aren't TODO)
-                if (trimmed.length > 0 &&
-                    !trimmed.startsWith('//') &&
-                    !trimmed.startsWith('#') &&
-                    !trimmed.startsWith('/*') &&
-                    !trimmed.startsWith('*') &&
-                    !trimmed.startsWith('*/') &&
-                    !trimmed.includes('TODO') &&
-                    !trimmed.includes('pass')) {
-                    codeInfo.preWrittenLines.push({ line: idx + 1, content: trimmed });
-                }
-            });
-
-            codeInfo.totalLines = codeLines.length;
-        }
-
-        // Look for instructions about code placement
-        const instructionSelectors = [
-            '.instructions',
-            '.hints',
-            '[class*="hint"]',
-            '[class*="instruction"]',
-            '.code-instruction'
-        ];
-
-        instructionSelectors.forEach(selector => {
-            const els = doc.querySelectorAll(selector);
-            els.forEach(el => {
-                const text = el.textContent.trim();
-                if (text && text.length > 5) {
-                    codeInfo.hints.push(text.substring(0, 200));
-
-                    // Check for specific placement instructions
-                    if (text.toLowerCase().includes('above') || text.toLowerCase().includes('before')) {
-                        codeInfo.writeAboveLines.push({ hint: text.substring(0, 100) });
-                    }
-                    if (text.toLowerCase().includes('below') || text.toLowerCase().includes('after')) {
-                        codeInfo.writeBelowLines.push({ hint: text.substring(0, 100) });
-                    }
-                }
-            });
-        });
-
-        return {
-            type: 'Coding',
-            questionId: questionId,
-            questionText: questionText.substring(0, 2000),
-            codeInfo: codeInfo
-        };
-    }""")
-
-    return result
-
-async def click_resume_button(frame):
-    """Click the Resume button on the dashboard to resume in-progress question"""
-    try:
-        # Look for Resume button in the main content area
-        # The Resume button appears in the "Pickup from where you left off!" section
-        resume_btn = frame.locator('button:has-text("Resume")').first
-        if await resume_btn.count() > 0 and await resume_btn.is_visible():
-            await resume_btn.click()
-            print("Clicked Resume button on dashboard")
-            await asyncio.sleep(2)
-            return True
-    except Exception as e:
-        print(f"Resume button click failed: {e}")
-    return False
-
-# Store for tracking incomplete questions across function calls
-incomplete_questions_cache = []
-current_question_index = -1
-
-async def open_course_and_find_first_unfinished(page):
-    """Navigate to course and open first unfinished question"""
-    global incomplete_questions_cache, current_question_index
-
-    print(f"Navigating to course: {COURSE_URL}")
-    await page.goto(COURSE_URL, wait_until="domcontentloaded")
-
-    # Wait for iframe to load
-    await page.wait_for_selector("iframe", timeout=30000)
-    frame = page.frame_locator("iframe").first
-
-    print("Waiting for course content to load...")
     await asyncio.sleep(2)
 
-    # First, navigate to Contents page where the sidebar with questions is visible
-    try:
-        contents_link = frame.locator('a:has-text("Contents")').first
-        if await contents_link.count() > 0:
-            await contents_link.click()
-            print("Clicked Contents link")
-            await asyncio.sleep(2)
-        else:
-            # If no Contents link, try Resume button which also loads the question view
-            await click_resume_button(frame)
-            await asyncio.sleep(2)
-    except Exception as e:
-        print(f"Could not click Contents: {e}")
-        # Fall back to Resume button
-        await click_resume_button(frame)
-        await asyncio.sleep(2)
-
-    # Now scan the sidebar (it's visible after navigating to Contents)
-    question_data = await scan_sidebar_for_unfinished(page, frame)
-
-    if not question_data:
-        print("No unfinished questions found.")
-        return "No unfinished questions"
-
-    # Store all incomplete questions for later navigation
-    # Re-scan to populate the cache with all incomplete questions
-    all_questions = await get_all_incomplete_questions(page, frame)
-    incomplete_questions_cache = all_questions
-    current_question_index = 0  # Start at the first one
-
-    print(f"\n[CACHE] Stored {len(incomplete_questions_cache)} incomplete questions for navigation")
-
-    # Click on the first unfinished question
-    success = await click_question_by_title(page, frame, question_data)
-
-    if success:
-        await asyncio.sleep(2)
-        question_type = await detect_question_type(page)
-        return question_type
-    else:
-        return "Failed to click question"
-
-async def get_all_incomplete_questions(page, frame):
-    """Get all incomplete questions from the sidebar for caching"""
-    import re
+    # 3. Scan for status
+    print("Scanning sidebar for question status...")
     questions = await frame.locator('button').evaluate_all(r"""
         (buttons) => {
             const results = [];
             for (const btn of buttons) {
                 const text = btn.textContent?.trim() || '';
                 const title = btn.getAttribute('title') || '';
-
-                // Check if this is a question/exercise button
-                const questionPattern = /^\d+\.\d+\.\d+\./;
-                const isQuestionPattern = questionPattern.test(title) || questionPattern.test(text);
-                const isExercise = text.includes('Exercise') || title.includes('Exercise');
-                const isQuestion = text.includes('Question') || title.includes('Question');
-
-                if (isQuestionPattern || isExercise || isQuestion) {
+                if (/^\d+\.\d+\.\d+\./.test(text) || /^\d+\.\d+\.\d+\./.test(title) || text.includes('Exercise') || title.includes('Exercise')) {
                     const svg = btn.querySelector('svg');
-                    let status = 'unknown';
-
+                    let status = 'not_started';
                     if (svg) {
-                        const svgClass = (svg.className?.baseVal || svg.className || '').toString();
-                        if (svgClass.includes('text-success')) {
-                            status = 'completed';
-                        } else if (svgClass.includes('text-accent')) {
-                            status = 'in_progress';
-                        } else {
-                            status = 'not_started';
-                        }
+                        const cls = (svg.className?.baseVal || svg.className || '').toString();
+                        if (cls.includes('text-success')) status = 'completed';
+                        else if (cls.includes('text-accent')) status = 'in_progress';
                     }
-
-                    // Only include incomplete questions
-                    if (status !== 'completed') {
-                        results.push({
-                            text: text.substring(0, 100),
-                            title: title,
-                            status: status,
-                            buttonText: text
-                        });
-                    }
+                    results.push({ text, title, status });
                 }
             }
             return results;
         }
     """)
 
-    # Sort by question number (e.g., 4.9.1, 4.9.2, 4.10.1, etc.)
-    def extract_sort_key(q):
-        text = q.get('text', '')
-        # Extract numbers like "4.9.1" or "4.10.1" from the beginning
-        match = re.match(r'(\d+)\.(\d+)\.(\d+)', text)
-        if match:
-            return (int(match.group(1)), int(match.group(2)), int(match.group(3)))
-        return (999, 999, 999)  # Put non-matching at the end
+    # 4. Update JSON Cache
+    cache = load_cache()
+    for q in questions:
+        q_name = q['title'] or q['text']
+        link = question_links.get(q_name)
+        if not link:
+            # Try fuzzy match (remove numbers)
+            clean_name = re.sub(r'^\d+\.\d+\.\d+\.\s*', '', q_name)
+            for name, l in question_links.items():
+                if clean_name in name or name in clean_name:
+                    link = l
+                    break
 
-    return sorted(questions, key=extract_sort_key)
+        cache[q_name] = {
+            "link": link,
+            "status": q['status'],
+            "last_updated": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        }
+    save_cache(cache)
 
-async def move_to_next_unfinished_question(page):
-    """Move to the next unfinished question from the cached list"""
-    global incomplete_questions_cache, current_question_index
+    # 5. Sort and return incomplete questions
+    def sort_key(q):
+        m = re.match(r'(\d+)\.(\d+)\.(\d+)', q['text'])
+        return (int(m.group(1)), int(m.group(2)), int(m.group(3))) if m else (999,999,999)
 
-    if not incomplete_questions_cache:
-        print("[ERROR] No incomplete questions cached. Run open_course_and_find_first_unfinished first.")
-        return "No cache available"
+    incomplete = sorted([q for q in questions if q['status'] != 'completed'], key=sort_key)
 
-    current_question_index += 1
+    # Add links to incomplete questions
+    for q in incomplete:
+        q_name = q['title'] or q['text']
+        q['link'] = cache.get(q_name, {}).get('link')
 
-    if current_question_index >= len(incomplete_questions_cache):
-        print(f"\n[COMPLETE] All {len(incomplete_questions_cache)} questions processed!")
-        return "All questions completed"
+    print(f"\n{'='*60}")
+    print(f"INCOMPLETE QUESTIONS ({len(incomplete)} total):")
+    print('='*60)
+    for i, q in enumerate(incomplete[:10], 1):
+        status_char = 'I' if q['status'] == 'in_progress' else 'N'
+        link_short = 'OK' if cache.get(q['title'] or q['text'], {}).get('link') else 'NO LINK'
+        print(f"{i:2}. [{status_char}] {q['text'][:55]}... ({link_short})")
+    if len(incomplete) > 10:
+        print(f"    ... and {len(incomplete) - 10} more")
 
-    next_question = incomplete_questions_cache[current_question_index]
-    print(f"\n[NAVIGATING] Question {current_question_index + 1}/{len(incomplete_questions_cache)}:")
-    print(f"  -> {next_question['text'][:70]}")
+    return incomplete
 
-    # Get the frame
-    frame = page.frame_locator("iframe").first
+async def navigate_to_question_direct(page, target_hash):
+    """Navigate directly to a question using hash navigation"""
+    print(f"  Direct nav to hash: {target_hash[:50]}...")
 
-    # Make sure we're on the Contents page
-    try:
-        contents_link = frame.locator('a:has-text("Contents")').first
-        if await contents_link.count() > 0 and await contents_link.is_visible():
-            await contents_link.click()
-            await asyncio.sleep(1.5)
-    except:
-        pass
+    success = await page.evaluate(f"""
+        (targetHash) => {{
+            const ifr = document.querySelector('iframe');
+            if (ifr && ifr.contentWindow) {{
+                ifr.contentWindow.location.hash = targetHash;
+                return true;
+            }}
+            return false;
+        }}
+    """, target_hash)
 
-    # Click the next question
-    success = await click_question_by_title(page, frame, next_question)
+    if not success:
+        print("  [FAIL] Could not access iframe for navigation")
+        return False
 
-    if success:
-        await asyncio.sleep(2)
-        question_type = await detect_question_type(page)
-        print(f"\n[STATUS] Question {current_question_index + 1}/{len(incomplete_questions_cache)}: {question_type}")
-        return question_type
+    # Wait for the page to load
+    print("  [OK] Hash updated, waiting for load...")
+
+    # Get the frame after navigation
+    iframe_handle = await page.wait_for_selector("iframe", timeout=10000)
+    frame = await iframe_handle.content_frame()
+
+    if not frame:
+        print("  [FAIL] Could not get frame content")
+        return False
+
+    # Wait for content to load
+    loaded = await wait_for_question_load(frame, timeout=15)
+
+    if loaded:
+        print("  [OK] Question loaded successfully")
+        await asyncio.sleep(2)  # Extra time for rendering
+        return True
     else:
-        return "Failed to click next question"
+        print("  [WARN] Timeout waiting for question to load")
+        return False
+
+async def detect_question_type(page):
+    """Detect if the current question is MCQ or Coding"""
+    iframe_handle = await page.query_selector("iframe")
+    if not iframe_handle:
+        return "unknown"
+
+    frame = await iframe_handle.content_frame()
+    if not frame:
+        return "unknown"
+
+    # Check for MCQ radio buttons
+    has_mcq = await frame.evaluate("""() => {
+        const radios = document.querySelectorAll('input[type="radio"]');
+        return radios.length >= 2;
+    }""")
+
+    if has_mcq:
+        return "MCQ"
+
+    # Check for code editor
+    has_coding = await frame.evaluate("""() => {
+        return !!document.querySelector('.cm-content, .CodeMirror, textarea[role="textbox"], [class*="editor"]');
+    }""")
+
+    if has_coding:
+        return "Coding"
+
+    return "unknown"
+
+async def extract_question_content(page, q_type):
+    """Extract content based on question type"""
+    iframe_handle = await page.query_selector("iframe")
+    if not iframe_handle:
+        return None, "No iframe found"
+
+    frame = await iframe_handle.content_frame()
+    if not frame:
+        return None, "Could not access frame content"
+
+    if q_type == "MCQ":
+        result = await extract_mcq_content(frame)
+        return result, format_mcq_output(result)
+    elif q_type == "Coding":
+        result = await extract_coding_content(frame)
+        return result, format_coding_output(result)
+    else:
+        return None, f"Unknown question type: {q_type}"
+
+async def process_questions(page, questions, max_questions=5):
+    """Process multiple questions using direct link navigation"""
+    results = []
+
+    for i, question in enumerate(questions[:max_questions], 1):
+        q_name = question.get('title') or question.get('text', 'Unknown')
+        q_link = question.get('link')
+
+        print(f"\n{'='*60}")
+        print(f"Question {i}/{min(max_questions, len(questions))}: {q_name}")
+        print('='*60)
+
+        if not q_link:
+            print(f"  [SKIP] No direct link available")
+            continue
+
+        # Extract hash from the link
+        if '#' not in q_link:
+            print(f"  [SKIP] Link does not contain hash: {q_link[:60]}...")
+            continue
+
+        target_hash = q_link.split('#')[-1]
+
+        # Navigate to the question
+        if not await navigate_to_question_direct(page, target_hash):
+            print(f"  [FAIL] Navigation failed, skipping...")
+            continue
+
+        # Detect question type
+        q_type = await detect_question_type(page)
+        print(f"  Detected type: {q_type}")
+
+        if q_type == "unknown":
+            print(f"  [WARN] Could not detect question type, retrying...")
+            await asyncio.sleep(3)
+            q_type = await detect_question_type(page)
+            print(f"  Retry detected type: {q_type}")
+
+        # Extract content
+        result_data, formatted_output = await extract_question_content(page, q_type)
+
+        print(formatted_output)
+
+        results.append({
+            'name': q_name,
+            'type': q_type,
+            'link': q_link,
+            'data': result_data
+        })
+
+        # Small delay between questions
+        if i < min(max_questions, len(questions)):
+            print(f"  Waiting before next question...")
+            await asyncio.sleep(2)
+
+    return results
 
 async def main():
     async with async_playwright() as p:
         print("Launching browser...")
         browser = await p.chromium.launch_persistent_context(
-            USER_DATA_DIR,
-            headless=False,
-            args=["--start-maximized"],
-            no_viewport=True,
-            ignore_https_errors=True
+            USER_DATA_DIR, headless=False, args=["--start-maximized"], no_viewport=True
         )
+        page = browser.pages[0] if browser.pages else await browser.new_page()
 
-        page = await browser.new_page()
-        if len(browser.pages) > 1:
-            await browser.pages[0].close()
+        if await login_if_needed(page, load_credentials()):
+            print(f"\nOpening course: {COURSE_URL}")
+            await page.goto(COURSE_URL, wait_until="domcontentloaded")
+            await asyncio.sleep(5)
 
-        credentials = load_credentials()
+            ifr_handle = await page.wait_for_selector("iframe")
+            frame = await ifr_handle.content_frame()
 
-        if await login_if_needed(page, credentials):
-            # First, open the course and go to first unfinished question
-            status = await open_course_and_find_first_unfinished(page)
-            print(f"\nSTATUS: {status}")
-
-            # Extract and display question content
-            print("\n" + "="*60)
-            print("EXTRACTING QUESTION CONTENT...")
-            print("="*60)
-
-            if status == "MCQ Task":
-                mcq_data = await extract_mcq_content(page)
-                print(f"\n[MCQ QUESTION]")
-                print(f"ID: {mcq_data.get('questionId', 'N/A')}")
-                print(f"\nQuestion:\n{mcq_data.get('questionText', 'N/A')[:500]}...")
-                print(f"\nOptions ({mcq_data.get('optionCount', 0)} found):")
-                for opt in mcq_data.get('options', []):
-                    print(f"  {opt['id']}. {opt['text'][:100]}...")
-
-            elif status == "Coding Task":
-                coding_data = await extract_coding_content(page)
-                print(f"\n[CODING QUESTION]")
-                print(f"ID: {coding_data.get('questionId', 'N/A')}")
-                print(f"\nQuestion:\n{coding_data.get('questionText', 'N/A')[:500]}...")
-
-                code_info = coding_data.get('codeInfo', {})
-                print(f"\nCode Info:")
-                print(f"  Has Pre-written Code: {code_info.get('hasPreWrittenCode', False)}")
-                print(f"  Total Lines: {code_info.get('totalLines', 0)}")
-
-                if code_info.get('preWrittenLines', []):
-                    print(f"\n  Pre-written code lines:")
-                    for line in code_info['preWrittenLines'][:5]:
-                        print(f"    Line {line['line']}: {line['content'][:60]}...")
-
-                if code_info.get('writeAboveLines', []):
-                    print(f"\n  Write ABOVE/BEFORE these lines:")
-                    for item in code_info['writeAboveLines'][:3]:
-                        print(f"    {item.get('line', 'N/A')}: {item.get('content', item.get('hint', ''))[:60]}...")
-
-                if code_info.get('writeBelowLines', []):
-                    print(f"\n  Write BELOW/AFTER these lines:")
-                    for item in code_info['writeBelowLines'][:3]:
-                        print(f"    {item.get('line', 'N/A')}: {item.get('content', item.get('hint', ''))[:60]}...")
-
-                if code_info.get('hints', []):
-                    print(f"\n  Hints/Instructions:")
-                    for hint in code_info['hints'][:3]:
-                        print(f"    - {hint[:80]}...")
-
-            else:
-                print(f"Unknown question type, skipping extraction")
-
-            # TEST: Move to next unfinished question
-            print("\n" + "="*60)
-            print("TESTING: Move to next unfinished question...")
-            print("="*60)
+            # Show sidebar once to sync state
+            await page.evaluate("""() => {
+                const doc = document.querySelector('iframe').contentDocument;
+                const link = Array.from(doc.querySelectorAll('a')).find(a => a.innerText.includes('Contents'));
+                if (link) link.click();
+            }""")
             await asyncio.sleep(3)
 
-            next_status = await move_to_next_unfinished_question(page)
-            print(f"\nNEXT STATUS: {next_status}")
+            # Get all incomplete questions
+            incomplete_questions = await scan_sidebar_for_unfinished(page, frame)
 
-            # Extract next question too if it's different type
-            if next_status == "Coding Task" and status == "MCQ Task":
-                print("\n" + "="*60)
-                print("EXTRACTING CODING QUESTION CONTENT...")
-                print("="*60)
-                coding_data = await extract_coding_content(page)
-                print(f"\n[CODING QUESTION]")
-                print(f"ID: {coding_data.get('questionId', 'N/A')}")
-                print(f"\nQuestion:\n{coding_data.get('questionText', 'N/A')[:500]}...")
+            if incomplete_questions:
+                print(f"\n{'='*60}")
+                print(f"PROCESSING {min(5, len(incomplete_questions))} QUESTIONS USING DIRECT LINKS")
+                print('='*60)
 
-        else:
-            print("Automation stopped due to login failure.")
+                # Process up to 5 questions
+                results = await process_questions(page, incomplete_questions, max_questions=5)
 
-        print("\nPress Enter in this terminal to close the browser...")
-        await asyncio.to_thread(input)
+                print(f"\n{'='*60}")
+                print(f"SUMMARY: Processed {len(results)} questions")
+                print('='*60)
+                for r in results:
+                    q_text = r['name'][:50] + '...' if len(r['name']) > 50 else r['name']
+                    print(f"  - [{r['type']:6}] {q_text}")
+            else:
+                print("\n[OK] All questions completed!")
+
+        print("\n" + "="*60)
+        print("Processing complete. Closing browser in 5 seconds...")
+        print("="*60)
+
+        await asyncio.sleep(5)
         await browser.close()
 
 if __name__ == "__main__":
