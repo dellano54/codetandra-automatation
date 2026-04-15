@@ -256,7 +256,7 @@ async def navigate_to_question_direct(page, target_hash):
 
     if loaded:
         print("  [OK] Question loaded successfully")
-        await asyncio.sleep(2)  # Extra time for rendering
+        await asyncio.sleep(0.5)  # Quick render time
         return True
     else:
         print("  [WARN] Timeout waiting for question to load")
@@ -361,12 +361,9 @@ async def process_questions(page, questions, max_questions=5):
         })
 
         # Small delay between questions
-        if i < min(max_questions, len(questions)):
-            print(f"  Waiting before next question...")
-            await asyncio.sleep(2)
+        await asyncio.sleep(0.5)
 
     return results
-
 async def main():
     async with async_playwright() as p:
         print("Launching browser...")

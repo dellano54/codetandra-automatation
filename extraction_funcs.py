@@ -265,10 +265,9 @@ async def wait_for_question_load(frame, timeout=15):
     js_code = r"""
     () => {
         const hasMCQ = document.querySelectorAll('input[type="radio"]').length >= 2;
-        const hasCoding = !!document.querySelector('.cm-content, .CodeMirror, textarea[role="textbox"]');
-        const hasQuestion = !!document.querySelector('.question-text, .problem-statement, h4');
-        const hasSidebar = !!document.querySelector('input[placeholder*="Search"]');
-        return (hasMCQ || hasCoding || hasQuestion) && !hasSidebar;
+        const hasCoding = !!document.querySelector('.cm-content, [role="textbox"], .CodeMirror');
+        const hasQuestion = !!document.querySelector('.question-text, .problem-statement, h4, .question-content');
+        return (hasMCQ || hasCoding || hasQuestion);
     }
     """
 
