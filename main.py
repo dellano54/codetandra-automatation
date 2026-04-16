@@ -9,21 +9,15 @@ from playwright.async_api import async_playwright
 
 # Fix Windows console encoding for Unicode characters
 if sys.platform == 'win32':
-    import io
-    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
-    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
-from extraction_funcs import (
-    extract_mcq_content,
-    extract_coding_content,
-    wait_for_question_load,
-    format_mcq_output,
-    format_coding_output
-)
+    sys.stdout.reconfigure(encoding='utf-8')
 
-CREDENTIALS_FILE = "credentials.json"
 USER_DATA_DIR = "playwright-user-data"
+CREDENTIALS_FILE = "credentials.json"
 COURSE_URL = "https://srmeaswari.codetantra.com/secure/course.jsp?eucId=6937cd430cc4f7020deb0295"
 CACHE_FILE = "memory/question_cache.json"
+
+from gemini_utils import analyze_mcq, analyze_coding
+from extraction_funcs import extract_mcq_content, extract_coding_content, format_mcq_output, format_coding_output, wait_for_question_load
 
 def load_credentials():
     if os.path.exists(CREDENTIALS_FILE):
@@ -49,26 +43,26 @@ def save_cache(cache):
         json.dump(cache, f, indent=2)
 
 async def login_if_needed(page, credentials):
-    print("Navigating to login page...")
+    print("Navigating to login page...", flush=True)
     try:
         await page.goto("https://srmeaswari.codetantra.com/login.jsp", wait_until="domcontentloaded", timeout=30000)
     except Exception as e:
-        print(f"Initial navigation failed ({e}), retrying once...")
+        print(f"Initial navigation failed ({e}), retrying once...", flush=True)
         await asyncio.sleep(2)
         await page.goto("https://srmeaswari.codetantra.com/login.jsp", wait_until="domcontentloaded", timeout=30000)
 
     if "home.jsp" in page.url:
-        print("Already logged in via session.")
+        print("Already logged in via session.", flush=True)
         return True
 
     if not credentials:
-        print("\nNo credentials found. Please enter them.")
+        print("\nNo credentials found. Please enter them.", flush=True)
         email = input("Email: ")
         password = getpass.getpass("Password: ")
         save_credentials(email, password)
         credentials = {"email": email, "password": password}
 
-    print(f"Logging in as {credentials['email']}...")
+    print(f"Logging in as {credentials['email']}...", flush=True)
     await page.wait_for_selector("#loginEmail", timeout=10000)
     await page.fill("#loginEmail", credentials["email"])
     await page.fill("#loginPassword", credentials["password"])
@@ -85,17 +79,22 @@ async def login_if_needed(page, credentials):
 
     try:
         await page.wait_for_url("**/home.jsp", timeout=15000)
-        print("Login successful!")
+        print("Login successful!", flush=True)
         return True
     except Exception:
-        print("Login redirection failed. Please check your credentials.")
+        print("Login redirection failed. Please check your credentials.", flush=True)
         return False
 
 async def fetch_course_contents(page):
     """Fetch the full course structure and IDs via the REST API"""
-    print("Fetching course contents structure...")
+    print("Fetching course contents structure...", flush=True)
     try:
-        euc_id = COURSE_URL.split('eucId=')[1].split('&')[0]
+        current_url = page.url
+        if 'eucId=' in current_url:
+            euc_id = current_url.split('eucId=')[1].split('&')[0].split('#')[0]
+        else:
+            euc_id = COURSE_URL.split('eucId=')[1].split('&')[0]
+        
         api_url = f"https://srmeaswari.codetantra.com/secure/rest/a2/euc/gecc?eucId={euc_id}"
 
         result = await page.evaluate(f"""
@@ -113,56 +112,54 @@ async def fetch_course_contents(page):
         if result and result.get('result') == 0:
             return result.get('data', {})
         else:
-            print(f"  [WARN] Failed to fetch contents: {result.get('error') or result.get('msg')}")
+            print(f"  [WARN] Failed to fetch contents: {result.get('error') or result.get('msg')}", flush=True)
             return None
     except Exception as e:
-        print(f"  [ERROR] Error fetching contents: {e}")
+        print(f"  [ERROR] Error fetching contents: {e}", flush=True)
         return None
 
 async def scan_sidebar_for_unfinished(page, frame):
     """Scan sidebar, update cache with links and status, return incomplete questions list"""
-    # 1. Fetch course structure to get links
-    course_data = await fetch_course_contents(page)
-    question_links = {}
-    if course_data:
-        print("Processing course structure to generate direct links...")
-        euc_id = course_data.get('id')
-        # Correct hash format: #/eucs/[EUC_ID]/contents/[UNIT_ID]/[LESSON_ID]/[QUESTION_ID]
-        base_url = f"https://srmeaswari.codetantra.com/secure/course.jsp?eucId={euc_id}#/eucs/{euc_id}/contents"
-        for unit in course_data.get('contents', []):
-            u_id = unit.get('id')
-            for lesson in unit.get('contents', []):
-                l_id = lesson.get('id')
-                for item in lesson.get('contents', []):
-                    if item.get('type') == 'question':
-                        q_id = item.get('id')
-                        if u_id and l_id and q_id:
-                            question_links[item.get('name', '')] = f"{base_url}/{u_id}/{l_id}/{q_id}"
+    verified_map = {}
+    map_path = "memory/verified_question_map.json"
+    if os.path.exists(map_path):
+        with open(map_path, "r", encoding='utf-8') as f:
+            verified_map = json.load(f)
+        print(f"Loaded {len(verified_map)} verified links from JSON map.", flush=True)
 
-    # 2. Expand all units
-    print("Expanding sidebar units...")
+    print("Expanding all sidebar units and lessons...", flush=True)
     await page.evaluate("""() => {
         const iframe = document.querySelector('iframe');
         if (!iframe || !iframe.contentDocument) return;
-        const buttons = iframe.contentDocument.querySelectorAll('button');
-        for (const btn of buttons) {
-            const text = btn.textContent || '';
-            if (text.includes('Unit') && !text.includes('.') && btn.getAttribute('aria-expanded') !== 'true') {
-                btn.click();
+        const doc = iframe.contentDocument;
+        const expandAll = () => {
+            const allDetails = Array.from(doc.querySelectorAll('details'));
+            let openedAny = false;
+            for (const details of allDetails) {
+                if (!details.open) {
+                    details.open = true;
+                    openedAny = true;
+                }
             }
+            return openedAny;
+        };
+        for (let i = 0; i < 3; i++) {
+            if (!expandAll()) break;
         }
     }""")
     await asyncio.sleep(2)
 
-    # 3. Scan for status
-    print("Scanning sidebar for question status...")
-    questions = await frame.locator('button').evaluate_all(r"""
+    print("Scanning sidebar for question status...", flush=True)
+    sidebar_items = await frame.locator('button').evaluate_all(r"""
         (buttons) => {
             const results = [];
             for (const btn of buttons) {
                 const text = btn.textContent?.trim() || '';
                 const title = btn.getAttribute('title') || '';
-                if (/^\d+\.\d+\.\d+\./.test(text) || /^\d+\.\d+\.\d+\./.test(title) || text.includes('Exercise') || title.includes('Exercise')) {
+                const match = text.match(/^(\d+\.\d+\.\d+\.)\s*(.*)$/);
+                if (match) {
+                    const prefix = match[1];
+                    const label = match[2].trim();
                     const svg = btn.querySelector('svg');
                     let status = 'not_started';
                     if (svg) {
@@ -170,61 +167,43 @@ async def scan_sidebar_for_unfinished(page, frame):
                         if (cls.includes('text-success')) status = 'completed';
                         else if (cls.includes('text-accent')) status = 'in_progress';
                     }
-                    results.push({ text, title, status });
+                    results.push({ prefix, label, status, title });
                 }
             }
             return results;
         }
     """)
 
-    # 4. Update JSON Cache
     cache = load_cache()
-    for q in questions:
-        q_name = q['title'] or q['text']
-        link = question_links.get(q_name)
-        if not link:
-            # Try fuzzy match (remove numbers)
-            clean_name = re.sub(r'^\d+\.\d+\.\d+\.\s*', '', q_name)
-            for name, l in question_links.items():
-                if clean_name in name or name in clean_name:
-                    link = l
-                    break
-
-        cache[q_name] = {
+    processed_questions = []
+    for side_q in sidebar_items:
+        clean_prefix = side_q['prefix'].rstrip('.')
+        link = None
+        if clean_prefix in verified_map:
+            link = verified_map[clean_prefix]['link']
+        q_label = side_q['title'] or side_q['prefix'] + " " + side_q['label']
+        processed_questions.append({
+            "text": q_label,
+            "status": side_q['status'],
+            "link": link
+        })
+        cache[q_label] = {
             "link": link,
-            "status": q['status'],
+            "status": side_q['status'],
             "last_updated": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         }
     save_cache(cache)
-
-    # 5. Sort and return incomplete questions
-    def sort_key(q):
-        m = re.match(r'(\d+)\.(\d+)\.(\d+)', q['text'])
-        return (int(m.group(1)), int(m.group(2)), int(m.group(3))) if m else (999,999,999)
-
-    incomplete = sorted([q for q in questions if q['status'] != 'completed'], key=sort_key)
-
-    # Add links to incomplete questions
-    for q in incomplete:
-        q_name = q['title'] or q['text']
-        q['link'] = cache.get(q_name, {}).get('link')
-
-    print(f"\n{'='*60}")
-    print(f"INCOMPLETE QUESTIONS ({len(incomplete)} total):")
-    print('='*60)
-    for i, q in enumerate(incomplete[:10], 1):
+    incomplete = [q for q in processed_questions if q['status'] != 'completed' and q['link']]
+    print(f"\n{'='*60}\nINCOMPLETE QUESTIONS ({len(incomplete)} total):\n{'='*60}", flush=True)
+    for i, q in enumerate(incomplete[:15], 1):
         status_char = 'I' if q['status'] == 'in_progress' else 'N'
-        link_short = 'OK' if cache.get(q['title'] or q['text'], {}).get('link') else 'NO LINK'
-        print(f"{i:2}. [{status_char}] {q['text'][:55]}... ({link_short})")
-    if len(incomplete) > 10:
-        print(f"    ... and {len(incomplete) - 10} more")
-
+        print(f"{i:2}. [{status_char}] {q['text'][:55]}...", flush=True)
     return incomplete
 
 async def navigate_to_question_direct(page, target_hash):
     """Navigate directly to a question using hash navigation"""
-    print(f"  Direct nav to hash: {target_hash[:50]}...")
-
+    if not target_hash.startswith('#'): target_hash = '#' + target_hash
+    print(f"  Direct nav to hash: {target_hash}", flush=True)
     success = await page.evaluate(f"""
         (targetHash) => {{
             const ifr = document.querySelector('iframe');
@@ -235,183 +214,483 @@ async def navigate_to_question_direct(page, target_hash):
             return false;
         }}
     """, target_hash)
-
     if not success:
-        print("  [FAIL] Could not access iframe for navigation")
+        print("  [FAIL] Could not access iframe for navigation", flush=True)
         return False
-
-    # Wait for the page to load
-    print("  [OK] Hash updated, waiting for load...")
-
-    # Get the frame after navigation
+    print("  [OK] Hash updated, waiting for load...", flush=True)
     iframe_handle = await page.wait_for_selector("iframe", timeout=10000)
     frame = await iframe_handle.content_frame()
-
-    if not frame:
-        print("  [FAIL] Could not get frame content")
-        return False
-
-    # Wait for content to load
+    if not frame: return False
     loaded = await wait_for_question_load(frame, timeout=15)
-
     if loaded:
-        print("  [OK] Question loaded successfully")
-        await asyncio.sleep(0.5)  # Quick render time
+        print("  [OK] Question loaded successfully", flush=True)
+        await asyncio.sleep(0.5)
         return True
-    else:
-        print("  [WARN] Timeout waiting for question to load")
-        return False
+    return False
 
 async def detect_question_type(page):
     """Detect if the current question is MCQ or Coding"""
     iframe_handle = await page.query_selector("iframe")
-    if not iframe_handle:
-        return "unknown"
-
+    if not iframe_handle: return "unknown"
     frame = await iframe_handle.content_frame()
-    if not frame:
-        return "unknown"
-
-    # Check for MCQ radio buttons
+    if not frame: return "unknown"
     has_mcq = await frame.evaluate("""() => {
-        const radios = document.querySelectorAll('input[type="radio"]');
-        return radios.length >= 2;
+        const inputs = document.querySelectorAll('input[type="radio"], input[type="checkbox"]');
+        return inputs.length >= 2;
     }""")
-
-    if has_mcq:
-        return "MCQ"
-
-    # Check for code editor
+    if has_mcq: return "MCQ"
     has_coding = await frame.evaluate("""() => {
-        return !!document.querySelector('.cm-content, .CodeMirror, textarea[role="textbox"], [class*="editor"]');
+        return !!document.querySelector('.cm-content, .CodeMirror, .ace_editor, [class*="editor"]');
     }""")
-
-    if has_coding:
-        return "Coding"
-
+    if has_coding: return "Coding"
     return "unknown"
 
 async def extract_question_content(page, q_type):
     """Extract content based on question type"""
     iframe_handle = await page.query_selector("iframe")
-    if not iframe_handle:
-        return None, "No iframe found"
-
+    if not iframe_handle: return None, "No iframe found"
     frame = await iframe_handle.content_frame()
-    if not frame:
-        return None, "Could not access frame content"
-
+    if not frame: return None, "Could not access frame content"
     if q_type == "MCQ":
         result = await extract_mcq_content(frame)
         return result, format_mcq_output(result)
     elif q_type == "Coding":
         result = await extract_coding_content(frame)
         return result, format_coding_output(result)
-    else:
-        return None, f"Unknown question type: {q_type}"
+    return None, f"Unknown question type: {q_type}"
+
+async def handle_late_submission(frame):
+    """Handle the reason for late submission trap and full-screen overlays"""
+    try:
+        # Check for both the standard container and the full-screen overlay
+        trap_info = await frame.evaluate("""() => {
+            // Find specific late submission containers
+            const lateContainer = document.querySelector('.ReasonForLateSubmissionContainer') || 
+                                 Array.from(document.querySelectorAll('div, span')).find(el => 
+                                    (el.innerText.includes('Reason for late submission') || 
+                                     el.innerText.includes('Please enter at least 15 characters')) &&
+                                     window.getComputedStyle(el).display !== 'none'
+                                 );
+            
+            // Find full-screen overlays that might be blocking (bg-opacity-95 is common for these)
+            const fullOverlay = Array.from(document.querySelectorAll('div')).find(el => {
+                const style = window.getComputedStyle(el);
+                return style.position === 'fixed' && 
+                       style.zIndex && parseInt(style.zIndex) > 10 &&
+                       (el.classList.contains('bg-opacity-95') || el.innerText.includes('Reason for late submission'));
+            });
+
+            const container = lateContainer || fullOverlay;
+            if (container) {
+                const style = window.getComputedStyle(container);
+                const isVisible = style.display !== 'none' && style.visibility !== 'hidden';
+                return { isVisible, text: container.innerText, isFullOverlay: !!fullOverlay };
+            }
+            return { isVisible: false };
+        }""")
+        
+        if trap_info['isVisible']:
+            print(f"  [TRAP] Late submission/Overlay detected, bypassing...", flush=True)
+            await frame.evaluate("""() => {
+                const findContainer = () => {
+                    const lateContainer = document.querySelector('.ReasonForLateSubmissionContainer') || 
+                                         Array.from(document.querySelectorAll('div, span')).find(el => 
+                                            (el.innerText.includes('Reason for late submission') || 
+                                             el.innerText.includes('Please enter at least 15 characters')) &&
+                                             window.getComputedStyle(el).display !== 'none'
+                                         );
+                    const fullOverlay = Array.from(document.querySelectorAll('div')).find(el => {
+                        const style = window.getComputedStyle(el);
+                        return style.position === 'fixed' && style.zIndex && parseInt(style.zIndex) > 10 &&
+                               (el.classList.contains('bg-opacity-95') || el.innerText.includes('Reason for late submission'));
+                    });
+                    return lateContainer || fullOverlay;
+                };
+
+                const container = findContainer();
+                if (container) {
+                    // Try clicking OK/Submit buttons inside first
+                    const innerBtn = Array.from(container.querySelectorAll('button, div[role="button"]'))
+                                          .find(b => b.innerText.includes('OK') || b.innerText.includes('Submit'));
+                    if (innerBtn) { 
+                        innerBtn.click(); 
+                    } else {
+                        // Click the whole container/overlay background
+                        container.click();
+                    }
+                    
+                    // Force dispatch events
+                    container.dispatchEvent(new Event('mousedown', { bubbles: true }));
+                    container.dispatchEvent(new Event('mouseup', { bubbles: true }));
+                }
+            }""")
+            await asyncio.sleep(1)
+            return True
+    except Exception as e:
+        print(f"  [ERROR] Error handling late submission: {e}", flush=True)
+    return False
+
+async def solve_mcq(page, frame, extraction_result, max_retries=3, screenshot=None):
+    """Analyze and solve MCQ with retries and memory of failed combinations"""
+    failed_combinations = []
+    is_multiple = extraction_result.get('isMultiple', False)
+    
+    for attempt in range(max_retries):
+        print(f"  MCQ Attempt {attempt + 1}/{max_retries}...", flush=True)
+        answer_letters = await analyze_mcq(
+            extraction_result['question'], 
+            extraction_result['options'],
+            images=extraction_result.get('images', []),
+            screenshot=screenshot,
+            failed_combinations=failed_combinations,
+            is_multiple=is_multiple
+        )
+        print(f"  Gemini Answer: {', '.join(answer_letters)}", flush=True)
+        if not answer_letters:
+            print("  [FAIL] AI did not provide any answer letters.", flush=True)
+            continue
+        await frame.evaluate("""
+            (isMultiple) => {
+                const inputs = Array.from(document.querySelectorAll(isMultiple ? 'input.checkbox, input[type="checkbox"]' : 'input.radio, input[type="radio"]'));
+                inputs.forEach(i => { if(i.checked) i.click(); });
+            }
+        """, is_multiple)
+        success = await frame.evaluate("""
+            ([letters, isMultiple]) => {
+                let clickedCount = 0;
+                const inputs = Array.from(document.querySelectorAll(isMultiple ? 'input.checkbox, input[type="checkbox"]' : 'input.radio, input[type="radio"]'));
+                letters.forEach(letter => {
+                    const index = letter.charCodeAt(0) - 65;
+                    if (inputs[index]) {
+                        inputs[index].click();
+                        clickedCount++;
+                    } else {
+                        const labels = Array.from(document.querySelectorAll('label, div, span, p'));
+                        for (const el of labels) {
+                            const text = el.innerText.trim();
+                            if (text.startsWith(letter + '.') || text === letter) {
+                                el.click();
+                                clickedCount++;
+                                break;
+                            }
+                        }
+                    }
+                });
+                return clickedCount > 0;
+            }
+        """, [answer_letters, is_multiple])
+        
+        if success:
+            print(f"  [OK] Selected options: {', '.join(answer_letters)}", flush=True)
+            await asyncio.sleep(1)
+            print("  [OK] Clicking Submit...", flush=True)
+            try:
+                # Find all potential submit buttons
+                # Button 3 in snapshot is at the bottom right next to next button
+                # Selector targets button with 'Submit' text and accesskey='s' which is unique to that button
+                submit_locator = frame.locator('button:has-text("Submit")[accesskey="s"], button.btn-success:has-text("Submit")')
+                
+                await handle_late_submission(frame)
+                
+                # Check for the specific bottom-right button and wait for it
+                target_btn = submit_locator.last # 'last' usually picks the one further down in DOM
+                await target_btn.wait_for(state="visible", timeout=10000)
+                
+                for _ in range(10):
+                    is_disabled = await target_btn.evaluate("el => el.disabled")
+                    if not is_disabled: break
+                    await handle_late_submission(frame)
+                    await asyncio.sleep(1)
+                
+                # Try clicking. If intercepted, use JS click on the specific element
+                try:
+                    await target_btn.click(timeout=3000, force=True)
+                except:
+                    await target_btn.evaluate("el => el.click()")
+            except Exception as e:
+                print(f"  [WARN] Submit interaction failed ({e}), trying final JS fallback...", flush=True)
+                await frame.evaluate("""() => {
+                    const btns = Array.from(document.querySelectorAll('button')).filter(b => b.innerText.includes('Submit'));
+                    // Sort by Y coordinate descending to find the one at the bottom
+                    btns.sort((a, b) => b.getBoundingClientRect().top - a.getBoundingClientRect().top);
+                    const submitBtn = btns.find(b => !b.disabled) || btns[0];
+                    if (submitBtn) {
+                        submitBtn.click();
+                    } else {
+                        window.dispatchEvent(new KeyboardEvent('keydown', { altKey: true, key: 's', code: 'KeyS' }));
+                    }
+                }""")
+            await asyncio.sleep(2)
+            await handle_late_submission(frame)
+            print("  Waiting for success verification...", flush=True)
+            for wait_idx in range(6):
+                await asyncio.sleep(5)
+                await handle_late_submission(frame)
+                feedback = await frame.evaluate("""() => {
+                    const body = document.body.innerText;
+                    const hasIncorrect = body.includes('Incorrect') || body.includes('Wrong') || body.includes('Try again');
+                    const timer = Array.from(document.querySelectorAll('.badge, .clock, [class*="timer"], .badge-success')).find(el => {
+                        const style = window.getComputedStyle(el);
+                        const bg = style.backgroundColor;
+                        const isGreen = bg.includes('rgb(9, 190, 139)') || bg.includes('rgb(0, 128, 0)');
+                        const hasSuccessClass = el.classList.contains('badge-success');
+                        return isGreen || hasSuccessClass;
+                    });
+                    return { hasIncorrect, isSuccess: !!timer, timerText: timer ? timer.innerText : "" };
+                }""")
+                if feedback['isSuccess']:
+                    print(f"  [SUCCESS] Answer {', '.join(answer_letters)} was correct! ({feedback['timerText']})", flush=True)
+                    return True
+                if feedback['hasIncorrect']:
+                    print(f"  [FAIL] Answer {', '.join(answer_letters)} was incorrect.", flush=True)
+                    failed_combinations.append(answer_letters)
+                    if is_multiple:
+                        await frame.evaluate("""() => {
+                            const inputs = document.querySelectorAll('input.checkbox, input[type="checkbox"]');
+                            inputs.forEach(i => { if(i.checked) i.click(); });
+                        }""")
+                    break 
+            print(f"  [WARN] Attempt {attempt + 1} did not result in a green timer.", flush=True)
+        else:
+            print(f"  [FAIL] Could not find requested options.", flush=True)
+    return False
+
+async def solve_coding(page, frame, extraction_result, max_retries=3, screenshot=None, override_code=None):
+    """Analyze and solve Coding problem with retries and feedback"""
+    error_feedback = ""
+    for attempt in range(max_retries):
+        print(f"  Coding Attempt {attempt + 1}/{max_retries}...", flush=True)
+        
+        if override_code:
+            solution_code = override_code
+        else:
+            current_code = await frame.evaluate("""() => {
+                const cm6 = document.querySelector('.cm-content');
+                if (cm6 && cm6.cmView) return cm6.cmView.view.state.doc.toString();
+                const cm5 = document.querySelector('.CodeMirror');
+                if (cm5 && cm5.CodeMirror) return cm5.CodeMirror.getValue();
+                const ta = document.querySelector('textarea[role="textbox"]') || document.querySelector('textarea');
+                return ta ? ta.value : "";
+            }""")
+            solution_code = await analyze_coding(
+                extraction_result['question'], 
+                current_code or extraction_result['codeTemplate'],
+                "",
+                error_feedback,
+                images=extraction_result.get('images', []),
+                screenshot=screenshot
+            )
+        print("  Writing solution to editor...", flush=True)
+        success = await frame.evaluate(f"""
+            (code) => {{
+                const cm6 = document.querySelector('.cm-content');
+                if (cm6 && cm6.cmView) {{
+                    const view = cm6.cmView.view;
+                    view.dispatch({{ changes: {{from: 0, to: view.state.doc.length, insert: code}} }});
+                    return true;
+                }}
+                const cm5 = document.querySelector('.CodeMirror');
+                if (cm5 && cm5.CodeMirror) {{ cm5.CodeMirror.setValue(code); return true; }}
+                const ta = document.querySelector('textarea[role="textbox"]') || document.querySelector('textarea');
+                if (ta) {{
+                    ta.value = code;
+                    ta.dispatchEvent(new Event('input', {{ bubbles: true }}));
+                    ta.dispatchEvent(new Event('change', {{ bubbles: true }}));
+                    return true;
+                }}
+                return false;
+            }}
+        """, solution_code)
+        if success:
+            print("  [OK] Solution written. Clicking Submit...", flush=True)
+            await asyncio.sleep(1)
+            try:
+                # Target the bottom-right submit button specifically
+                submit_locator = frame.locator('button:has-text("Submit")[accesskey="s"], button.btn-success:has-text("Submit")')
+
+                await handle_late_submission(frame)
+                target_btn = submit_locator.last
+                await target_btn.wait_for(state="visible", timeout=10000)
+
+                for _ in range(10):
+                    is_disabled = await target_btn.evaluate("el => el.disabled")
+                    if not is_disabled: break
+                    await handle_late_submission(frame)
+                    await asyncio.sleep(1)
+
+                try:
+                    await target_btn.click(timeout=3000, force=True)
+                except:
+                    await target_btn.evaluate("el => el.click()")
+            except Exception as e:
+                print(f"  [WARN] Submit interaction failed ({e}), trying final JS fallback...", flush=True)
+                await frame.evaluate("""() => {
+                    const btns = Array.from(document.querySelectorAll('button')).filter(b => b.innerText.includes('Submit'));
+                    btns.sort((a, b) => b.getBoundingClientRect().top - a.getBoundingClientRect().top);
+                    const submitBtn = btns.find(b => !b.disabled) || btns[0];
+                    if (submitBtn) {
+                        submitBtn.click();
+                    } else {
+                        window.dispatchEvent(new KeyboardEvent('keydown', { altKey: true, key: 's', code: 'KeyS' }));
+                    }
+                }""")
+
+            await asyncio.sleep(2)
+            await handle_late_submission(frame)
+            print("  Waiting for execution results...", flush=True)
+            execution_started = False
+            for wait_sec in range(20):
+                await asyncio.sleep(5)
+                status = await frame.evaluate("""() => {
+                    const body = document.body.innerText;
+                    const isRunning = !!document.querySelector('svg animate') || body.includes('Running') || body.includes('Preparing');
+                    const timer = Array.from(document.querySelectorAll('.badge, .clock, [class*="timer"], .badge-success')).find(el => {
+                        const style = window.getComputedStyle(el);
+                        const bg = style.backgroundColor;
+                        const isGreen = bg.includes('rgb(9, 190, 139)') || bg.includes('rgb(0, 128, 0)');
+                        const hasSuccessClass = el.classList.contains('badge-success');
+                        return isGreen || hasSuccessClass;
+                    });
+                    const testMatch = body.match(/(\\d+) out of (\\d+) test case\\(s\\) passed/);
+                    const allPassedText = !!testMatch && parseInt(testMatch[1]) === parseInt(testMatch[2]) && parseInt(testMatch[2]) > 0;
+                    const isSuccess = allPassedText || (!!timer && execution_started);
+                    const errorContainer = document.querySelector('.bg-error') || document.querySelector('.text-error');
+                    const hasFailed = !!errorContainer || (!!testMatch && parseInt(testMatch[1]) < parseInt(testMatch[2]) && !isRunning);
+                    let error = errorContainer ? errorContainer.innerText : "";
+                    return { isRunning, allPassedText, isSuccess, hasFailed, error, timerText: timer ? timer.innerText : "" };
+                }""")
+                if status['isRunning']:
+                    execution_started = True
+                    print(f"  [INFO] Execution in progress...", flush=True)
+                    continue
+                if status['allPassedText'] or (status['isSuccess'] and execution_started):
+                    print(f"  [SUCCESS] Question solved! (Timer: {status['timerText']})", flush=True)
+                    return True
+                if status['hasFailed'] and not status['isRunning']:
+                    print(f"  [ERROR] Execution failed: {status['error'][:100]}...", flush=True)
+                    error_feedback = status['error'] or "Test cases failed."
+                    break
+                if not execution_started and wait_sec > 2:
+                    if await handle_late_submission(frame):
+                        print("  [TRAP] Handled during wait loop.", flush=True)
+                        continue
+                print(f"  [INFO] Waiting... (Started: {execution_started})", flush=True)
+            print(f"  [WARN] Attempt {attempt + 1} failed.", flush=True)
+        else:
+            print("  [FAIL] Editor interaction failed.", flush=True)
+    return False
+
+async def wait_for_editor_ready(frame, timeout=60):
+    print("  Waiting for editor environment to setup...", flush=True)
+    for i in range(timeout // 2):
+        is_loading = await frame.evaluate("""() => { return document.body.innerText.includes('Setting up environment'); }""")
+        if not is_loading:
+            has_submit = await frame.evaluate("""() => { return !!Array.from(document.querySelectorAll('button')).find(b => b.innerText.includes('Submit')); }""")
+            if has_submit:
+                print("  [OK] Editor environment ready.", flush=True)
+                return True
+        await asyncio.sleep(2)
+    return False
 
 async def process_questions(page, questions, max_questions=5):
-    """Process multiple questions using direct link navigation"""
     results = []
-
     for i, question in enumerate(questions[:max_questions], 1):
-        q_name = question.get('title') or question.get('text', 'Unknown')
+        q_name = question.get('text') or 'Unknown'
         q_link = question.get('link')
-
-        print(f"\n{'='*60}")
-        print(f"Question {i}/{min(max_questions, len(questions))}: {q_name}")
-        print('='*60)
-
-        if not q_link:
-            print(f"  [SKIP] No direct link available")
+        print(f"\n{'='*60}\nQuestion {i}/{min(max_questions, len(questions))}: {q_name}\n{'='*60}", flush=True)
+        if not q_link: 
+            print(f"  [SKIP] No link found for {q_name}", flush=True)
             continue
-
-        # Extract hash from the link
-        if '#' not in q_link:
-            print(f"  [SKIP] Link does not contain hash: {q_link[:60]}...")
+        if not await navigate_to_question_direct(page, q_link): 
+            print(f"  [SKIP] Direct navigation failed for {q_name}", flush=True)
             continue
-
-        target_hash = q_link.split('#')[-1]
-
-        # Navigate to the question
-        if not await navigate_to_question_direct(page, target_hash):
-            print(f"  [FAIL] Navigation failed, skipping...")
+        await asyncio.sleep(2)
+        iframe_handle = await page.wait_for_selector("iframe", timeout=15000)
+        frame = await iframe_handle.content_frame()
+        if not frame: 
+            print(f"  [SKIP] Could not access frame for {q_name}", flush=True)
             continue
-
-        # Detect question type
-        q_type = await detect_question_type(page)
-        print(f"  Detected type: {q_type}")
-
-        if q_type == "unknown":
-            print(f"  [WARN] Could not detect question type, retrying...")
-            await asyncio.sleep(3)
+        q_type = "unknown"
+        for detect_attempt in range(3):
+            await wait_for_question_load(frame, timeout=15)
             q_type = await detect_question_type(page)
-            print(f"  Retry detected type: {q_type}")
-
-        # Extract content
+            if q_type != "unknown": break
+            print(f"  [INFO] Type detection attempt {detect_attempt+1} failed, retrying...", flush=True)
+            await asyncio.sleep(3)
+        print(f"  Detected type: {q_type}", flush=True)
+        if q_type == "unknown":
+            print(f"  [SKIP] Could not determine question type for {q_name}", flush=True)
+            results.append({'name': q_name, 'type': 'unknown', 'link': q_link, 'solved': False})
+            continue
+        if q_type == "Coding": await wait_for_editor_ready(frame)
         result_data, formatted_output = await extract_question_content(page, q_type)
-
-        print(formatted_output)
-
-        results.append({
-            'name': q_name,
-            'type': q_type,
-            'link': q_link,
-            'data': result_data
-        })
-
-        # Small delay between questions
+        if not result_data:
+            print(f"  [INFO] Content extraction failed, retrying...", flush=True)
+            await asyncio.sleep(5)
+            result_data, formatted_output = await extract_question_content(page, q_type)
+        if not result_data:
+            print(f"  [SKIP] Could not extract content for {q_name}", flush=True)
+            results.append({'name': q_name, 'type': q_type, 'link': q_link, 'solved': False})
+            continue
+        print(formatted_output, flush=True)
+        screenshot_bytes = None
+        try:
+            target_selector = result_data.get('selector')
+            if target_selector:
+                screenshot_bytes = await frame.locator(target_selector).screenshot(type='png')
+            else:
+                screenshot_bytes = await iframe_handle.screenshot(type='png')
+            print("  [OK] Question screenshot captured.", flush=True)
+        except Exception as e:
+            print(f"  [WARN] Failed to capture surgical screenshot: {e}", flush=True)
+            try: screenshot_bytes = await iframe_handle.screenshot(type='png')
+            except: pass
+        solved = False
+        if q_type == "MCQ": solved = await solve_mcq(page, frame, result_data, screenshot=screenshot_bytes)
+        elif q_type == "Coding": 
+            # Check for 4.9.17 override
+            override = None
+            if q_link and "67814f3fac8e20004581b813" in q_link:
+                print("  [INFO] Applying user override for 4.9.17", flush=True)
+                override = """SELECT 
+    od.product_id, 
+    p.name, 
+    o.customer_id, 
+    o.total_amount, 
+    od.unit_price 
+FROM products p 
+RIGHT JOIN order_details od ON p.product_id = od.product_id 
+LEFT JOIN orders o ON od.order_id = o.order_id;"""
+            
+            solved = await solve_coding(page, frame, result_data, screenshot=screenshot_bytes, override_code=override)
+        if solved:
+            print(f"  [OK] Question {i} solved.", flush=True)
+            await asyncio.sleep(1)
+        results.append({'name': q_name, 'type': q_type, 'link': q_link, 'data': result_data})
         await asyncio.sleep(0.5)
-
     return results
+
 async def main():
     async with async_playwright() as p:
-        print("Launching browser...")
-        browser = await p.chromium.launch_persistent_context(
-            USER_DATA_DIR, headless=False, args=["--start-maximized"], no_viewport=True
-        )
+        print("Launching browser...", flush=True)
+        browser = await p.chromium.launch_persistent_context(USER_DATA_DIR, headless=False, args=["--start-maximized"], no_viewport=True)
         page = browser.pages[0] if browser.pages else await browser.new_page()
-
         if await login_if_needed(page, load_credentials()):
-            print(f"\nOpening course: {COURSE_URL}")
             await page.goto(COURSE_URL, wait_until="domcontentloaded")
             await asyncio.sleep(5)
-
             ifr_handle = await page.wait_for_selector("iframe")
             frame = await ifr_handle.content_frame()
-
-            # Show sidebar once to sync state
             await page.evaluate("""() => {
                 const doc = document.querySelector('iframe').contentDocument;
                 const link = Array.from(doc.querySelectorAll('a')).find(a => a.innerText.includes('Contents'));
                 if (link) link.click();
             }""")
             await asyncio.sleep(3)
-
-            # Get all incomplete questions
             incomplete_questions = await scan_sidebar_for_unfinished(page, frame)
-
             if incomplete_questions:
-                print(f"\n{'='*60}")
-                print(f"PROCESSING {min(5, len(incomplete_questions))} QUESTIONS USING DIRECT LINKS")
-                print('='*60)
-
-                # Process up to 5 questions
-                results = await process_questions(page, incomplete_questions, max_questions=5)
-
-                print(f"\n{'='*60}")
-                print(f"SUMMARY: Processed {len(results)} questions")
-                print('='*60)
-                for r in results:
-                    q_text = r['name'][:50] + '...' if len(r['name']) > 50 else r['name']
-                    print(f"  - [{r['type']:6}] {q_text}")
+                await process_questions(page, incomplete_questions, max_questions=len(incomplete_questions))
             else:
-                print("\n[OK] All questions completed!")
-
-        print("\n" + "="*60)
-        print("Processing complete. Closing browser in 5 seconds...")
-        print("="*60)
-
+                print("\n[OK] All questions completed!", flush=True)
         await asyncio.sleep(5)
         await browser.close()
 

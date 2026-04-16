@@ -1,2222 +1,2134 @@
 {
-  "Introduction to Data": {
+  "1.1.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb0298/67664aa6eae7e444a096383e",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Introduction to Data"
   },
-  "Introduction to File Systems": {
+  "1.1.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb0298/67664e74eae7e444a09641eb",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Introduction to File Systems"
   },
-  "What is a Database - Key Features": {
+  "1.1.3": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb0298/67666c7ceae7e444a0968fdc",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "What is a Database - Key Features"
   },
-  "Introduction to Data Abstraction": {
+  "1.1.4": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb0298/67668399eae7e444a096ce82",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Introduction to Data Abstraction"
   },
-  "A Simple Example to Understand Levels of Abstraction": {
+  "1.1.5": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb0298/659022f5da924947f048f660",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "A Simple Example to Understand Levels of Abstraction"
   },
-  "What is a Database Management System?": {
+  "1.1.6": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb0298/67669308eae7e444a096f482",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "What is a Database Management System?"
   },
-  "Select the correct answer": {
-    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b5/60ed4802490d46066822abd4",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+  "1.1.7": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb0298/6767ff4dbccdb27c514355be",
+    "name": "Select the correct answer"
   },
-  "Video Streaming Platforms": {
+  "1.1.8": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb0298/6767ffb7bccdb27c514356da",
+    "name": "Select the correct answer"
+  },
+  "1.1.9": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb0298/6767fe5cbccdb27c51435440",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Video Streaming Platforms"
   },
-  "Key Components of DBMS": {
+  "1.1.10": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb0298/6767fee3bccdb27c5143551b",
+    "name": "Select the correct answer"
+  },
+  "1.2.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb0299/67667edb11119e419fb9909d",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Key Components of DBMS"
   },
-  "Key Components of DBMS - 2": {
+  "1.2.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb0299/676682e611119e419fb99a36",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Key Components of DBMS - 2"
   },
-  "Classification of Users in a Database Environment": {
+  "1.2.3": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb0299/6766946e11119e419fb9cc07",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Classification of Users in a Database Environment"
   },
-  "Applications of DBMS": {
+  "1.2.4": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb0299/67680030bccdb27c5143578b",
+    "name": "Select the correct answer"
+  },
+  "1.3.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb029a/6766a0f0eae7e444a09713bf",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Applications of DBMS"
   },
-  "Applications of DBMS - Contd": {
+  "1.3.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb029a/6766a3d6eae7e444a0971950",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Applications of DBMS - Contd"
   },
-  "DBMS Architecture": {
+  "1.3.3": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb029a/676803f3bccdb27c51435cdd",
+    "name": "Select the correct answer"
+  },
+  "1.4.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb029b/6766a90311119e419fb9fa18",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "DBMS Architecture"
   },
-  "2-Tier and 3-Tier Architecture": {
+  "1.4.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb029b/6766acc911119e419fba001c",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "2-Tier and 3-Tier Architecture"
   },
-  "Three-Schema Architecture": {
+  "1.4.3": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb029b/6766c4dc11119e419fba2bb6",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Three-Schema Architecture"
   },
-  "Data Independence": {
+  "1.4.4": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb029b/67680495bccdb27c51435d99",
+    "name": "Select the correct answer"
+  },
+  "1.5.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb029c/6766babbeae7e444a097450d",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Data Independence"
   },
-  "Relational Database Schema Vs Relational Database Instance": {
+  "1.5.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb029c/6766c0e6eae7e444a0974e7d",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Relational Database Schema Vs Relational Database Instance"
   },
-  "Database Schema": {
+  "1.5.3": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb029c/6768064bbccdb27c51436055",
+    "name": "Select the correct answer"
+  },
+  "1.6.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb029d/6767e652df808e445629468f",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Database Schema"
   },
-  "What is a Database Instance?": {
+  "1.6.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb029d/6767f1d0df808e445629578f",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "What is a Database Instance?"
   },
-  "Introduction to Database Design": {
+  "1.6.3": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb029d/67681ea4df808e445629a2b3",
+    "name": "Select the correct answer"
+  },
+  "1.7.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb029e/6766e771b9b6cd2e748bd32b",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Introduction to Database Design"
   },
-  "Database Design: Key Terms": {
+  "1.7.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb029e/6766ed4b11119e419fba65b7",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Database Design: Key Terms"
   },
-  "Primary & Foreign Keys": {
+  "1.7.3": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb029e/6766f6ddf576683ab098d88a",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Primary & Foreign Keys"
   },
-  "Key Terms - Contd": {
+  "1.7.4": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb029e/6766fa15f576683ab098dde4",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Key Terms - Contd"
   },
-  "Database Design Steps": {
+  "1.7.5": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb029e/6766fbe7f576683ab098e745",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Database Design Steps"
   },
-  "Database Design - Contd": {
+  "1.7.6": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb029e/6766fd42f576683ab098e9b8",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Database Design - Contd"
   },
-  "Types of Database Model": {
+  "1.7.7": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb029e/676809b0bccdb27c51436742",
+    "name": "Select the correct answer"
+  },
+  "1.7.8": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb029e/67680a64bccdb27c5143682f",
+    "name": "Select the correct answer"
+  },
+  "1.8.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb029f/67678c5f11119e419fbad505",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Types of Database Model"
   },
-  "Types of Database Model- Contd": {
+  "1.8.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb029f/67678d0e11119e419fbad591",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Types of Database Model- Contd"
   },
-  "Introduction to the ER Model": {
+  "1.8.3": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb029f/67680b40bccdb27c51436951",
+    "name": "Select the correct answer"
+  },
+  "1.9.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb02a0/6767b60411119e419fbb1ee3",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Introduction to the ER Model"
   },
-  "Types of Attributes and Keys in the ER Model (Part 1)": {
+  "1.9.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb02a0/6767bdac11119e419fbb2b0a",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Types of Attributes and Keys in the ER Model (Part 1)"
   },
-  "Types of Keys and Relationships in the ER Model (Part 2)": {
+  "1.9.3": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb02a0/6767c24711119e419fbb3384",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Types of Keys and Relationships in the ER Model (Part 2)"
   },
-  "Components of ER Diagram: Entities": {
+  "1.9.4": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb02a0/6767d59e11119e419fbb60a1",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Components of ER Diagram: Entities"
   },
-  "Components of ER Diagram: Attributes": {
+  "1.9.5": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb02a0/6767d7a211119e419fbb640c",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Components of ER Diagram: Attributes"
   },
-  "Components of ER Diagram: Relationship Type and Relationship Set": {
+  "1.9.6": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb02a0/6767dc3d11119e419fbb6eb8",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Components of ER Diagram: Relationship Type and Relationship Set"
   },
-  "Cardinality & Participation Constraint": {
+  "1.9.7": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb02a0/6767deaa11119e419fbb7404",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Cardinality & Participation Constraint"
   },
-  "Generalization, Specialization and Aggregation": {
+  "1.9.8": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb02a0/67696184bccdb27c5144f875",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Generalization, Specialization and Aggregation"
   },
-  "Entity-Relationship (ER) Model for the Banking Management System": {
+  "1.9.9": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb02a0/678f7c9cd7a9c467917a2c0e",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Entity-Relationship (ER) Model for the Banking Management System"
   },
-  "Online Shopping System": {
+  "1.9.10": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb02a0/678fa7dcd7a9c467917a6cc4",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Online Shopping System"
   },
-  "The Relational Model: A Game-Changer in Data Management": {
+  "1.10.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb02a1/6767fd6adf808e4456296c0e",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "The Relational Model: A Game-Changer in Data Management"
   },
-  "Relational Model Components": {
+  "1.10.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb02a1/676807f3df808e4456297e10",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Relational Model Components"
   },
-  "Advantages and Features of the Relational Model": {
+  "1.10.3": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb02a1/67680af6df808e4456298288",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Advantages and Features of the Relational Model"
   },
-  "Transforming an Entity-Relationship (ER) Model into a Relational Model": {
+  "1.10.4": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb02a1/6768114adf808e4456298d12",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Transforming an Entity-Relationship (ER) Model into a Relational Model"
   },
-  "Practice Editor": {
+  "1.10.5": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb0297/6937cd430cc4f7020deb02a1/67681838df808e4456299849",
+    "name": "Select the correct answer"
+  },
+  "2.1.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/6791e2e9dab394026853cc2e",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Practice Editor"
   },
-  "Introduction to Data Definition Language (DDL)": {
+  "2.1.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/61cc2d7bc7f7be9fac1113b1",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Introduction to Data Definition Language (DDL)"
   },
-  "SQL data types": {
+  "2.1.3": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/61cc2d7bc7f7be9fac1113b7",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "SQL data types"
   },
-  "CREATE DATABASE Command": {
+  "2.1.4": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/6580fedf24d55f0baeb77c45",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "CREATE DATABASE Command"
   },
-  "ALTER DATABASE Command": {
+  "2.1.5": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/658100d224d55f0baeb77d54",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "ALTER DATABASE Command"
   },
-  "SQL ExerciseAdapting to Organizational Changes in Database Naming": {
+  "2.1.6": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/676d3c6a77167532ea95e710",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "SQL ExerciseAdapting to Organizational Changes in Database Naming"
   },
-  "DROP DATABASE Command": {
+  "2.1.7": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/658103da24d55f0baeb77ee8",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "DROP DATABASE Command"
   },
-  "SQL Exercise": {
-    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d6/65882f69211d7e432777c5c2",
-    "status": "in_progress",
-    "last_updated": "2026-04-17 03:07:54"
+  "2.1.8": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/676d35f077167532ea95dcee",
+    "name": "SQL Exercise"
   },
-  "CREATE TABLE Command": {
+  "2.1.9": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/67931b36e2003a6dbb579285",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "CREATE TABLE Command"
   },
-  "Preparing a Table for Customer Records in a Legacy System": {
+  "2.1.10": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/676d401b77167532ea95ecfa",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Preparing a Table for Customer Records in a Legacy System"
   },
-  "Primary Key": {
+  "2.1.11": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/65810e20032e8c48fd2dcacd",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Primary Key"
   },
-  "Composite Key": {
+  "2.1.12": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/676d45ec77167532ea95f824",
+    "name": "SQL Exercise"
+  },
+  "2.1.13": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/658111c1032e8c48fd2dcec4",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Composite Key"
   },
-  "NOT NULL Constraint": {
+  "2.1.14": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/6580fbfc24d55f0baeb77a8e",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "NOT NULL Constraint"
   },
-  "Not Null Constraint Check": {
+  "2.1.15": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/676d4a3777167532ea95fd13",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Not Null Constraint Check"
   },
-  "SERIAL Column": {
+  "2.1.16": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/6581171c032e8c48fd2dd683",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "SERIAL Column"
   },
-  "UNIQUE column": {
+  "2.1.17": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/676d4d6b77167532ea960115",
+    "name": "SQL Exercise"
+  },
+  "2.1.18": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/65811a4c032e8c48fd2ddf0d",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "UNIQUE column"
   },
-  "GENERATED ALWAYS AS IDENTITY Column": {
+  "2.1.19": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/676d554077167532ea9609ee",
+    "name": "SQL Exercise"
+  },
+  "2.1.20": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/65811cbc032e8c48fd2de358",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "GENERATED ALWAYS AS IDENTITY Column"
   },
-  "GENERATED BY DEFAULT AS IDENTITY Column": {
+  "2.1.21": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/676d56ba77167532ea960bc1",
+    "name": "SQL Exercise"
+  },
+  "2.1.22": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/65811def032e8c48fd2de641",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "GENERATED BY DEFAULT AS IDENTITY Column"
   },
-  "DEFAULT Values": {
+  "2.1.23": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/676d58b377167532ea960de2",
+    "name": "SQL Exercise"
+  },
+  "2.1.24": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/65814a09032e8c48fd2e5288",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "DEFAULT Values"
   },
-  "Introduction to Data Manipulation Language (DML)": {
+  "2.1.25": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/676d59a277167532ea960ee3",
+    "name": "SQL Exercise"
+  },
+  "2.1.26": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/67726fc4780a296e6d93a79d",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Introduction to Data Manipulation Language (DML)"
   },
-  "SELECT Command - Select all rows and columns": {
+  "2.1.27": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/6581570a032e8c48fd2e6e9d",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "SELECT Command - Select all rows and columns"
   },
-  "SELECT Command - Retrieve Specific Columns": {
+  "2.1.28": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/676d5c2577167532ea9611b7",
+    "name": "SQL Exercise"
+  },
+  "2.1.29": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/65815809032e8c48fd2e71b4",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "SELECT Command - Retrieve Specific Columns"
   },
-  "AS for Column Aliasing": {
+  "2.1.30": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/676e40a90718c200e7790f2a",
+    "name": "SQL Exercise"
+  },
+  "2.1.31": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/6581594d032e8c48fd2e760c",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "AS for Column Aliasing"
   },
-  "SELECT - WHERE - Retrieve Specific Rows": {
+  "2.1.32": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/676e4adf0718c200e77975a1",
+    "name": "SQL Exercise"
+  },
+  "2.1.33": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/65815be4032e8c48fd2e80d0",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "SELECT - WHERE - Retrieve Specific Rows"
   },
-  "WHERE with AND": {
+  "2.1.34": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/676e4fd50718c200e779a264",
+    "name": "SQL Exercise"
+  },
+  "2.1.35": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/65815d98032e8c48fd2e8940",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "WHERE with AND"
   },
-  "WHERE with OR": {
+  "2.1.36": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/676e526b0718c200e779b257",
+    "name": "SQL Exercise"
+  },
+  "2.1.37": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/65815f82032e8c48fd2e923e",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "WHERE with OR"
   },
-  "And + OR Clause Together": {
+  "2.1.38": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/676e55f20718c200e779c1ec",
+    "name": "SQL Exercise"
+  },
+  "2.1.39": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/65816073032e8c48fd2e94a9",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "And + OR Clause Together"
   },
-  "NOT Operator": {
+  "2.1.40": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/676e59e10718c200e779d0bd",
+    "name": "SQL Exercise"
+  },
+  "2.1.41": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/6581618faeac360b47534ab3",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "NOT Operator"
   },
-  "LIKE Clause": {
+  "2.1.42": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/676e75910718c200e77a2f1d",
+    "name": "SQL Exercise"
+  },
+  "2.1.43": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/6581657aaeac360b4753544a",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "LIKE Clause"
   },
-  "IN Clause": {
+  "2.1.44": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/676e79320718c200e77a3ab4",
+    "name": "SQL Exercise"
+  },
+  "2.1.45": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/676e85530718c200e77a665c",
+    "name": "SQL Exercise"
+  },
+  "2.1.46": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/658163cfaeac360b475351af",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "IN Clause"
   },
-  "NOT IN Clause": {
+  "2.1.47": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/676e98de0718c200e77aa025",
+    "name": "SQL Exercise"
+  },
+  "2.1.48": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/65816786aeac360b47535768",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "NOT IN Clause"
   },
-  "BETWEEN Clause": {
+  "2.1.49": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/676ea2760718c200e77abc54",
+    "name": "SQL Exercise"
+  },
+  "2.1.50": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/658168c5aeac360b47535915",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "BETWEEN Clause"
   },
-  "ORDER BY Clause": {
+  "2.1.51": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/676ea56f0718c200e77ac527",
+    "name": "SQL Exercise"
+  },
+  "2.1.52": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/65817f59aeac360b47538365",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "ORDER BY Clause"
   },
-  "ORDER BY - DESC Clause": {
+  "2.1.53": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/676eaa3b0718c200e77ad38c",
+    "name": "SQL Exercise"
+  },
+  "2.1.54": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/6581817baeac360b47539324",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "ORDER BY - DESC Clause"
   },
-  "LIMIT Clause": {
+  "2.1.55": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/676eaff40718c200e77ae406",
+    "name": "SQL Exercise"
+  },
+  "2.1.56": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/65818769aeac360b47539b3a",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "LIMIT Clause"
   },
-  "EXISTS clause": {
+  "2.1.57": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/676f8b6194710624ddd2d5a3",
+    "name": "SQL Exercise"
+  },
+  "2.1.58": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/65817860aeac360b475378f8",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "EXISTS clause"
   },
-  "Understanding ALTER Command": {
+  "2.1.59": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/61cc2d7bc7f7be9fac1113b3",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Understanding ALTER Command"
   },
-  "ALTER TABLE Command - Renaming Table": {
+  "2.1.60": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/65811f10032e8c48fd2de869",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "ALTER TABLE Command - Renaming Table"
   },
-  "ALTER TABLE command - Add a column to a table": {
+  "2.1.61": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/676fc56f94710624ddd37dea",
+    "name": "SQL Exercise"
+  },
+  "2.1.62": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/65811ffc032e8c48fd2deb27",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "ALTER TABLE command - Add a column to a table"
   },
-  "ALTER TABLE Command - Delete a column from table": {
+  "2.1.63": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/676fc9fc94710624ddd387b4",
+    "name": "SQL Exercise"
+  },
+  "2.1.64": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/658120f8032e8c48fd2ded30",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "ALTER TABLE Command - Delete a column from table"
   },
-  "ALTER TABLE Command - Change the data type of a column": {
+  "2.1.65": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/676fceb794710624ddd39181",
+    "name": "SQL Exercise"
+  },
+  "2.1.66": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/658121b3032e8c48fd2deea2",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "ALTER TABLE Command - Change the data type of a column"
   },
-  "ALTER TABLE Command - Renaming a Columns": {
+  "2.1.67": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/676fd4b494710624ddd39c8c",
+    "name": "SQL Exercise"
+  },
+  "2.1.68": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/65812308032e8c48fd2df178",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "ALTER TABLE Command - Renaming a Columns"
   },
-  "DROP TABLE command": {
+  "2.1.69": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/676fe14c94710624ddd3be1c",
+    "name": "SQL Exercise"
+  },
+  "2.1.70": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/6581255d032e8c48fd2df5a6",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "DROP TABLE command"
   },
-  "TRUNCATE TABLE Command": {
+  "2.1.71": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/676fe2e294710624ddd3c1fb",
+    "name": "SQL Exercise"
+  },
+  "2.1.72": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/65812674032e8c48fd2df81b",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "TRUNCATE TABLE Command"
   },
-  "TRUNCATE ... RESTART IDENTITY Command": {
+  "2.1.73": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/676fe58594710624ddd3c609",
+    "name": "SQL Exercise"
+  },
+  "2.1.74": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/65812872032e8c48fd2dfd31",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "TRUNCATE ... RESTART IDENTITY Command"
   },
-  "Including comments in PostgreSQL": {
+  "2.1.75": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/676fe95394710624ddd3cc32",
+    "name": "SQL Exercise"
+  },
+  "2.1.76": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/6594a76436649d42a4e19470",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Including comments in PostgreSQL"
   },
-  "DDL - Flight Reservation System": {
+  "2.1.77": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a4/676feebe94710624ddd3d613",
+    "name": "SQL Exercise"
+  },
+  "2.2.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a8/677131614bf15e6446b0f05c",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "DDL - Flight Reservation System"
   },
-  "DDL - ALTER - Library System Management": {
+  "2.2.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a8/677132d04bf15e6446b0f2dc",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "DDL - ALTER - Library System Management"
   },
-  "DDL - Police Department Information Management System": {
+  "2.2.3": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a8/677140224bf15e6446b110c4",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "DDL - Police Department Information Management System"
   },
-  "DDL - Weather Monitoring System": {
+  "2.2.4": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a8/6771435c4bf15e6446b1173e",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "DDL - Weather Monitoring System"
   },
-  "DDL - Employee Management System": {
+  "2.2.5": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a8/677123a34bf15e6446b0d8d3",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "DDL - Employee Management System"
   },
-  "DDL - Adding New Column": {
+  "2.2.6": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a8/677123ad4bf15e6446b0d8df",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "DDL - Adding New Column"
   },
-  "Modifying Table Structures and Data: Alterations in SQL - 2": {
+  "2.2.7": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a8/677125334bf15e6446b0dbb4",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Modifying Table Structures and Data: Alterations in SQL - 2"
   },
-  "DDL - DROP - 1": {
+  "2.2.8": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a8/677123ba4bf15e6446b0d916",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "DDL - DROP - 1"
   },
-  "DDL - TRUNCATE - 1": {
+  "2.2.9": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a8/677123d04bf15e6446b0d930",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "DDL - TRUNCATE - 1"
   },
-  "DDL - 1": {
+  "2.2.10": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a8/67711fa74bf15e6446b0d293",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "DDL - 1"
   },
-  "Quick Summary on SELECT Statement with WHERE Clause": {
+  "2.3.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a5/6772764f780a296e6d93b21c",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Quick Summary on SELECT Statement with WHERE Clause"
   },
-  "Quick Summary on WHERE Clause using IN, NULL, and NOT NULL": {
+  "2.3.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a5/67727a7b780a296e6d93b86c",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Quick Summary on WHERE Clause using IN, NULL, and NOT NULL"
   },
-  "SELECT Statement Overview": {
+  "2.3.3": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a5/61cc2d7bc7f7be9fac1113ae",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "SELECT Statement Overview"
   },
-  "Understanding the SQL INSERT Statement": {
+  "2.3.4": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a5/6772888f780a296e6d93cc27",
+    "name": "Understanding the SQL INSERT Statement"
+  },
+  "2.3.5": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a5/677290e5780a296e6d93d623",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Understanding the SQL INSERT Statement"
   },
-  "INSERT INTO Command - Insert Multiple Rows": {
+  "2.3.6": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a5/677399e0f4ab787eca9c8857",
+    "name": "SQL Exercise"
+  },
+  "2.3.7": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a5/65814461032e8c48fd2e423e",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "INSERT INTO Command - Insert Multiple Rows"
   },
-  "INSERT INTO Command - Insert default values": {
+  "2.3.8": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a5/67739d09f4ab787eca9c8c39",
+    "name": "SQL Exercise"
+  },
+  "2.3.9": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a5/65814609032e8c48fd2e4646",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "INSERT INTO Command - Insert default values"
   },
-  "Usage of UPDATE Command": {
+  "2.3.10": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a5/6773b2a0f4ab787eca9cb2ea",
+    "name": "SQL Exercise"
+  },
+  "2.3.11": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a5/61cc2d7bc7f7be9fac1113c0",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Usage of UPDATE Command"
   },
-  "UPDATE - SET Command using WHERE Clause": {
+  "2.3.12": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a5/658153d4032e8c48fd2e6689",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "UPDATE - SET Command using WHERE Clause"
   },
-  "UPDATE SET Command - Update All rows": {
+  "2.3.13": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a5/6773be23f4ab787eca9cc444",
+    "name": "SQL Exercise"
+  },
+  "2.3.14": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a5/6773c18bf4ab787eca9cc9c5",
+    "name": "SQL Exercise"
+  },
+  "2.3.15": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a5/6773c4e9f4ab787eca9cd0b3",
+    "name": "SQL Exercise"
+  },
+  "2.3.16": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a5/6773c962f4ab787eca9cd9ac",
+    "name": "SQL Exercise"
+  },
+  "2.3.17": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a5/65814cd9032e8c48fd2e595e",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "UPDATE SET Command - Update All rows"
   },
-  "UPSERT": {
+  "2.3.18": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a5/6773ccc9f4ab787eca9cdf1c",
+    "name": "SQL Exercise"
+  },
+  "2.3.19": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a5/658148fc032e8c48fd2e4f91",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "UPSERT"
   },
-  "Introduction to Basic Structure of SQL Query": {
+  "2.3.20": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a5/6773b511f4ab787eca9cb6cd",
+    "name": "SQL Exercise"
+  },
+  "2.3.21": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a5/61cc2d7bc7f7be9fac1113ad",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Introduction to Basic Structure of SQL Query"
   },
-  "Using the LIKE Operator with WHERE Clause": {
+  "2.3.22": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a5/61cc2d7bc7f7be9fac1113af",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Using the LIKE Operator with WHERE Clause"
   },
-  "Some Common SQL Functions": {
+  "2.3.23": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a5/67a1ef729bee473830f12e63",
+    "name": "Some Common SQL Functions"
+  },
+  "2.3.24": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a5/67a1f14a9bee473830f1313b",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Some Common SQL Functions"
   },
-  "Introduction to GROUP BY and HAVING Clauses": {
+  "2.3.25": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a5/67a1f61e9bee473830f1379e",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Introduction to GROUP BY and HAVING Clauses"
   },
-  "Using Compound Conditions in SQL: Queries with AND, OR, IN, BETWEEN, LIKE, and NOT LIKE - 2": {
+  "2.4.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a9/6771568d4bf15e6446b13a58",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Using Compound Conditions in SQL: Queries with AND, OR, IN, BETWEEN, LIKE, and NOT LIKE - 2"
   },
-  "Deletions in SQL - 1": {
+  "2.4.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a9/677156d84bf15e6446b13abb",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Deletions in SQL - 1"
   },
-  "SQL Commands for Updating Product Prices and Names - 1": {
+  "2.4.3": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a9/677156fc4bf15e6446b13ad7",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "SQL Commands for Updating Product Prices and Names - 1"
   },
-  "SQL Update Commands - 1": {
+  "2.4.4": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a9/677157284bf15e6446b13b16",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "SQL Update Commands - 1"
   },
-  "SQL Queries for Filtering and Sorting Data - 1": {
+  "2.4.5": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a9/677157644bf15e6446b13b67",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "SQL Queries for Filtering and Sorting Data - 1"
   },
-  "SQL Function Examples - 1": {
+  "2.4.6": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a9/6771578a4bf15e6446b13b86",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "SQL Function Examples - 1"
   },
-  "Create and Manipulate the Table - 1": {
+  "2.4.7": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a9/677157b54bf15e6446b13bcd",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Create and Manipulate the Table - 1"
   },
-  "Employee and Department Analysis: Sorting, Counting, and Averaging - 1": {
+  "2.4.8": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a9/6771580c4bf15e6446b13c4d",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Employee and Department Analysis: Sorting, Counting, and Averaging - 1"
   },
-  "Deletion - 1": {
+  "2.4.9": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a9/677157374bf15e6446b13b1e",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Deletion - 1"
   },
-  "Introduction to Data Control Language (DCL) in PostgreSQL": {
+  "2.5.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a6/658ac17d0f6a2c3410535dc1",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Introduction to Data Control Language (DCL) in PostgreSQL"
   },
-  "GRANT Command in PostgreSQL": {
+  "2.5.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a6/658ac3a90f6a2c3410535f70",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "GRANT Command in PostgreSQL"
   },
-  "REVOKE Command in PostgreSQL": {
+  "2.5.3": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a6/658ac5080f6a2c3410536053",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "REVOKE Command in PostgreSQL"
   },
-  "Grant SELECT on products Table": {
+  "2.5.4": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a6/6773d2e4f4ab787eca9cec50",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Grant SELECT on products Table"
   },
-  "Revoke User Permissions on Inventory Table": {
+  "2.5.5": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a6/6773d529f4ab787eca9cf051",
+    "name": "SQL Exercise"
+  },
+  "2.5.6": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a6/6773d79ff4ab787eca9cf520",
+    "name": "SQL Exercise"
+  },
+  "2.5.7": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a6/6773d913f4ab787eca9cf6bf",
+    "name": "SQL Exercise"
+  },
+  "2.5.8": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a6/6773dcecf4ab787eca9cfb5a",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Revoke User Permissions on Inventory Table"
   },
-  "DCL - GRANT - 2": {
+  "2.5.9": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a6/6773df6cf4ab787eca9cff20",
+    "name": "SQL Exercise"
+  },
+  "2.6.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02aa/67716c2b4bf15e6446b1567c",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "DCL - GRANT - 2"
   },
-  "DCL - REVOKE - 2": {
+  "2.6.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02aa/67716e114bf15e6446b1587c",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "DCL - REVOKE - 2"
   },
-  "Transaction Control Language (TCL)": {
+  "2.7.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02a3/6937cd430cc4f7020deb02a7/6759657b2b48d641c9adf85c",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Transaction Control Language (TCL)"
   },
-  "What are Keys and what is a Super Key?": {
+  "3.1.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02ae/61cc2d7ac7f7be9fac111333",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "What are Keys and what is a Super Key?"
   },
-  "Understanding the Primary Key: The Heart of Uniqueness in Databases!": {
+  "3.1.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02ae/61cc2d7ac7f7be9fac111335",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Understanding the Primary Key: The Heart of Uniqueness in Databases!"
   },
-  "Airport Flight Management System": {
+  "3.1.3": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02ae/67a7363decf05277327ab876",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Airport Flight Management System"
   },
-  "Candidate Key: The Essence of Uniqueness and Minimality": {
+  "3.1.4": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02ae/61cc2d7ac7f7be9fac111334",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Candidate Key: The Essence of Uniqueness and Minimality"
   },
-  "Foreign Key": {
+  "3.1.5": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02ae/61cc2d7bc7f7be9fac111364",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Foreign Key"
   },
-  "Referential actions applied on Foreign Key": {
+  "3.1.6": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02ae/61cc2d7bc7f7be9fac111365",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Referential actions applied on Foreign Key"
   },
-  "Hospital Management System": {
+  "3.1.7": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02ae/67a73b68ecf05277327abc26",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Hospital Management System"
   },
-  "Alternate Key": {
+  "3.1.8": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02ae/61cc2d7bc7f7be9fac111361",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Alternate Key"
   },
-  "What is Surrogate Key ?": {
+  "3.1.9": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02ae/61cc2d7bc7f7be9fac111404",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "What is Surrogate Key ?"
   },
-  "Example of Surrogate Key": {
+  "3.1.10": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02ae/61cc2d7bc7f7be9fac111405",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Example of Surrogate Key"
   },
-  "Secondary Key": {
+  "3.1.11": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02ae/61cc2d7bc7f7be9fac111362",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Secondary Key"
   },
-  "Foreign Key - 1": {
+  "3.2.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02af/67733f284c0c60429e5e0466",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Foreign Key - 1"
   },
-  "Primary Key - 2": {
+  "3.2.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02af/677378b3f1f9c5320ca60551",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Primary Key - 2"
   },
-  "Foreign Key - 2": {
+  "3.2.3": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02af/677378c3f1f9c5320ca60559",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Foreign Key - 2"
   },
-  "Primary Key - 3": {
+  "3.2.4": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02af/67738a0ef1f9c5320ca61b54",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Primary Key - 3"
   },
-  "What is Data Integrity?": {
+  "3.3.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02ad/61cc2d7bc7f7be9fac111343",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "What is Data Integrity?"
   },
-  "What are Constraints?": {
+  "3.3.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02ad/61cc2d7bc7f7be9fac11135c",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "What are Constraints?"
   },
-  "DEFAULT Constraint": {
+  "3.3.3": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02ad/61cc2d7bc7f7be9fac11136b",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "DEFAULT Constraint"
   },
-  "Primary Key Constraint": {
+  "3.3.4": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02ad/67a5df67888b601d648c47ab",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Primary Key Constraint"
   },
-  "SQL Exercise - Adding a Primary Key Constraint": {
+  "3.3.5": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02ad/67a7014fecf05277327a6acf",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "SQL Exercise - Adding a Primary Key Constraint"
   },
-  "Foreign Key Constraint": {
+  "3.3.6": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02ad/65827c191a4ef93f0e3aabea",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Foreign Key Constraint"
   },
-  "Example on Foreign Key Constraint": {
+  "3.3.7": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02ad/61cc47b7c1543c066344206c",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Example on Foreign Key Constraint"
   },
-  "Altering an Existing Table to Add a Foreign Key": {
+  "3.3.8": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02ad/67a74207ecf05277327ac244",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Altering an Existing Table to Add a Foreign Key"
   },
-  "Unique Key Constraint": {
+  "3.3.9": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02ad/61cc2d7bc7f7be9fac111367",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Unique Key Constraint"
   },
-  "Not Null Constraint": {
+  "3.3.10": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02ad/61cc2d7bc7f7be9fac111368",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Not Null Constraint"
   },
-  "CHECK Constraint": {
+  "3.3.11": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02ad/61cc2d7bc7f7be9fac11136a",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "CHECK Constraint"
   },
-  "Syntax and Example - CHECK Constraint": {
+  "3.3.12": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02ad/65827e2b1a4ef93f0e3ab590",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Syntax and Example - CHECK Constraint"
   },
-  "Index Constraint": {
+  "3.3.13": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02ad/61cc2d7bc7f7be9fac11136c",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Index Constraint"
   },
-  "Integrity Constraints - 4": {
+  "3.4.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02b1/6773ca30f1f9c5320ca690a8",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Integrity Constraints - 4"
   },
-  "Integrity Constraints - 2": {
+  "3.4.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02b1/67739e82f1f9c5320ca63b68",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Integrity Constraints - 2"
   },
-  "Integrity Constraints - 5": {
+  "3.4.3": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02b1/6774019df1f9c5320ca6df63",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Integrity Constraints - 5"
   },
-  "Integrity Constraints - 6": {
+  "3.4.4": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02b1/677403fbf1f9c5320ca6e1da",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Integrity Constraints - 6"
   },
-  "Integrity Constraints - 3": {
+  "3.4.5": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02b1/6773c785f1f9c5320ca68a6f",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Integrity Constraints - 3"
   },
-  "Understanding Relational operations": {
+  "3.5.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02b0/61cc2d7ac7f7be9fac111341",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Understanding Relational operations"
   },
-  "Arithmetic Operations on Column Values in PostgreSql": {
+  "3.5.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02b0/67aee52d75d8cd7346cd5296",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Arithmetic Operations on Column Values in PostgreSql"
   },
-  "Simple Queries - Arithmetic Operation - 1": {
+  "3.6.1": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02b2/677178714bf15e6446b1632b",
+    "name": "Simple Queries - Arithmetic Operation - 1"
+  },
+  "3.6.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02b2/6771589f4bf15e6446b13d19",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Simple Queries - Arithmetic Operation - 1"
   },
-  "Simple Queries - Distinct Values - 1": {
+  "3.6.3": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02b2/677158d54bf15e6446b13d4e",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Simple Queries - Distinct Values - 1"
   },
-  "DML - 1": {
+  "3.6.4": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02ac/6937cd430cc4f7020deb02b2/677120f74bf15e6446b0d49a",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "DML - 1"
   },
-  "Functional Dependency": {
+  "4.1.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/693817154c740e1a3fcaea73/678906389ff79b6ea9e40849",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Functional Dependency"
   },
-  "Types of Functional Dependency": {
+  "4.1.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/693817154c740e1a3fcaea73/678907379ff79b6ea9e40935",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Types of Functional Dependency"
   },
-  "Closure of an Attribute": {
+  "4.1.3": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/693817154c740e1a3fcaea73/678930c59ff79b6ea9e45d76",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Closure of an Attribute"
   },
-  "Closure of an Attribute - Example": {
+  "4.1.4": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/693817154c740e1a3fcaea73/6789361837c1ae5aa3ad0bb3",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Closure of an Attribute - Example"
   },
-  "What is Normalization?": {
+  "4.2.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/693817234c740e1a3fcaea91/61cc2d7bc7f7be9fac1113f5",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "What is Normalization?"
   },
-  "Purpose of Normalization": {
+  "4.2.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/693817234c740e1a3fcaea91/61cc2d7bc7f7be9fac1113f1",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Purpose of Normalization"
   },
-  " E. F. Codd's Objectives of Normalization": {
+  "4.2.3": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/693817234c740e1a3fcaea91/61cc2d7bc7f7be9fac1113f4",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": " E. F. Codd's Objectives of Normalization"
   },
-  "What is an Anamoly?": {
+  "4.2.4": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/693817234c740e1a3fcaea91/61cc2d7bc7f7be9fac1113ef",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "What is an Anamoly?"
   },
-  "Insert Anomaly": {
+  "4.2.5": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/693817234c740e1a3fcaea91/61cc2d7bc7f7be9fac1113f0",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Insert Anomaly"
   },
-  "Update Anomaly": {
+  "4.2.6": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/693817234c740e1a3fcaea91/61cc2d7bc7f7be9fac1113f2",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Update Anomaly"
   },
-  "Delete Anomaly": {
+  "4.2.7": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/693817234c740e1a3fcaea91/61cc2d7bc7f7be9fac1113f3",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Delete Anomaly"
   },
-  "First Normal Form": {
+  "4.3.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6938172b4c740e1a3fcaeaa8/61cc2d7bc7f7be9fac1113fa",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "First Normal Form"
   },
-  "Zero and First Normal Form - Problems": {
+  "4.3.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6938172b4c740e1a3fcaeaa8/61cc2d7bc7f7be9fac1113fb",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Zero and First Normal Form - Problems"
   },
-  "Key PostgreSQL Functions for Table Decomposition and Normalization": {
+  "4.3.3": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6938172b4c740e1a3fcaeaa8/67c6c779a0ab7a36234e8705",
+    "name": "Key PostgreSQL Functions for Table Decomposition and Normalization"
+  },
+  "4.3.4": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6938172b4c740e1a3fcaeaa8/67c6baeca0ab7a36234e6706",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Key PostgreSQL Functions for Table Decomposition and Normalization"
   },
-  "Second Normal Form": {
+  "4.4.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/693817344c740e1a3fcaeac0/61cc2d7bc7f7be9fac1113fe",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Second Normal Form"
   },
-  "SQL Exercise on 2NF": {
+  "4.4.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/693817344c740e1a3fcaeac0/67c01da9ac2d3b0d22925157",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "SQL Exercise on 2NF"
   },
-  "Third Normal Form": {
+  "4.5.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6938173f4c740e1a3fcaeb54/61cc2d7bc7f7be9fac111402",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Third Normal Form"
   },
-  "SQL Exercise on 3NF": {
+  "4.5.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6938173f4c740e1a3fcaeb54/67c5ddc59680530a8d4d0ff6",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "SQL Exercise on 3NF"
   },
-  "Boyce-Codd Normal Form (BCNF)": {
+  "4.6.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6938174b4c740e1a3fcaeb72/61cc2d7bc7f7be9fac111407",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Boyce-Codd Normal Form (BCNF)"
   },
-  "Introduction to Aggregate Functions": {
+  "4.7.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b5/63b51cc1c334f00742db16ce",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Introduction to Aggregate Functions"
   },
-  "The SQL COUNT() ": {
+  "4.7.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b5/63b51b0cc334f00742db13c1",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "The SQL COUNT() "
   },
-  "COUNT function": {
+  "4.7.3": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b5/65817a0aaeac360b47537bc8",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "COUNT function"
   },
-  "Count the Number of Different Species in the Zoo": {
+  "4.7.4": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b5/6780f2a72431907d725240d8",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Count the Number of Different Species in the Zoo"
   },
-  "SUM function": {
+  "4.7.5": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b5/65817b2eaeac360b47537d24",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "SUM function"
   },
-  "Calculate the Total Number of Animals in a Zoo": {
+  "4.7.6": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b5/6780ed322431907d725233dd",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Calculate the Total Number of Animals in a Zoo"
   },
-  "Calculate the Average Price of Electronics Products in a Store": {
+  "4.7.7": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b5/6780f6132431907d72524a64",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Calculate the Average Price of Electronics Products in a Store"
   },
-  "MAX function": {
+  "4.7.8": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b5/65817d11aeac360b47537f95",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "MAX function"
   },
-  "MIN Function": {
+  "4.7.9": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b5/6780fa9c2431907d725253c2",
+    "name": "SQL Exercise"
+  },
+  "4.7.10": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b5/65817e37aeac360b4753816c",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "MIN Function"
   },
-  "GROUP BY Clause": {
+  "4.7.11": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b5/6780fbf72431907d7252564f",
+    "name": "SQL Exercise"
+  },
+  "4.7.12": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b5/658189f4aeac360b47539dfe",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "GROUP BY Clause"
   },
-  "Track Sales Performance by Product Category in an E-commerce Store": {
+  "4.7.13": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b5/60ed4802490d46066822abd4",
+    "name": "Select the correct answer"
+  },
+  "4.7.14": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b5/6780fd332431907d72525879",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Track Sales Performance by Product Category in an E-commerce Store"
   },
-  "HAVING Clause": {
+  "4.7.15": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b5/65819bb7aeac360b4753b88f",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "HAVING Clause"
   },
-  "Analyzing High-Performing Product Categories in a Retail Chain": {
+  "4.7.16": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b5/678100582431907d72525d69",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Analyzing High-Performing Product Categories in a Retail Chain"
   },
-  "DISTINCT Clause": {
+  "4.7.17": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b5/65818ae4aeac360b47539f14",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "DISTINCT Clause"
   },
-  "Find Unique Product Categories in a Retail Store Inventory": {
+  "4.7.18": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b5/67810a5a2431907d72526bd3",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Find Unique Product Categories in a Retail Store Inventory"
   },
-  "FETCH Clause": {
+  "4.7.19": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b5/6581979caeac360b4753b072",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "FETCH Clause"
   },
-  "Aggregate Function - COUNT - 1": {
+  "4.7.20": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b5/678118a32431907d72527a9f",
+    "name": "SQL Exercise"
+  },
+  "4.7.21": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b5/67811cf62431907d72527e4a",
+    "name": "SQL Exercise"
+  },
+  "4.8.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b8/677159814bf15e6446b13e0a",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Aggregate Function - COUNT - 1"
   },
-  "Aggregate function - AVG - 1": {
+  "4.8.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b8/677159a84bf15e6446b13e42",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Aggregate function - AVG - 1"
   },
-  "Aggregate function - MAX - 1": {
+  "4.8.3": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b8/677159e84bf15e6446b13ea1",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Aggregate function - MAX - 1"
   },
-  "What is a JOIN operation and different types of joins": {
+  "4.9.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b6/61cc2d7bc7f7be9fac111390",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "What is a JOIN operation and different types of joins"
   },
-  "Natural Join Operation": {
+  "4.9.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b6/61cc2d7bc7f7be9fac111391",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Natural Join Operation"
   },
-  "NATURAL JOIN": {
+  "4.9.3": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b6/658262c31a4ef93f0e3a75f2",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "NATURAL JOIN"
   },
-  "SQL Exercise on NATURAL JOIN": {
+  "4.9.4": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b6/67bc719be6504c0fb3a3fafa",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "SQL Exercise on NATURAL JOIN"
   },
-  "Theta Join and Equi Join": {
+  "4.9.5": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b6/61cc2d7bc7f7be9fac111392",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Theta Join and Equi Join"
   },
-  "Theta JOIN": {
+  "4.9.6": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b6/67bd482ae093ae36e2462c61",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Theta JOIN"
   },
-  "SQL Exercise on Theta Join": {
+  "4.9.7": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b6/67bd5b4ee093ae36e2464dc7",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "SQL Exercise on Theta Join"
   },
-  "EQUI JOIN": {
+  "4.9.8": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b6/67bd537ee093ae36e2463f5f",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "EQUI JOIN"
   },
-  "SQL Exercise on EQUI JOIN": {
+  "4.9.9": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b6/67bd685ce093ae36e24669c7",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "SQL Exercise on EQUI JOIN"
   },
-  "INNER Join": {
+  "4.9.10": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b6/65823c3c9df93b0bdf4b2e66",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "INNER Join"
   },
-  "Fetch Latest Order per Customer Using INNER JOIN": {
+  "4.9.11": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b6/678147ddac8e20004581ad9c",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Fetch Latest Order per Customer Using INNER JOIN"
   },
-  "LEFT JOIN": {
+  "4.9.12": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b6/658241df9df93b0bdf4b3034",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "LEFT JOIN"
   },
-  "Bookstore Inventory": {
+  "4.9.13": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b6/67bc45512059151e10918f49",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Bookstore Inventory"
   },
-  "RIGHT JOIN": {
+  "4.9.14": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b6/67814bc9ac8e20004581b391",
+    "name": "SQL Exercise"
+  },
+  "4.9.15": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b6/65825c111a4ef93f0e3a6d7b",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "RIGHT JOIN"
   },
-  "SQL Exercise on RIGHT JOIN": {
+  "4.9.16": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b6/67bc6b5ce6504c0fb3a3f5c3",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "SQL Exercise on RIGHT JOIN"
   },
-  "Perform a Right Join on Product Details and Orders": {
+  "4.9.17": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b6/67814f3fac8e20004581b813",
-    "status": "in_progress",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Perform a Right Join on Product Details and Orders"
   },
-  "FULL JOIN": {
+  "4.9.18": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b6/65824c1b9df93b0bdf4b3407",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "FULL JOIN"
   },
-  "CROSS JOIN": {
+  "4.9.19": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b6/67815141ac8e20004581ba5f",
+    "name": "SQL Exercise"
+  },
+  "4.9.20": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b6/65825e4a1a4ef93f0e3a6f26",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "CROSS JOIN"
   },
-  "SELF JOIN": {
+  "4.9.21": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b6/67816099ac8e20004581cebb",
+    "name": "SQL Exercise"
+  },
+  "4.9.22": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b6/658260cb1a4ef93f0e3a727c",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "SELF JOIN"
   },
-  "SQL Exercise - Self Join - Restaurant": {
+  "4.9.23": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b6/67816189ac8e20004581cfd4",
+    "name": "SQL Exercise"
+  },
+  "4.10.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b9/677e7b6d0bf9377c04320724",
-    "status": "in_progress",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "SQL Exercise - Self Join - Restaurant"
   },
-  "SQL Exercise - Inner Join - Navy": {
+  "4.10.2": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b9/6765428e4d0b066909e47147",
+    "name": "SQL Exercise"
+  },
+  "4.10.3": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b9/677e76570bf9377c04320229",
-    "status": "completed",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "SQL Exercise - Inner Join - Navy"
   },
-  "SQL Exercise\t- Right Join 1 - Weather Monitoring Systemstat": {
+  "4.10.4": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b9/677e7a1c0bf9377c043205bd",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "SQL Exercise\t- Right Join 1 - Weather Monitoring Systemstat"
   },
-  "Natural Join - Police Department": {
+  "4.10.5": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b9/6781f5cdfa36c0414371c9f1",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Natural Join - Police Department"
   },
-  "Cross Join - Police Department": {
+  "4.10.6": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b9/6781f5ebfa36c0414371ca21",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Cross Join - Police Department"
   },
-  "Left Outer Join - Police Department": {
+  "4.10.7": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b9/6781f60cfa36c0414371ca66",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Left Outer Join - Police Department"
   },
-  "Right Outer Join - Police Department": {
+  "4.10.8": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b9/6781f628fa36c0414371ca9d",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Right Outer Join - Police Department"
   },
-  "Cross Join - Satellite Communication": {
+  "4.10.9": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b9/6781f6a8fa36c0414371cba2",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Cross Join - Satellite Communication"
   },
-  "Left Outer Join - Satellite Communication": {
+  "4.10.10": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b9/6781f6bffa36c0414371cbdb",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Left Outer Join - Satellite Communication"
   },
-  "Full Outer Join - Satellite Communication": {
+  "4.10.11": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b9/6781f6e3fa36c0414371cc0b",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Full Outer Join - Satellite Communication"
   },
-  "Self Join - Satellite Communication": {
+  "4.10.12": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b9/6781f750fa36c0414371ccc9",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Self Join - Satellite Communication"
   },
-  "Self Join - Toy System": {
+  "4.10.13": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b9/6781f7cdfa36c0414371cd7d",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Self Join - Toy System"
   },
-  "Navy Officer Database": {
+  "4.10.14": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b9/678296969fc5ca4a8815420f",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Navy Officer Database"
   },
-  "Air Force Personnel Database": {
+  "4.10.15": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b9/67829cfa9fc5ca4a88154e2a",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Air Force Personnel Database"
   },
-  "Left Outer Join": {
+  "4.10.16": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b9/6765296c4d0b066909e433dc",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Left Outer Join"
   },
-  "Natural Join - Restaurant": {
+  "4.10.17": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b9/6781f503fa36c0414371c7e0",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Natural Join - Restaurant"
   },
-  "Right Outer Join - Restaurant": {
+  "4.10.18": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b9/6781f55dfa36c0414371c8d3",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Right Outer Join - Restaurant"
   },
-  "FULL OUTER JOIN on Three Tables in PostgreSQL": {
+  "4.10.19": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b9/67b727b706475478d16c816d",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "FULL OUTER JOIN on Three Tables in PostgreSQL"
   },
-  "Retrieve Innovation Details with Sustainability Focus": {
+  "4.10.20": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b9/67b819c8be0df85380b5d111",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Retrieve Innovation Details with Sustainability Focus"
   },
-  "Movie Database Management": {
+  "4.10.21": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b9/67b858f4be0df85380b6872a",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Movie Database Management"
   },
-  "Travel Agency Packages": {
+  "4.10.22": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b9/67bc0fcd2059151e109129c0",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Travel Agency Packages"
   },
-  "Finding Details of All Tour Packages": {
+  "4.10.23": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b9/67bc23b22059151e10915218",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Finding Details of All Tour Packages"
   },
-  "SQL Set Operators": {
+  "4.11.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b7/67800a292431907d7250cb55",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "SQL Set Operators"
   },
-  "SQL Set Operators - UNION vs JOIN": {
+  "4.11.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b7/67800c462431907d7250cdbc",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "SQL Set Operators - UNION vs JOIN"
   },
-  "Set Difference": {
+  "4.11.3": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b7/61cc2d7bc7f7be9fac111387",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Set Difference"
   },
-  "Set Union Operation": {
+  "4.11.4": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b7/61cc2d7bc7f7be9fac111386",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Set Union Operation"
   },
-  "UNION ": {
+  "4.11.5": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b7/6582809c1a4ef93f0e3ac03c",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "UNION "
   },
-  "Combined Unique Email List": {
+  "4.11.6": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b7/67816367ac8e20004581d18e",
+    "name": "SQL Exercise"
+  },
+  "4.11.7": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b7/6781641bac8e20004581d244",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Combined Unique Email List"
   },
-  "Set Intersection Operation": {
+  "4.11.8": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b7/61cc2d7bc7f7be9fac111389",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Set Intersection Operation"
   },
-  "INTERSECT": {
+  "4.11.9": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b7/6582814a1a4ef93f0e3ac26f",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "INTERSECT"
   },
-  "EXCEPT": {
+  "4.11.10": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b7/678164f0ac8e20004581d31d",
+    "name": "SQL Exercise"
+  },
+  "4.11.11": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b7/658282161a4ef93f0e3ac5b5",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "EXCEPT"
   },
-  "Cartesian Product Operation": {
+  "4.11.12": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b7/678165a7ac8e20004581d3d3",
+    "name": "SQL Exercise"
+  },
+  "4.11.13": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b7/67816636ac8e20004581d46d",
+    "name": "SQL Exercise"
+  },
+  "4.11.14": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b7/61cc2d7bc7f7be9fac111388",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Cartesian Product Operation"
   },
-  "More on Cartesian Product": {
+  "4.11.15": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b7/61cc2d7bc7f7be9fac11138b",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "More on Cartesian Product"
   },
-  "The Assignment Operation": {
+  "4.11.16": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02b7/61cc2d7bc7f7be9fac11138a",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "The Assignment Operation"
   },
-  "SQL Exercise - Set Operators - Intersect": {
+  "4.12.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02ba/677e72460bf9377c0431fe80",
-    "status": "in_progress",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "SQL Exercise - Set Operators - Intersect"
   },
-  "SQL Exercise - Set Operators - Except": {
+  "4.12.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02ba/677e72810bf9377c0431fea0",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "SQL Exercise - Set Operators - Except"
   },
-  "SQL Exercise - Set Operators - Union": {
+  "4.12.3": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02b4/6937cd430cc4f7020deb02ba/677e71f20bf9377c0431fe43",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "SQL Exercise - Set Operators - Union"
   },
-  "CREATE VIEW Command": {
+  "5.1.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02bd/65819fb2aeac360b4753bf7c",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "CREATE VIEW Command"
   },
-  "Create View for Product Insights": {
+  "5.1.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02bd/67816ce2ac8e20004581da2e",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Create View for Product Insights"
   },
-  "CREATE OR REPLACE View": {
+  "5.1.3": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02bd/6581a125aeac360b4753c1c8",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "CREATE OR REPLACE View"
   },
-  "Update Existing Database View": {
+  "5.1.4": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02bd/67816f59ac8e20004581dbcb",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Update Existing Database View"
   },
-  "DROP VIEW": {
+  "5.1.5": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02bd/6581a3109df93b0bdf4a8f4f",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "DROP VIEW"
   },
-  "ALTER View - Renaming a View": {
+  "5.1.6": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02bd/6581a4f19df93b0bdf4a9232",
-    "status": "in_progress",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "ALTER View - Renaming a View"
   },
-  "SQL Exercise - Views - Replace": {
+  "5.1.7": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02bd/67817034ac8e20004581dc90",
+    "name": "SQL Exercise"
+  },
+  "5.1.8": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02bd/678170c8ac8e20004581dce6",
+    "name": "SQL Exercise"
+  },
+  "5.2.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02c0/677e742b0bf9377c04320075",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "SQL Exercise - Views - Replace"
   },
-  "Introduction to Subquery": {
+  "5.3.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02be/63b55509770348077fe00260",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Introduction to Subquery"
   },
-  "What is a Query Tree?": {
+  "5.3.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02be/61cc2d7bc7f7be9fac1113ea",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "What is a Query Tree?"
   },
-  "Query Processing ": {
+  "5.3.3": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02be/61cc2d7bc7f7be9fac1113e4",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Query Processing "
   },
-  "Different types of subqueries": {
+  "5.3.4": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02be/63b55ad9770348077fe00dfd",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Different types of subqueries"
   },
-  "Independent Subquery": {
+  "5.3.5": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02be/63b56090770348077fe01a27",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Independent Subquery"
   },
-  "Correlated Subquery": {
+  "5.3.6": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02be/63b5624b770348077fe01d7c",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Correlated Subquery"
   },
-  "Execution Plans": {
+  "5.3.7": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02be/61cc2d7bc7f7be9fac1113e8",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Execution Plans"
   },
-  "What is Cost based optimization ?": {
+  "5.3.8": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02be/61cc2d7bc7f7be9fac1113e7",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "What is Cost based optimization ?"
   },
-  "Purpose of the Query Optimizer": {
+  "5.3.9": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02be/61cc2d7bc7f7be9fac1113e6",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Purpose of the Query Optimizer"
   },
-  "Sub Queries": {
+  "5.3.10": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02be/65815a9c032e8c48fd2e7afe",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Sub Queries"
   },
-  "Heuristics": {
+  "5.3.11": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02be/67816884ac8e20004581d69b",
+    "name": "SQL Exercise"
+  },
+  "5.3.12": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02be/6781690eac8e20004581d72d",
+    "name": "SQL Exercise"
+  },
+  "5.3.13": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02be/61cc2d7bc7f7be9fac1113eb",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Heuristics"
   },
-  "Understanding Heuristics": {
+  "5.3.14": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02be/61cc2d7bc7f7be9fac1113ec",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Understanding Heuristics"
   },
-  "Understanding Nested Queries": {
+  "5.3.15": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02be/677ffbea2431907d7250b860",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Understanding Nested Queries"
   },
-  "Nested Queries - Examples": {
+  "5.3.16": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02be/677ffdc72431907d7250baf9",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Nested Queries - Examples"
   },
-  "Navy Logistics": {
+  "5.4.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02c1/677e7c9b0bf9377c0432091e",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Navy Logistics"
   },
-  "Weather Monitoring System Query Task": {
+  "5.4.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02c1/6780eed22431907d7252394e",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Weather Monitoring System Query Task"
   },
-  "Selecting Students Based on Grades in the CS Department": {
+  "5.4.3": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02c1/6780ef0b2431907d725239b6",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Selecting Students Based on Grades in the CS Department"
   },
-  "SQL Exercise on Sub Queries": {
+  "5.4.4": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02c1/6780f1182431907d72523dd4",
+    "name": "SQL Exercise on Sub Queries"
+  },
+  "5.4.5": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02c1/6780f1842431907d72523edb",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "SQL Exercise on Sub Queries"
   },
-  "Sub Queries - 15": {
+  "5.4.6": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02c1/6780f1df2431907d72523f6d",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Sub Queries - 15"
   },
-  "Generate a Customer Spending Report": {
+  "5.4.7": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02c1/6780f51d2431907d725248b6",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Generate a Customer Spending Report"
   },
-  "Sub Queries - 4": {
+  "5.4.8": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02c1/6780d6d52431907d7251dbb3",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Sub Queries - 4"
   },
-  "Sub Queries - 5": {
+  "5.4.9": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02c1/6780d7112431907d7251dc4f",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Sub Queries - 5"
   },
-  "ALL": {
+  "5.4.10": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02c1/67815944fa36c04143716511",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "ALL"
   },
-  "Introduction to Relational Algebra": {
+  "5.5.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02bf/65916755efa78440cc01dfdb",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Introduction to Relational Algebra"
   },
-  "Basic Operations: Selection": {
+  "5.5.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02bf/677f6e5d78e44d2a7b5013c4",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Basic Operations: Selection"
   },
-  "Basic Operations: Projection and Renaming": {
+  "5.5.3": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02bf/677f8ad578e44d2a7b5068f4",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Basic Operations: Projection and Renaming"
   },
-  "Set Operations: Union and Intersection": {
+  "5.5.4": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02bf/677f931a78e44d2a7b5078ce",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Set Operations: Union and Intersection"
   },
-  "Set Operations: Difference and Cartesian Product": {
+  "5.5.5": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02bf/677f9a5578e44d2a7b508aaf",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Set Operations: Difference and Cartesian Product"
   },
-  "Relational Algebra Operations: Joins": {
+  "5.5.6": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02bf/677f9f3878e44d2a7b509350",
+    "name": "Relational Algebra Operations: Joins"
+  },
+  "5.5.7": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02bf/677fa0952431907d725049cb",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Relational Algebra Operations: Joins"
   },
-  "Division Operator in Relational Algebra": {
+  "5.5.8": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02bc/6937cd430cc4f7020deb02bf/61cc2d7bc7f7be9fac111394",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Division Operator in Relational Algebra"
   },
-  "Introduction to PL/pgSQL": {
+  "6.1.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d0/6587a79a22f2ba2d13d76192",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Introduction to PL/pgSQL"
   },
-  "Variables and Data Types": {
+  "6.1.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d0/6587a86322f2ba2d13d761cb",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Variables and Data Types"
   },
-  "Data Conversion": {
+  "6.1.3": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d0/658f21c364f85b0bd6e8825b",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Data Conversion"
   },
-  "Advanced Data Type Conversions": {
+  "6.1.4": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d0/658f235364f85b0bd6e8832b",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Advanced Data Type Conversions"
   },
-  "Control Structures - IF": {
+  "6.2.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d1/6587bacc22f2ba2d13d76e21",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Control Structures - IF"
   },
-  "Control Structures - IF ELSE": {
+  "6.2.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d1/6587bb9622f2ba2d13d76eb9",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Control Structures - IF ELSE"
   },
-  "Control Structures - LOOP": {
+  "6.2.3": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d1/678cced143dc7b2131f46aaf",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Control Structures - LOOP"
   },
-  "LOOP - SQL Exercise": {
+  "6.2.4": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d1/678cd4b143dc7b2131f470aa",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "LOOP - SQL Exercise"
   },
-  "Control Structures - WHILE": {
+  "6.2.5": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d1/678cd64f43dc7b2131f471bb",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Control Structures - WHILE"
   },
-  "WHILE - SQL Exercise": {
+  "6.2.6": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d1/678cd9a343dc7b2131f47444",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "WHILE - SQL Exercise"
   },
-  "Control Structures - FOR": {
+  "6.2.7": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d1/678cdd3743dc7b2131f476c0",
+    "name": "Control Structures - FOR"
+  },
+  "6.2.8": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d1/678cdfbc43dc7b2131f478a0",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Control Structures - FOR"
   },
-  "Check the Number - Control Statement - If Else End If 1": {
+  "6.3.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d8/6788f57237c1ae5aa3acb899",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Check the Number - Control Statement - If Else End If 1"
   },
-  "Sum of Integers - Control Statement - For Loop 1": {
+  "6.3.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d8/6788f5a437c1ae5aa3acb8dc",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Sum of Integers - Control Statement - For Loop 1"
   },
-  "Arithmetic Functions": {
+  "6.4.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d2/678ce52643dc7b2131f47d11",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Arithmetic Functions"
   },
-  "Arithmetic Functions - continuation": {
+  "6.4.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d2/678ce6fb43dc7b2131f47ea4",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Arithmetic Functions - continuation"
   },
-  "Character Function": {
+  "6.4.3": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d2/63b52ce5c334f00742db3065",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Character Function"
   },
-  "PostgresSQL Functions": {
+  "6.4.4": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d2/65827f531a4ef93f0e3abaa4",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "PostgresSQL Functions"
   },
-  "Creating and Using Functions": {
+  "6.4.5": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d2/6588447122f2ba2d13d7feab",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Creating and Using Functions"
   },
-  "Chained Functions": {
+  "6.4.6": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d2/658845a222f2ba2d13d7ffff",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Chained Functions"
   },
-  "Practical Assignment": {
+  "6.4.7": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d2/658846b622f2ba2d13d80121",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Practical Assignment"
   },
-  "SQL Exercise\t": {
-    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d6/658811dd211d7e432777aba5",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+  "6.4.8": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d2/678cf52decbe0c0e8e016b35",
+    "name": "SQL Exercise"
   },
-  "Remove the vowels from the string": {
+  "6.4.9": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d2/658685f988d1b7085a66fbdd",
+    "name": "SQL Exercise"
+  },
+  "6.4.10": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d2/65868f3688d1b7085a66fbf3",
+    "name": "SQL Exercise\t"
+  },
+  "6.4.11": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d2/678d318d4160b053cfeca7f9",
+    "name": "SQL Exercise"
+  },
+  "6.5.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d7/6788f73937c1ae5aa3acbafc",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Remove the vowels from the string"
   },
-  "Sum of Even Numbers 1": {
+  "6.5.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d7/6788f61e37c1ae5aa3acb997",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Sum of Even Numbers 1"
   },
-  "Sum of Odd Numbers - 1": {
+  "6.5.3": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d7/6788f64a37c1ae5aa3acb9e1",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Sum of Odd Numbers - 1"
   },
-  "fact function to find factorial - 1": {
+  "6.5.4": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d7/6788f6a637c1ae5aa3acba31",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "fact function to find factorial - 1"
   },
-  "Functions - 2": {
+  "6.5.5": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d7/6788f6cf37c1ae5aa3acba9c",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Functions - 2"
   },
-  "Anonymous Blocks in PostgreSQL": {
+  "6.6.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d3/678d377e4160b053cfecae9d",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Anonymous Blocks in PostgreSQL"
   },
-  "Subblocks in PostgreSQL (PL/pgSQL)": {
+  "6.6.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d3/678d399d4160b053cfecb07f",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Subblocks in PostgreSQL (PL/pgSQL)"
   },
-  "Procedures in PL/pgSQL": {
+  "6.6.3": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d3/678d3a1643dc7b2131f4bfa5",
+    "name": "Procedures in PL/pgSQL"
+  },
+  "6.6.4": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d3/678d3b4f43dc7b2131f4c09a",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Procedures in PL/pgSQL"
   },
-  "Procedure to Update Marks ": {
+  "6.7.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d9/6789fd8074ab45652a228372",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Procedure to Update Marks "
   },
-  "Procedure to Update Salaries 1": {
+  "6.7.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d9/6788f7ff37c1ae5aa3acbbe4",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Procedure to Update Salaries 1"
   },
-  "Increase the price by 20% of their current price": {
+  "6.7.3": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d9/6788f81037c1ae5aa3acbc14",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Increase the price by 20% of their current price"
   },
-  "Procedure - Creating Simple Procedure 1": {
+  "6.7.4": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d9/6788f78937c1ae5aa3acbb4e",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Procedure - Creating Simple Procedure 1"
   },
-  "Increase the marks by 10% of their current marks": {
+  "6.7.5": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d9/6788f7ac37c1ae5aa3acbb83",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Increase the marks by 10% of their current marks"
   },
-  "CURSOR and RECORD in PL/SQL": {
+  "6.8.1": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d4/678d3d8b43dc7b2131f4c268",
+    "name": "CURSOR and RECORD in PL/SQL"
+  },
+  "6.8.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d4/678d403843dc7b2131f4c4ae",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "CURSOR and RECORD in PL/SQL"
   },
-  "Working with Cursors - 2": {
+  "6.9.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02dc/678a21cd74ab45652a232ff7",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Working with Cursors - 2"
   },
-  "Working with Cursors - 3": {
+  "6.9.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02dc/678a21f074ab45652a233035",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Working with Cursors - 3"
   },
-  "CURSOR and RECORD in PL/SQL - 1": {
+  "6.9.3": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02dc/678a234874ab45652a23343d",
-    "status": "in_progress",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "CURSOR and RECORD in PL/SQL - 1"
   },
-  "CURSOR and RECORD in PL/SQL - 2": {
+  "6.9.4": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02dc/678a235774ab45652a23344f",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "CURSOR and RECORD in PL/SQL - 2"
   },
-  "Triggers and It's types": {
+  "6.10.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d6/678da8d143dc7b2131f4d95f",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Triggers and It's types"
   },
-  "Example on Triggers": {
+  "6.10.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d6/678dacf643dc7b2131f4da62",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Example on Triggers"
   },
-  "Triggers in PL/pgSQL": {
+  "6.10.3": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d6/678db02c43dc7b2131f4db46",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Triggers in PL/pgSQL"
   },
-  "Examples on Triggers": {
+  "6.10.4": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d6/678db1dc43dc7b2131f4dbd0",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Examples on Triggers"
   },
-  "CREATE TRIGGER Command": {
+  "6.10.5": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d6/658265c31a4ef93f0e3a79ae",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "CREATE TRIGGER Command"
   },
-  "DROP TRIGGER": {
+  "6.10.6": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d6/658729412902800c006c58da",
+    "name": "SQL Exercise"
+  },
+  "6.10.7": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d6/65826cd81a4ef93f0e3a8370",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "DROP TRIGGER"
   },
-  "ALTER Trigger Command": {
+  "6.10.8": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d6/658811dd211d7e432777aba5",
+    "name": "SQL Exercise\t"
+  },
+  "6.10.9": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d6/65826c131a4ef93f0e3a8276",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "ALTER Trigger Command"
   },
-  "Enabling Trigger": {
+  "6.10.10": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d6/65881b09211d7e432777b3aa",
+    "name": "SQL Exercise"
+  },
+  "6.10.11": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d6/65826ee11a4ef93f0e3a873a",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Enabling Trigger"
   },
-  "Disabling Trigger": {
+  "6.10.12": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d6/65882b02211d7e432777c248",
+    "name": "SQL Exercise"
+  },
+  "6.10.13": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d6/6582704c1a4ef93f0e3a8974",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Disabling Trigger"
   },
-  "Triggers 1": {
+  "6.10.14": {
+    "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d6/65882f69211d7e432777c5c2",
+    "name": "SQL Exercise"
+  },
+  "6.11.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02db/6788f91e37c1ae5aa3acbdc2",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Triggers 1"
   },
-  "Trigger after INSERT 1": {
+  "6.11.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02db/6788f95837c1ae5aa3acbe39",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Trigger after INSERT 1"
   },
-  "Trigger after DELETE 1": {
+  "6.11.3": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02db/6788f96a37c1ae5aa3acbe41",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Trigger after DELETE 1"
   },
-  "Trigger after UPDATE 1": {
+  "6.11.4": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02db/6788f98537c1ae5aa3acbe52",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Trigger after UPDATE 1"
   },
-  "Exception Handling": {
+  "6.12.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02d5/658867e083acd8421b298354",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Exception Handling"
   },
-  "Function Execution and Exception Handling 1": {
+  "6.13.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02da/6788fa5b37c1ae5aa3acbfb8",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Function Execution and Exception Handling 1"
   },
-  "Custom Exception 1": {
+  "6.13.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02cf/6937cd430cc4f7020deb02da/6788fa6a37c1ae5aa3acbfbd",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Custom Exception 1"
   },
-  "What is a Transaction ?": {
+  "7.1.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02df/61cc2d7bc7f7be9fac11141b",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "What is a Transaction ?"
   },
-  "Important Parts of a Transaction": {
+  "7.1.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02df/61cc2d7bc7f7be9fac11141c",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Important Parts of a Transaction"
   },
-  "Transaction Management": {
+  "7.1.3": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02df/61cc2d7bc7f7be9fac111427",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Transaction Management"
   },
-  "Smart City Data Update with Savepoint and Partial Rollback": {
+  "7.1.4": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02df/67874fb4872f784d566947ad",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Smart City Data Update with Savepoint and Partial Rollback"
   },
-  "Types of Locks in PostgreSQL": {
+  "7.1.5": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02df/6787475a872f784d56683a01",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Types of Locks in PostgreSQL"
   },
-  "Effective Error Handling within Transactions": {
+  "7.1.6": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02df/67874c50872f784d56691170",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Effective Error Handling within Transactions"
   },
-  "Atomic Fund Transfer Between Accounts": {
+  "7.1.7": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02df/678751bc872f784d56694abb",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Atomic Fund Transfer Between Accounts"
   },
-  "Introduction to Transactions in PostgreSQL": {
+  "7.1.8": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02df/658f1a7764f85b0bd6e87e71",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Introduction to Transactions in PostgreSQL"
   },
-  "Transfer with Commit and Rollback": {
+  "7.1.9": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02df/67875927872f784d566958d9",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Transfer with Commit and Rollback"
   },
-  "Understanding ACID properties.": {
+  "7.2.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e0/61cc2d7bc7f7be9fac11141e",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Understanding ACID properties."
   },
-  "Understanding Atomicity": {
+  "7.2.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e0/61cc2d7bc7f7be9fac11141f",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Understanding Atomicity"
   },
-  "What is a Transaction log ?": {
+  "7.2.3": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e0/61cc2d7bc7f7be9fac111424",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "What is a Transaction log ?"
   },
-  "How are entries written in a Transaction Log?": {
+  "7.2.4": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e0/61cc2d7bc7f7be9fac111425",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "How are entries written in a Transaction Log?"
   },
-  "What is a SavePoint?": {
+  "7.2.5": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e0/61cc2d7bc7f7be9fac111438",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "What is a SavePoint?"
   },
-  "Features of SavePoint": {
+  "7.2.6": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e0/61cc2d7bc7f7be9fac111439",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Features of SavePoint"
   },
-  "Understanding Consistency": {
+  "7.2.7": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e0/61cc2d7bc7f7be9fac111420",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Understanding Consistency"
   },
-  "Transaction Anomalies": {
+  "7.2.8": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e0/61cc2d7bc7f7be9fac111429",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Transaction Anomalies"
   },
-  "Transaction Anomalies - Non Repeatable Reads": {
+  "7.2.9": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e0/61cc2d7bc7f7be9fac11142a",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Transaction Anomalies - Non Repeatable Reads"
   },
-  " Transaction Anomalies - Phantom Reads ": {
+  "7.2.10": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e0/61cc2d7bc7f7be9fac11142b",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": " Transaction Anomalies - Phantom Reads "
   },
-  "Understanding Isolation": {
+  "7.2.11": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e0/61cc2d7bc7f7be9fac111421",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Understanding Isolation"
   },
-  "The 4 Isolation Levels": {
+  "7.2.12": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e0/61cc2d7bc7f7be9fac11142e",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "The 4 Isolation Levels"
   },
-  "Isolation Level - Read_Uncommitted": {
+  "7.2.13": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e0/61cc2d7bc7f7be9fac11142f",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Isolation Level - Read_Uncommitted"
   },
-  "Isolation Level -- Read_Committed": {
+  "7.2.14": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e0/61cc2d7bc7f7be9fac111430",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Isolation Level -- Read_Committed"
   },
-  "Isolation Level -- Repeatable_Reads": {
+  "7.2.15": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e0/61cc2d7bc7f7be9fac111431",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Isolation Level -- Repeatable_Reads"
   },
-  "Isolation level - Serializable": {
+  "7.2.16": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e0/61cc2d7bc7f7be9fac111432",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Isolation level - Serializable"
   },
-  "Mapping Isolations Levels ": {
+  "7.2.17": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e0/61cc2d7bc7f7be9fac11142d",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Mapping Isolations Levels "
   },
-  "What is a Rollback?": {
+  "7.2.18": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e0/61cc2d7bc7f7be9fac111436",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "What is a Rollback?"
   },
-  "What is the Commit statement?": {
+  "7.2.19": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e0/61cc2d7bc7f7be9fac111434",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "What is the Commit statement?"
   },
-  "SAVEPOINT 1": {
+  "7.3.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e5/6788f2d437c1ae5aa3acb367",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "SAVEPOINT 1"
   },
-  "ROLLBACK 1": {
+  "7.3.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e5/6788f30637c1ae5aa3acb390",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "ROLLBACK 1"
   },
-  "What is a Transaction Schedule?": {
+  "7.4.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e1/61cc2d7bc7f7be9fac111455",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "What is a Transaction Schedule?"
   },
-  "Types of Schedule": {
+  "7.4.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e1/61cc2d7bc7f7be9fac111456",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Types of Schedule"
   },
-  "Serial Schedules": {
+  "7.4.3": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e1/61cc2d7bc7f7be9fac111457",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Serial Schedules"
   },
-  "Non Serial Schedules": {
+  "7.4.4": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e1/61cc2d7bc7f7be9fac111458",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Non Serial Schedules"
   },
-  "The Problem with Concurrent Transactions": {
+  "7.4.5": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e1/61cc2d7bc7f7be9fac111454",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "The Problem with Concurrent Transactions"
   },
-  "What is Serializability?": {
+  "7.5.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e2/61cc2d7bc7f7be9fac11143c",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "What is Serializability?"
   },
-  "Types of Serializability": {
+  "7.5.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e2/61cc2d7bc7f7be9fac11143f",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Types of Serializability"
   },
-  "What is a Conflict?": {
+  "7.5.3": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e2/61cc2d7bc7f7be9fac11143d",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "What is a Conflict?"
   },
-  "View Serializability": {
+  "7.5.4": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e2/6790bc63f6474f59744b1185",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "View Serializability"
   },
-  "What is Serializability Schedule?": {
+  "7.5.5": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e2/61cc2d7bc7f7be9fac11143b",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "What is Serializability Schedule?"
   },
-  "What is Concurrency Control?": {
+  "7.6.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac111447",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "What is Concurrency Control?"
   },
-  "Why does Database need Concurrency Control?": {
+  "7.6.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac111448",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Why does Database need Concurrency Control?"
   },
-  "Types of Concurrency Control": {
+  "7.6.3": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac111449",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Types of Concurrency Control"
   },
-  "Pessimistic Concurrency Control": {
+  "7.6.4": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac11144a",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Pessimistic Concurrency Control"
   },
-  "Optimistic Concurrency Control": {
+  "7.6.5": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac11144b",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Optimistic Concurrency Control"
   },
-  "What is Locking Granularity?": {
+  "7.6.6": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac11145f",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "What is Locking Granularity?"
   },
-  "Features of Lock Granularity": {
+  "7.6.7": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac111460",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Features of Lock Granularity"
   },
-  "Types of Lock Granularity": {
+  "7.6.8": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac111461",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Types of Lock Granularity"
   },
-  "How does Lock Help?": {
+  "7.6.9": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac11145d",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "How does Lock Help?"
   },
-  "What is a Dead Lock?": {
+  "7.6.10": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac11146a",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "What is a Dead Lock?"
   },
-  "Preventing Deadlocks": {
+  "7.6.11": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac11146e",
-    "status": "in_progress",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Preventing Deadlocks"
   },
-  "Concurrency Control with Locks": {
+  "7.6.12": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac11145c",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Concurrency Control with Locks"
   },
-  "Concurrency Control - Interleaving": {
+  "7.6.13": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac11144c",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Concurrency Control - Interleaving"
   },
-  "What is Two-Phase Locking?": {
+  "7.6.14": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac111466",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "What is Two-Phase Locking?"
   },
-  "Conservative 2 Phase Locking": {
+  "7.6.15": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac111467",
-    "status": "in_progress",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Conservative 2 Phase Locking"
   },
-  "Strict 2 Phase Locking": {
+  "7.6.16": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac111468",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Strict 2 Phase Locking"
   },
-  "Type of Locks": {
+  "7.6.17": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac111463",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Type of Locks"
   },
-  "Write Locks": {
+  "7.6.18": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac111464",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Write Locks"
   },
-  "Wait for Graph": {
+  "7.6.19": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac11146d",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Wait for Graph"
   },
-  "Dead Lock Prevention": {
+  "7.6.20": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac111473",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Dead Lock Prevention"
   },
-  "Inconsistent Retrievals": {
+  "7.6.21": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac111452",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Inconsistent Retrievals"
   },
-  "Uncommitted dependency": {
+  "7.6.22": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac111450",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Uncommitted dependency"
   },
-  "Wait-Die Algorithm for Deadlock Prevention": {
+  "7.6.23": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac111472",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Wait-Die Algorithm for Deadlock Prevention"
   },
-  "What is Time Stamping (TS) Scheme?": {
+  "7.6.24": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac111470",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "What is Time Stamping (TS) Scheme?"
   },
-  "More on Timestamping Schemes": {
+  "7.6.25": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac111475",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "More on Timestamping Schemes"
   },
-  "Wound-Wait Scheme": {
+  "7.6.26": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac111476",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Wound-Wait Scheme"
   },
-  "Handling Deadlocks": {
+  "7.6.27": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac11146c",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Handling Deadlocks"
   },
-  "What is a Lost Update?": {
+  "7.6.28": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e3/61cc2d7bc7f7be9fac11144e",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "What is a Lost Update?"
   },
-  "What is Recovery?": {
+  "7.7.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e4/61cc2d7bc7f7be9fac111441",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "What is Recovery?"
   },
-  "Types of Recovery": {
+  "7.7.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e4/61cc2d7bc7f7be9fac111443",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Types of Recovery"
   },
-  "Automatic Recovery": {
+  "7.7.3": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e4/61cc2d7bc7f7be9fac111444",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Automatic Recovery"
   },
-  "Introduction to Failures and Its Types": {
+  "7.7.4": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/6937cd430cc4f7020deb02de/6937cd430cc4f7020deb02e4/61cc2d7bc7f7be9fac111442",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Introduction to Failures and Its Types"
   },
-  "CAP Theorem": {
+  "8.1.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/69394331f7710113f3c33d9e/693944f4f7710113f3c345a0/69394869f7710113f3c3548a",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "CAP Theorem"
   },
-  "The Three Pillars of the CAP Theorem": {
+  "8.1.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/69394331f7710113f3c33d9e/693944f4f7710113f3c345a0/69394fbdf7710113f3c3757e",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "The Three Pillars of the CAP Theorem"
   },
-  "Sharding in DBMS": {
+  "8.1.3": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/69394331f7710113f3c33d9e/693944f4f7710113f3c345a0/693953baf7710113f3c387fa",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Sharding in DBMS"
   },
-  "Replication": {
+  "8.1.4": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/69394331f7710113f3c33d9e/693944f4f7710113f3c345a0/68f1ee7e5d135a57b08fbafa",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Replication"
   },
-  "Redis": {
+  "8.2.1": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/69394331f7710113f3c33d9e/6939450ef7710113f3c345c8/69395783f7710113f3c39628",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Redis"
   },
-  "Cassandra": {
+  "8.2.2": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/69394331f7710113f3c33d9e/6939450ef7710113f3c345c8/69395972f7710113f3c3a338",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Cassandra"
   },
-  "What is Mongo DB": {
+  "8.2.3": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/69394331f7710113f3c33d9e/6939450ef7710113f3c345c8/664afab8f8c88b6853ce32a2",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "What is Mongo DB"
   },
-  "Structure of MongoDB": {
+  "8.2.4": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/69394331f7710113f3c33d9e/6939450ef7710113f3c345c8/664b1013f8c88b6853ce52ec",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Structure of MongoDB"
   },
-  "Introduction to JSON": {
+  "8.2.5": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/69394331f7710113f3c33d9e/6939450ef7710113f3c345c8/69395e65d39e423cd191cece",
-    "status": "in_progress",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Introduction to JSON"
   },
-  "Introduction to insertOne()": {
+  "8.2.6": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/69394331f7710113f3c33d9e/6939450ef7710113f3c345c8/664c36a058f5271c467d496c",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Introduction to insertOne()"
   },
-  "Introduction to insertMany()": {
+  "8.2.7": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/69394331f7710113f3c33d9e/6939450ef7710113f3c345c8/664c43a158f5271c467d63fa",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Introduction to insertMany()"
   },
-  "Using findOne() Method": {
+  "8.2.8": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/69394331f7710113f3c33d9e/6939450ef7710113f3c345c8/664c748c58f5271c467dd709",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Using findOne() Method"
   },
-  "find() method": {
+  "8.2.9": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/69394331f7710113f3c33d9e/6939450ef7710113f3c345c8/664c910958f5271c467e3fd2",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "find() method"
   },
-  "Update the record from researcher collection": {
+  "8.2.10": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/69394331f7710113f3c33d9e/6939450ef7710113f3c345c8/664da5510c99cb40633f478e",
-    "status": "in_progress",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Update the record from researcher collection"
   },
-  "Updation of multiple records in test collection": {
+  "8.2.11": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/69394331f7710113f3c33d9e/6939450ef7710113f3c345c8/664de7e30c99cb40633fe408",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Updation of multiple records in test collection"
   },
-  "Deleting a record from mobiles collection": {
+  "8.2.12": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/69394331f7710113f3c33d9e/6939450ef7710113f3c345c8/664da7cf9804d270be22658b",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Deleting a record from mobiles collection"
   },
-  "Deleting multiple records from students collection": {
+  "8.2.13": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/69394331f7710113f3c33d9e/6939450ef7710113f3c345c8/664dcce89804d270be22be45",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
+    "name": "Deleting multiple records from students collection"
   },
-  "Updating the record of scores collection by findAndModify": {
+  "8.2.14": {
     "link": "#/eucs/6937cd430cc4f7020deb0295/contents/69394331f7710113f3c33d9e/6939450ef7710113f3c345c8/664f005a70c9591708a8965a",
-    "status": "not_started",
-    "last_updated": "2026-04-17 03:07:54"
-  },
-  "Practice Programs - SQL JOINS": {
-    "link": null,
-    "status": "in_progress",
-    "last_updated": "2026-04-16 23:42:41"
+    "name": "Updating the record of scores collection by findAndModify"
   }
 }

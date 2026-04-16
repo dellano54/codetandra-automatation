@@ -1,0 +1,66 @@
+as soon as u click submit:
+
+
+0 out of 2 test case(s) passed
+
+this appears and once this appears and execution of each test cases proceed, 
+
+
+during an error ```html
+
+<div class="flex w-full border-t text-sm hover:bg-blue-50 bg-error text-error-content bg-opacity-30"><div class="w-full rounded-none collapse collapse-arrow"><input type="checkbox" class="min-h-0"><div class="collapse-title min-h-0"><div class="flex items-center align-middle"><div class="w-7 whitespace-pre-wrap">1</div><div class="w-full whitespace-pre-wrap">Testing with the given sample data</div><div class="flex align-middle"></div></div></div><div class="collapse-content flex justify-center border-y-0 !p-0 align-middle"><div class="w-full pb-4"><div class="divider mb-2 mt-0 px-12"></div><pre class="text-wrap" style="padding-left: 2.5rem;">User output after executing query:
+
+
+</pre></div></div></div></div>
+
+```
+
+
+
+using this u can check for errors, if no errors are found then we are good to check the next condition that if the clock has turned green, if it didn't ok there is an error or the execution hasn't stopped, so inorder to check if test cases are executing:
+
+
+<svg class="w-5 h-5 inline-block" viewBox="0 0 24 24" width="1.2em" height="1.2em" aria-hidden="true"><circle cx="12" cy="2" r="0" fill="currentColor"><animate attributeName="r" begin="0" calcMode="spline" dur="1s" keySplines="0.2 0.2 0.4 0.8;0.2 0.2 0.4 0.8;0.2 0.2 0.4 0.8" repeatCount="indefinite" values="0;2;0;0"></animate></circle><circle cx="12" cy="2" r="0" fill="currentColor" transform="rotate(45 12 12)"><animate attributeName="r" begin="0.125s" calcMode="spline" dur="1s" keySplines="0.2 0.2 0.4 0.8;0.2 0.2 0.4 0.8;0.2 0.2 0.4 0.8" repeatCount="indefinite" values="0;2;0;0"></animate></circle><circle cx="12" cy="2" r="0" fill="currentColor" transform="rotate(90 12 12)"><animate attributeName="r" begin="0.25s" calcMode="spline" dur="1s" keySplines="0.2 0.2 0.4 0.8;0.2 0.2 0.4 0.8;0.2 0.2 0.4 0.8" repeatCount="indefinite" values="0;2;0;0"></animate></circle><circle cx="12" cy="2" r="0" fill="currentColor" transform="rotate(135 12 12)"><animate attributeName="r" begin="0.375s" calcMode="spline" dur="1s" keySplines="0.2 0.2 0.4 0.8;0.2 0.2 0.4 0.8;0.2 0.2 0.4 0.8" repeatCount="indefinite" values="0;2;0;0"></animate></circle><circle cx="12" cy="2" r="0" fill="currentColor" transform="rotate(180 12 12)"><animate attributeName="r" begin="0.5s" calcMode="spline" dur="1s" keySplines="0.2 0.2 0.4 0.8;0.2 0.2 0.4 0.8;0.2 0.2 0.4 0.8" repeatCount="indefinite" values="0;2;0;0"></animate></circle><circle cx="12" cy="2" r="0" fill="currentColor" transform="rotate(225 12 12)"><animate attributeName="r" begin="0.625s" calcMode="spline" dur="1s" keySplines="0.2 0.2 0.4 0.8;0.2 0.2 0.4 0.8;0.2 0.2 0.4 0.8" repeatCount="indefinite" values="0;2;0;0"></animate></circle><circle cx="12" cy="2" r="0" fill="currentColor" transform="rotate(270 12 12)"><animate attributeName="r" begin="0.75s" calcMode="spline" dur="1s" keySplines="0.2 0.2 0.4 0.8;0.2 0.2 0.4 0.8;0.2 0.2 0.4 0.8" repeatCount="indefinite" values="0;2;0;0"></animate></circle><circle cx="12" cy="2" r="0" fill="currentColor" transform="rotate(315 12 12)"><animate attributeName="r" begin="0.875s" calcMode="spline" dur="1s" keySplines="0.2 0.2 0.4 0.8;0.2 0.2 0.4 0.8;0.2 0.2 0.4 0.8" repeatCount="indefinite" values="0;2;0;0"></animate></circle></svg>
+
+
+this loading svg is used to indicate on each test case its running.
+
+
+if an test case is successed: 
+
+
+<svg class="w-5 h-5 inline-block" viewBox="0 0 20 20" width="1.2em" height="1.2em" aria-hidden="true"><path fill="currentColor" fill-rule="evenodd" d="M10 18a8 8 0 1 0 0-16a8 8 0 0 0 0 16m3.707-9.293a1 1 0 0 0-1.414-1.414L9 10.586L7.707 9.293a1 1 0 0 0-1.414 1.414l2 2a1 1 0 0 0 1.414 0z" clip-rule="evenodd"></path></svg>
+
+this svg is used 
+
+
+
+the clock after success is:
+
+<div class="badge badge-secondary badge-sm badge-success">10:44</div>
+
+the clock while running/while solving is: 
+<div class="badge badge-secondary badge-sm badge-warning">13:14</div>
+
+while the 13:14 keeps changing increasing for each second.
+
+
+images in question format:
+
+<img src="https://ct-public-bucket.s3.ap-south-1.amazonaws.com/dmi/image/1507/q-67663e04eae7e444a09614bf/cac7a723-4d11-fba3-204b-27b52fee24ff/20f95f51-63a0-c20c-c32d-86589be36366.png">
+
+
+
+multiple options for mcq has:
+
+<input class="border-neutral checkbox" id="qrunner-18f3f240-59b4-4fe4-81c4-50fd1216516b-mco-2" type="checkbox">
+"Select all the correct options" - in question
+
+single correct option for mcq has:
+
+<input class="border-neutral radio" id="qrunner-f74e4e09-750d-4961-b9dc-3c514d665c25-mco-1" name="qrunner-f74e4e09-750d-4961-b9dc-3c514d665c25-mco" type="radio">
+
+
+multiple = type - checkbox
+single = type - radio
+
