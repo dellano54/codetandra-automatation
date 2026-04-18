@@ -83,6 +83,31 @@ async def extract_mcq_content(frame):
     """
     return await frame.evaluate(js_code)
 
+async def extract_solved_mcq_answer(frame):
+    """
+    Extract the selected (and presumably correct) answer from a solved MCQ.
+    """
+    js_code = r"""
+    () => {
+        try {
+            const checkboxInputs = Array.from(document.querySelectorAll('input.checkbox, input[type="checkbox"]'));
+            const radioInputs = Array.from(document.querySelectorAll('input.radio, input[type="radio"]'));
+            const inputs = checkboxInputs.length > 0 ? checkboxInputs : radioInputs;
+            
+            const selectedLetters = [];
+            inputs.forEach((input, index) => {
+                if (input.checked) {
+                    selectedLetters.push(String.fromCharCode(65 + index));
+                }
+            });
+            return selectedLetters;
+        } catch (e) {
+            return [];
+        }
+    }
+    """
+    return await frame.evaluate(js_code)
+
 async def extract_coding_content(frame):
     """
     Extract coding question content from the frame.

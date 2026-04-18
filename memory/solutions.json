@@ -1,0 +1,3521 @@
+{
+  "1.1.1": {
+    "type": "MCQ",
+    "answer": [
+      "B",
+      "C"
+    ],
+    "name": "Introduction to Data"
+  },
+  "1.1.2": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "Introduction to File Systems"
+  },
+  "1.1.3": {
+    "type": "MCQ",
+    "answer": [
+      "C"
+    ],
+    "name": "What is a Database - Key Features"
+  },
+  "1.1.4": {
+    "type": "MCQ",
+    "answer": [
+      "D"
+    ],
+    "name": "Introduction to Data Abstraction"
+  },
+  "1.1.5": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "name": "A Simple Example to Understand Levels of Abstraction"
+  },
+  "1.1.6": {
+    "type": "MCQ",
+    "answer": [
+      "B"
+    ],
+    "name": "What is a Database Management System?"
+  },
+  "1.1.7": {
+    "type": "MCQ",
+    "answer": [
+      "C"
+    ],
+    "name": "Select the correct answer"
+  },
+  "1.1.8": {
+    "type": "MCQ",
+    "answer": [
+      "C"
+    ],
+    "name": "Select the correct answer"
+  },
+  "1.1.9": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "Video Streaming Platforms"
+  },
+  "1.1.10": {
+    "type": "MCQ",
+    "answer": [
+      "C"
+    ],
+    "name": "Select the correct answer"
+  },
+  "1.2.1": {
+    "type": "MCQ",
+    "answer": [
+      "D"
+    ],
+    "name": "Key Components of DBMS"
+  },
+  "1.2.2": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "E"
+    ],
+    "name": "Key Components of DBMS - 2"
+  },
+  "1.2.3": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "Classification of Users in a Database Environment"
+  },
+  "1.2.4": {
+    "type": "MCQ",
+    "answer": [
+      "C"
+    ],
+    "name": "Select the correct answer"
+  },
+  "1.3.1": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B",
+      "D",
+      "E"
+    ],
+    "name": "Applications of DBMS"
+  },
+  "1.3.2": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B",
+      "D",
+      "E",
+      "F"
+    ],
+    "name": "Applications of DBMS - Contd"
+  },
+  "1.3.3": {
+    "type": "MCQ",
+    "answer": [
+      "D"
+    ],
+    "name": "Select the correct answer"
+  },
+  "1.4.1": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "DBMS Architecture"
+  },
+  "1.4.2": {
+    "type": "MCQ",
+    "answer": [
+      "B",
+      "C",
+      "D"
+    ],
+    "name": "2-Tier and 3-Tier Architecture"
+  },
+  "1.4.3": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "name": "Three-Schema Architecture"
+  },
+  "1.4.4": {
+    "type": "MCQ",
+    "answer": [
+      "B"
+    ],
+    "name": "Select the correct answer"
+  },
+  "1.5.1": {
+    "type": "MCQ",
+    "answer": [
+      "B"
+    ],
+    "name": "Data Independence"
+  },
+  "1.5.2": {
+    "type": "MCQ",
+    "answer": [
+      "D"
+    ],
+    "name": "Relational Database Schema Vs Relational Database Instance"
+  },
+  "1.5.3": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "Select the correct answer"
+  },
+  "1.6.1": {
+    "type": "MCQ",
+    "answer": [
+      "B"
+    ],
+    "name": "Database Schema"
+  },
+  "1.6.2": {
+    "type": "MCQ",
+    "answer": [
+      "B",
+      "C",
+      "D"
+    ],
+    "name": "What is a Database Instance?"
+  },
+  "1.6.3": {
+    "type": "MCQ",
+    "answer": [
+      "E"
+    ],
+    "name": "Select the correct answer"
+  },
+  "1.7.1": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B",
+      "D",
+      "E"
+    ],
+    "name": "Introduction to Database Design"
+  },
+  "1.7.2": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "Database Design: Key Terms"
+  },
+  "1.7.3": {
+    "type": "MCQ",
+    "answer": [
+      "C"
+    ],
+    "name": "Primary & Foreign Keys"
+  },
+  "1.7.4": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "Key Terms - Contd"
+  },
+  "1.7.5": {
+    "type": "MCQ",
+    "answer": [
+      "B",
+      "C"
+    ],
+    "name": "Database Design Steps"
+  },
+  "1.7.6": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "name": "Database Design - Contd"
+  },
+  "1.7.7": {
+    "type": "MCQ",
+    "answer": [
+      "C"
+    ],
+    "name": "Select the correct answer"
+  },
+  "1.7.8": {
+    "type": "MCQ",
+    "answer": [
+      "C"
+    ],
+    "name": "Select the correct answer"
+  },
+  "1.8.1": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "name": "Types of Database Model"
+  },
+  "1.8.2": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "C"
+    ],
+    "name": "Types of Database Model- Contd"
+  },
+  "1.8.3": {
+    "type": "MCQ",
+    "answer": [
+      "D"
+    ],
+    "name": "Select the correct answer"
+  },
+  "1.9.1": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "Introduction to the ER Model"
+  },
+  "1.9.2": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "C",
+      "E"
+    ],
+    "name": "Types of Attributes and Keys in the ER Model (Part 1)"
+  },
+  "1.9.3": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B",
+      "D",
+      "F"
+    ],
+    "name": "Types of Keys and Relationships in the ER Model (Part 2)"
+  },
+  "1.9.4": {
+    "type": "MCQ",
+    "answer": [
+      "B"
+    ],
+    "name": "Components of ER Diagram: Entities"
+  },
+  "1.9.5": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "C"
+    ],
+    "name": "Components of ER Diagram: Attributes"
+  },
+  "1.9.6": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "Components of ER Diagram: Relationship Type and Relationship Set"
+  },
+  "1.9.7": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B"
+    ],
+    "name": "Cardinality & Participation Constraint"
+  },
+  "1.9.8": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "name": "Generalization, Specialization and Aggregation"
+  },
+  "1.9.9": {
+    "type": "MCQ",
+    "answer": [
+      "B"
+    ],
+    "name": "Entity-Relationship (ER) Model for the Banking Management System"
+  },
+  "1.9.10": {
+    "type": "MCQ",
+    "answer": [
+      "D"
+    ],
+    "name": "Online Shopping System"
+  },
+  "1.10.1": {
+    "type": "MCQ",
+    "answer": [
+      "D"
+    ],
+    "name": "The Relational Model: A Game-Changer in Data Management"
+  },
+  "1.10.2": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "C",
+      "E"
+    ],
+    "name": "Relational Model Components"
+  },
+  "1.10.3": {
+    "type": "MCQ",
+    "answer": [
+      "B",
+      "C",
+      "D"
+    ],
+    "name": "Advantages and Features of the Relational Model"
+  },
+  "1.10.4": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "C",
+      "E"
+    ],
+    "name": "Transforming an Entity-Relationship (ER) Model into a Relational Model"
+  },
+  "1.10.5": {
+    "type": "MCQ",
+    "answer": [
+      "D"
+    ],
+    "name": "Select the correct answer"
+  },
+  "2.1.1": {
+    "type": "Coding",
+    "answer": "create table Employee(\n\tEMP_id INT primary key\n);",
+    "name": "Practice Editor"
+  },
+  "2.1.2": {
+    "type": "MCQ",
+    "answer": [
+      "C"
+    ],
+    "name": "Introduction to Data Definition Language (DDL)"
+  },
+  "2.1.3": {
+    "type": "MCQ",
+    "answer": [
+      "B",
+      "C"
+    ],
+    "name": "SQL data types"
+  },
+  "2.1.4": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "C"
+    ],
+    "name": "CREATE DATABASE Command"
+  },
+  "2.1.5": {
+    "type": "MCQ",
+    "answer": [
+      "C"
+    ],
+    "name": "ALTER DATABASE Command"
+  },
+  "2.1.6": {
+    "type": "Coding",
+    "answer": "ALTER DATABASE codetantra RENAME TO renamed_codetantra;",
+    "name": "SQL ExerciseAdapting to Organizational Changes in Database Naming"
+  },
+  "2.1.7": {
+    "type": "MCQ",
+    "answer": [
+      "B"
+    ],
+    "name": "DROP DATABASE Command"
+  },
+  "2.1.8": {
+    "type": "Coding",
+    "answer": "DROP DATABASE customer_orders;",
+    "name": "SQL Exercise"
+  },
+  "2.1.9": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "CREATE TABLE Command"
+  },
+  "2.1.10": {
+    "type": "Coding",
+    "answer": "CREATE TABLE customers (\n    customer_id INTEGER,\n    first_name TEXT,\n    last_name TEXT,\n    date_of_birth DATE,\n    email TEXT,\n    phone_number TEXT\n);",
+    "name": "Preparing a Table for Customer Records in a Legacy System"
+  },
+  "2.1.11": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "name": "Primary Key"
+  },
+  "2.1.12": {
+    "type": "Coding",
+    "answer": "CREATE TABLE product_reviews (\n    review_id INTEGER PRIMARY KEY,\n    product_id INTEGER,\n    customer_id INTEGER,\n    rating INTEGER,\n    comment TEXT\n);",
+    "name": "SQL Exercise"
+  },
+  "2.1.13": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "Composite Key"
+  },
+  "2.1.14": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "NOT NULL Constraint"
+  },
+  "2.1.15": {
+    "type": "Coding",
+    "answer": "CREATE TABLE customers (\n    customer_id INTEGER PRIMARY KEY,\n    name VARCHAR(255) NOT NULL,\n    email VARCHAR(255) NOT NULL,\n    address TEXT,\n    phone_number VARCHAR(50)\n);",
+    "name": "Not Null Constraint Check"
+  },
+  "2.1.16": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "C"
+    ],
+    "name": "SERIAL Column"
+  },
+  "2.1.17": {
+    "type": "Coding",
+    "answer": "CREATE TABLE orders (\n    order_id SERIAL PRIMARY KEY,\n    customer_id INTEGER,\n    order_date DATE,\n    total_amount NUMERIC,\n    status VARCHAR(20)\n);",
+    "name": "SQL Exercise"
+  },
+  "2.1.18": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "C"
+    ],
+    "name": "UNIQUE column"
+  },
+  "2.1.19": {
+    "type": "Coding",
+    "answer": "CREATE TABLE products (\n    product_id SERIAL PRIMARY KEY,\n    name VARCHAR(255),\n    category VARCHAR(100) UNIQUE,\n    price NUMERIC(10,2),\n    description TEXT,\n    stock_quantity INTEGER\n);",
+    "name": "SQL Exercise"
+  },
+  "2.1.20": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "GENERATED ALWAYS AS IDENTITY Column"
+  },
+  "2.1.21": {
+    "type": "Coding",
+    "answer": "CREATE TABLE customer_orders (\n    order_id INTEGER GENERATED ALWAYS AS IDENTITY,\n    customer_id INTEGER,\n    order_date DATE,\n    total_amount NUMERIC (10, 2),\n    status VARCHAR (100)\n);",
+    "name": "SQL Exercise"
+  },
+  "2.1.22": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "GENERATED BY DEFAULT AS IDENTITY Column"
+  },
+  "2.1.23": {
+    "type": "Coding",
+    "answer": "CREATE TABLE orders (\n    order_id INTEGER PRIMARY KEY GENERATED BY DEFAULT AS IDENTITY,\n    customer_id INTEGER,\n    order_date DATE,\n    total_amount NUMERIC (10, 2),\n    status VARCHAR (100)\n);",
+    "name": "SQL Exercise"
+  },
+  "2.1.24": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "C"
+    ],
+    "name": "DEFAULT Values"
+  },
+  "2.1.25": {
+    "type": "Coding",
+    "answer": "CREATE TABLE orders (\n    order_id INTEGER PRIMARY KEY,\n    customer_id INTEGER,\n    order_date DATE DEFAULT CURRENT_DATE,\n    total_amount NUMERIC (10, 2),\n    status VARCHAR (100)\n);",
+    "name": "SQL Exercise"
+  },
+  "2.1.26": {
+    "type": "MCQ",
+    "answer": [
+      "B"
+    ],
+    "name": "Introduction to Data Manipulation Language (DML)"
+  },
+  "2.1.27": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "SELECT Command - Select all rows and columns"
+  },
+  "2.1.28": {
+    "type": "Coding",
+    "answer": "SELECT * FROM inventory;",
+    "name": "SQL Exercise"
+  },
+  "2.1.29": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "SELECT Command - Retrieve Specific Columns"
+  },
+  "2.1.30": {
+    "type": "Coding",
+    "answer": "SELECT name, price FROM products;",
+    "name": "SQL Exercise"
+  },
+  "2.1.31": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "AS for Column Aliasing"
+  },
+  "2.1.32": {
+    "type": "Coding",
+    "answer": "SELECT product_id AS ID, name AS productname, price AS unitprice FROM products;",
+    "name": "SQL Exercise"
+  },
+  "2.1.33": {
+    "type": "MCQ",
+    "answer": [
+      "B"
+    ],
+    "name": "SELECT - WHERE - Retrieve Specific Rows"
+  },
+  "2.1.34": {
+    "type": "Coding",
+    "answer": "SELECT * FROM products WHERE category = 'Electronics';",
+    "name": "SQL Exercise"
+  },
+  "2.1.35": {
+    "type": "MCQ",
+    "answer": [
+      "C"
+    ],
+    "name": "WHERE with AND"
+  },
+  "2.1.36": {
+    "type": "Coding",
+    "answer": "SELECT * FROM products WHERE category = 'Electronics' AND price < 100;",
+    "name": "SQL Exercise"
+  },
+  "2.1.37": {
+    "type": "MCQ",
+    "answer": [
+      "D"
+    ],
+    "name": "WHERE with OR"
+  },
+  "2.1.38": {
+    "type": "Coding",
+    "answer": "SELECT * FROM orders WHERE total_amount > 50 OR status = 'Delivered';",
+    "name": "SQL Exercise"
+  },
+  "2.1.39": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "And + OR Clause Together"
+  },
+  "2.1.40": {
+    "type": "Coding",
+    "answer": "SELECT * FROM products WHERE (category = 'Electronics' AND price < 150) OR (category = 'Furniture' AND quantity > 20);",
+    "name": "SQL Exercise"
+  },
+  "2.1.41": {
+    "type": "MCQ",
+    "answer": [
+      "B",
+      "C",
+      "D"
+    ],
+    "name": "NOT Operator"
+  },
+  "2.1.42": {
+    "type": "Coding",
+    "answer": "SELECT * FROM products WHERE category <> 'Electronics' AND price < 100;",
+    "name": "SQL Exercise"
+  },
+  "2.1.43": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "LIKE Clause"
+  },
+  "2.1.44": {
+    "type": "Coding",
+    "answer": "SELECT * FROM products WHERE name LIKE '%Desk%';",
+    "name": "SQL Exercise"
+  },
+  "2.1.45": {
+    "type": "Coding",
+    "answer": "SELECT * FROM products WHERE name LIKE '___Desk%' OR name LIKE 'C%' OR name LIKE '%ir' OR name LIKE '%_od_%';",
+    "name": "SQL Exercise"
+  },
+  "2.1.46": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B"
+    ],
+    "name": "IN Clause"
+  },
+  "2.1.47": {
+    "type": "Coding",
+    "answer": "SELECT * FROM products WHERE category IN ('Electronics', 'Furniture', 'Stationery');",
+    "name": "SQL Exercise"
+  },
+  "2.1.48": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "C",
+      "D"
+    ],
+    "name": "NOT IN Clause"
+  },
+  "2.1.49": {
+    "type": "Coding",
+    "answer": "SELECT * FROM products WHERE category NOT IN ('Electronics', 'Furniture', 'Stationery');",
+    "name": "SQL Exercise"
+  },
+  "2.1.50": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B"
+    ],
+    "name": "BETWEEN Clause"
+  },
+  "2.1.51": {
+    "type": "Coding",
+    "answer": "SELECT * FROM products WHERE price BETWEEN 10 AND 50;",
+    "name": "SQL Exercise"
+  },
+  "2.1.52": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B"
+    ],
+    "name": "ORDER BY Clause"
+  },
+  "2.1.53": {
+    "type": "Coding",
+    "answer": "SELECT * FROM products WHERE category = 'Electronics' ORDER BY price ASC;",
+    "name": "SQL Exercise"
+  },
+  "2.1.54": {
+    "type": "MCQ",
+    "answer": [
+      "B"
+    ],
+    "name": "ORDER BY - DESC Clause"
+  },
+  "2.1.55": {
+    "type": "Coding",
+    "answer": "SELECT * FROM products WHERE category = 'Electronics' ORDER BY price DESC;",
+    "name": "SQL Exercise"
+  },
+  "2.1.56": {
+    "type": "MCQ",
+    "answer": [
+      "C"
+    ],
+    "name": "LIMIT Clause"
+  },
+  "2.1.57": {
+    "type": "Coding",
+    "answer": "SELECT * FROM products WHERE category = 'Electronics' ORDER BY price ASC LIMIT 3;",
+    "name": "SQL Exercise"
+  },
+  "2.1.58": {
+    "type": "MCQ",
+    "answer": [
+      "D"
+    ],
+    "name": "EXISTS clause"
+  },
+  "2.1.59": {
+    "type": "MCQ",
+    "answer": [
+      "C"
+    ],
+    "name": "Understanding ALTER Command"
+  },
+  "2.1.60": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "ALTER TABLE Command - Renaming Table"
+  },
+  "2.1.61": {
+    "type": "Coding",
+    "answer": "ALTER TABLE catalog_items RENAME TO products;",
+    "name": "SQL Exercise"
+  },
+  "2.1.62": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "ALTER TABLE command - Add a column to a table"
+  },
+  "2.1.63": {
+    "type": "Coding",
+    "answer": "ALTER TABLE customers ADD COLUMN age INTEGER;",
+    "name": "SQL Exercise"
+  },
+  "2.1.64": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "ALTER TABLE Command - Delete a column from table"
+  },
+  "2.1.65": {
+    "type": "Coding",
+    "answer": "ALTER TABLE products DROP COLUMN description;",
+    "name": "SQL Exercise"
+  },
+  "2.1.66": {
+    "type": "MCQ",
+    "answer": [
+      "B"
+    ],
+    "name": "ALTER TABLE Command - Change the data type of a column"
+  },
+  "2.1.67": {
+    "type": "Coding",
+    "answer": "ALTER TABLE orders RENAME TO client_purchases; ALTER TABLE client_purchases ALTER COLUMN total_amount TYPE DECIMAL(12, 2);",
+    "name": "SQL Exercise"
+  },
+  "2.1.68": {
+    "type": "MCQ",
+    "answer": [
+      "B"
+    ],
+    "name": "ALTER TABLE Command - Renaming a Columns"
+  },
+  "2.1.69": {
+    "type": "Coding",
+    "answer": "ALTER TABLE product_reviews RENAME TO reviews; ALTER TABLE reviews ALTER COLUMN rating TYPE SMALLINT; ALTER TABLE reviews DROP COLUMN comment; ALTER TABLE reviews RENAME COLUMN product_id TO item_id;",
+    "name": "SQL Exercise"
+  },
+  "2.1.70": {
+    "type": "MCQ",
+    "answer": [
+      "C"
+    ],
+    "name": "DROP TABLE command"
+  },
+  "2.1.71": {
+    "type": "Coding",
+    "answer": "DROP TABLE customers;",
+    "name": "SQL Exercise"
+  },
+  "2.1.72": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "C"
+    ],
+    "name": "TRUNCATE TABLE Command"
+  },
+  "2.1.73": {
+    "type": "Coding",
+    "answer": "TRUNCATE TABLE customers;",
+    "name": "SQL Exercise"
+  },
+  "2.1.74": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B"
+    ],
+    "name": "TRUNCATE ... RESTART IDENTITY Command"
+  },
+  "2.1.75": {
+    "type": "Coding",
+    "answer": "TRUNCATE TABLE products RESTART IDENTITY;",
+    "name": "SQL Exercise"
+  },
+  "2.1.76": {
+    "type": "MCQ",
+    "answer": [
+      "C",
+      "D"
+    ],
+    "name": "Including comments in PostgreSQL"
+  },
+  "2.1.77": {
+    "type": "Coding",
+    "answer": "COMMENT ON TABLE players IS 'Player''s table: Storing details of the players'; COMMENT ON COLUMN players.player_id IS 'Player''s unique identifier'; COMMENT ON COLUMN players.name IS 'Player''s name'; COMMENT ON COLUMN players.age IS 'Player''s age in years';",
+    "name": "SQL Exercise"
+  },
+  "2.2.1": {
+    "type": "Coding",
+    "answer": "CREATE TABLE flight_reservations (\n    flight_no INT PRIMARY KEY,\n    passenger_name VARCHAR(50) NOT NULL,\n    origin VARCHAR(50),\n    destination VARCHAR(50),\n    class VARCHAR(50)\n);\n\nALTER TABLE flight_reservations ADD COLUMN seat_no VARCHAR(10);\n\nTRUNCATE TABLE flight_reservations;",
+    "name": "DDL - Flight Reservation System"
+  },
+  "2.2.2": {
+    "type": "Coding",
+    "answer": "ALTER TABLE library_members ADD COLUMN email VARCHAR(100);",
+    "name": "DDL - ALTER - Library System Management"
+  },
+  "2.2.3": {
+    "type": "Coding",
+    "answer": "TRUNCATE TABLE police_officers;",
+    "name": "DDL - Police Department Information Management System"
+  },
+  "2.2.4": {
+    "type": "Coding",
+    "answer": "DROP TABLE weather_data;",
+    "name": "DDL - Weather Monitoring System"
+  },
+  "2.2.5": {
+    "type": "Coding",
+    "answer": "CREATE TABLE employees (\n    employeeID INT PRIMARY KEY,\n    firstName VARCHAR(50) NOT NULL,\n    lastName VARCHAR(50) NOT NULL,\n    birthDate DATE,\n    hireDate DATE,\n    salary DECIMAL(10, 2) CHECK (salary >= 0)\n);",
+    "name": "DDL - Employee Management System"
+  },
+  "2.2.6": {
+    "type": "Coding",
+    "answer": "ALTER TABLE employees ADD COLUMN department VARCHAR(100);",
+    "name": "DDL - Adding New Column"
+  },
+  "2.2.7": {
+    "type": "Coding",
+    "answer": "ALTER TABLE emp ADD COLUMN designation VARCHAR(100); ALTER TABLE emp ALTER COLUMN salary TYPE FLOAT8;",
+    "name": "Modifying Table Structures and Data: Alterations in SQL - 2"
+  },
+  "2.2.8": {
+    "type": "Coding",
+    "answer": "DROP TABLE employees;",
+    "name": "DDL - DROP - 1"
+  },
+  "2.2.9": {
+    "type": "Coding",
+    "answer": "TRUNCATE TABLE employees;",
+    "name": "DDL - TRUNCATE - 1"
+  },
+  "2.2.10": {
+    "type": "Coding",
+    "answer": "\n-- Add the mark3 column\nDROP TABLE student;\nCREATE TABLE student(\n\tbatch_no INT,\n\tname VARCHAR(15),\n\tbranch VARCHAR(15),\n\tmark1 INT,\n\tmark2 INT\n);\n\nALTER TABLE student ADD COLUMN mark3 INT;\n\n-- Insert data\nINSERT INTO student (batch_no, name, branch, mark1, mark2, mark3)\nVALUES\n    (101, 'Alice', 'CSE', 85, 90, 88),\n    (102, 'Bob', 'ECE', 78, 82, 80),\n    (103, 'Charlie', 'ME', 92, 88, 85);\n    \n\n\n\n-- Task 3: Truncate the table to remove all existing data\nTRUNCATE TABLE student;\n",
+    "name": "DDL - 1"
+  },
+  "2.3.1": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "Quick Summary on SELECT Statement with WHERE Clause"
+  },
+  "2.3.2": {
+    "type": "MCQ",
+    "answer": [
+      "C"
+    ],
+    "name": "Quick Summary on WHERE Clause using IN, NULL, and NOT NULL"
+  },
+  "2.3.3": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "SELECT Statement Overview"
+  },
+  "2.3.4": {
+    "type": "MCQ",
+    "answer": [
+      "D"
+    ],
+    "name": "Understanding the SQL INSERT Statement"
+  },
+  "2.3.5": {
+    "type": "MCQ",
+    "answer": [
+      "C"
+    ],
+    "name": "Understanding the SQL INSERT Statement"
+  },
+  "2.3.6": {
+    "type": "Coding",
+    "answer": "INSERT INTO customers (name, email, address, phone_number) VALUES ('John Doe', 'johndoe@email.com', '123 Apple St.', '999-999-999-99');",
+    "name": "SQL Exercise"
+  },
+  "2.3.7": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "name": "INSERT INTO Command - Insert Multiple Rows"
+  },
+  "2.3.8": {
+    "type": "Coding",
+    "answer": "INSERT INTO customers (name, email, address, phone_number) VALUES\n('John Doe', 'johndoe@email.com', '123 Apple St', '123-456-7890'),\n('Jane Smith', 'janesmith@email.com', '456 Orange Ave', '234-567-8901'),\n('Bob Johnson', 'bobj@email.com', '789 Banana Rd', '345-678-9012'),\n('Alice Brown', 'alice@email.com', '321 Cherry Blvd', '456-789-0123');",
+    "name": "SQL Exercise"
+  },
+  "2.3.9": {
+    "type": "MCQ",
+    "answer": [
+      "B",
+      "D"
+    ],
+    "name": "INSERT INTO Command - Insert default values"
+  },
+  "2.3.10": {
+    "type": "Coding",
+    "answer": "INSERT INTO products (name, category, price, description, stock_quantity) VALUES\n('Smartphone', 'Electronics', 999.99, 'High-end smartphone', DEFAULT),\n('T-shirt', 'Clothing', 19.99, 'Cotton t-shirt', DEFAULT),\n('Backpack', 'Accessories', 49.99, 'Durable backpack', DEFAULT),\n('Headphones', 'Electronics', 59.99, 'Noise-cancelling', DEFAULT),\n('Coffee Mug', 'Homeware', 8.99, 'Ceramic mug', DEFAULT);",
+    "name": "SQL Exercise"
+  },
+  "2.3.11": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "Usage of UPDATE Command"
+  },
+  "2.3.12": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "UPDATE - SET Command using WHERE Clause"
+  },
+  "2.3.13": {
+    "type": "Coding",
+    "answer": "UPDATE groceries SET item_price = 2.80 WHERE item_name = 'Eggs';\nUPDATE groceries SET item_price = 5.40 WHERE item_name = 'Cheese';",
+    "name": "SQL Exercise"
+  },
+  "2.3.14": {
+    "type": "Coding",
+    "answer": "UPDATE customers SET email = 'update123@gmail.com', phone_number = '555-555-5555' WHERE customer_id = 3;",
+    "name": "SQL Exercise"
+  },
+  "2.3.15": {
+    "type": "Coding",
+    "answer": "UPDATE product_reviews SET rating = 2 WHERE review_id = 3;\nUPDATE product_reviews SET comment = 'Very disappointed' WHERE rating = 2;",
+    "name": "SQL Exercise"
+  },
+  "2.3.16": {
+    "type": "Coding",
+    "answer": "UPDATE products SET stock_quantity = 70 WHERE description = 'High-end smartphone';\nUPDATE products SET stock_quantity = 90 WHERE price = 59.99;",
+    "name": "SQL Exercise"
+  },
+  "2.3.17": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B"
+    ],
+    "name": "UPDATE SET Command - Update All rows"
+  },
+  "2.3.18": {
+    "type": "Coding",
+    "answer": "UPDATE orders SET status = 'Shipped' WHERE order_date = '2023-12-02';\nUPDATE orders SET total_amount = 100 WHERE status = 'Processing';",
+    "name": "SQL Exercise"
+  },
+  "2.3.19": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "D"
+    ],
+    "name": "UPSERT"
+  },
+  "2.3.20": {
+    "type": "Coding",
+    "answer": "INSERT INTO customers (customer_id, name, email, address, phone_number) VALUES\n(1, 'John Doe', 'johndoe@updated.com', '123 Apple St', '123-456-7890'),\n(2, 'Jane Smith', 'janesmith@updated.com', '456 Orange Ave', '234-567-8901'),\n(3, 'Bob Johnson', 'bobj@updated.com', '789 Banana Rd', '345-678-9012')\nON CONFLICT (customer_id) DO UPDATE SET email = EXCLUDED.email;",
+    "name": "SQL Exercise"
+  },
+  "2.3.21": {
+    "type": "MCQ",
+    "answer": [
+      "B"
+    ],
+    "name": "Introduction to Basic Structure of SQL Query"
+  },
+  "2.3.22": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "Using the LIKE Operator with WHERE Clause"
+  },
+  "2.3.23": {
+    "type": "MCQ",
+    "answer": [
+      "B"
+    ],
+    "name": "Some Common SQL Functions"
+  },
+  "2.3.24": {
+    "type": "MCQ",
+    "answer": [
+      "B",
+      "C"
+    ],
+    "name": "Some Common SQL Functions"
+  },
+  "2.3.25": {
+    "type": "MCQ",
+    "answer": [
+      "B"
+    ],
+    "name": "Introduction to GROUP BY and HAVING Clauses"
+  },
+  "2.4.1": {
+    "type": "Coding",
+    "answer": "-- Find the names of all employees who live in 'Gurgaon' and whose salary Is between Rs. 20,000 and Rs. 30,000\n\n\n-- Find the names of all employees whose names begin with either the Letter 'A' or 'B'\n\n\n-- Find the company names where the company city Is 'Delhi' and the number of employees Is not between 5,000 and 10,000\n\n\n-- Find the names of all companies that do not end with the letter 'a'\n\n\n-- Task 1\nSELECT name FROM employees WHERE city = 'Gurgaon' AND salary BETWEEN 20000 AND 30000;\n\n-- Task 2\nSELECT name FROM employees WHERE name LIKE 'A%' OR name LIKE 'B%';\n\n-- Task 3\nSELECT company_name FROM companies WHERE city = 'Delhi' AND employees_count NOT BETWEEN 5000 AND 10000;\n\n-- Task 4\nSELECT company_name FROM companies WHERE company_name NOT LIKE '%a';\n",
+    "name": "Using Compound Conditions in SQL: Queries with AND, OR, IN, BETWEEN, LIKE, and NOT LIKE - 2"
+  },
+  "2.4.2": {
+    "type": "Coding",
+    "answer": "/*Type Content here...*/\nDELETE FROM company WHERE employeesCount < 500;",
+    "name": "Deletions in SQL - 1"
+  },
+  "2.4.3": {
+    "type": "Coding",
+    "answer": "-- Increase the price of all products by 20\n\n\n-- change the product name from 'Bath Soap' to 'Cream'\n\n\nUPDATE product SET price = price + 20;\nUPDATE product SET productname = 'Cream' WHERE productname = 'Bath Soap';\n",
+    "name": "SQL Commands for Updating Product Prices and Names - 1"
+  },
+  "2.4.4": {
+    "type": "Coding",
+    "answer": "-- Update the color of garment with code 116\n\n\n-- Increase the price of all XL garments by 10%\n\n\n\nUPDATE garment SET color = 'Orange' WHERE gcode = 116;\nUPDATE garment SET price = price * 1.10 WHERE size = 'XL';\n",
+    "name": "SQL Update Commands - 1"
+  },
+  "2.4.5": {
+    "type": "Coding",
+    "answer": "-- List the names of items starting with the letter \"C\", sorted by their price in ascending order.\n\n\n\n-- List the code, item name, and city of products where the quantity is less than 100 units.\n\n\n\nSELECT item FROM shoppe WHERE item LIKE 'C%' ORDER BY price ASC;\nSELECT code, item, city FROM shoppe WHERE quantity < 100;\n",
+    "name": "SQL Queries for Filtering and Sorting Data - 1"
+  },
+  "2.4.6": {
+    "type": "Coding",
+    "answer": "-- calculate the salary divided by 10,000, round it up, and alias the result as salary_in_thousands\n\n\n-- calculate the length of each employee\u2019s name and alias the result as name_length\n\n\n-- concatenate each employee\u2019s name and department, separated by a space, and alias the result as full_name\n\n\n-- convert each employee\u2019s name to uppercase and alias the result as upper_name.\n\n\n-- calculate the ASCII value of the first character of each employee\u2019s name and alias the result as first_char_ascii.\n\n\nSELECT CEIL(salary / 10000) AS salary_in_thousands FROM employees;\nSELECT LENGTH(empname) AS name_length FROM employees;\nSELECT CONCAT(empname, ' ', department) AS full_name FROM employees;\nSELECT UPPER(empname) AS upper_name FROM employees;\nSELECT ASCII(empname) AS first_char_ascii FROM employees;\n",
+    "name": "SQL Function Examples - 1"
+  },
+  "2.4.7": {
+    "type": "Coding",
+    "answer": "DROP TABLE IF EXISTS empsalary;\nCREATE TABLE empsalary(\n\tempcod INT PRIMARY KEY,\n\tempname VARCHAR(50),\n\tdob DATE,\n\tdepartment VARCHAR(50),\n\tsalary FLOAT\n);\n\nINSERT INTO empsalary (empcod, empname, dob, department, salary) VALUES (1, 'John', '1985-01-01', 'Sales', 50000),\n(2, 'Mary', '1990-05-23', 'Marketting', 55000),\n(3, 'David', '1982-12-11', 'Finance', 60000),\n(4, 'Sophia', '1988-08-18', 'Sales', 45000),\n(5, 'Kevin', '1995-04-09', 'Finance', 70000);\n\nSELECT department, COUNT(*) AS num_employees FROM empsalary GROUP BY department;\n\nSELECT SUM(salary) AS total_salary FROM empsalary;\n\nSELECT department, SUM(salary) AS total_salary, AVG(salary) AS average_salary FROM empsalary WHERE department='Sales' GROUP BY department;\n\nSELECT MIN(salary) AS least_salary, MAX(salary) AS highest_salary FROM empsalary;",
+    "name": "Create and Manipulate the Table - 1"
+  },
+  "2.4.8": {
+    "type": "Coding",
+    "answer": "-- List all employee names in descending order?\n\n\n-- Find the number of employees in each department where the number of employees is greater than 5\n\n\n-- List all department names where the average salary is Rs. 10,000\n\n\n\nSELECT employee_name FROM employees ORDER BY employee_name DESC;\nSELECT department_name, COUNT(*) AS num_employees FROM employees GROUP BY department_name HAVING COUNT(*) > 5;\nSELECT department_name FROM employees GROUP BY department_name HAVING AVG(salary) = 10000;\n",
+    "name": "Employee and Department Analysis: Sorting, Counting, and Averaging - 1"
+  },
+  "2.4.9": {
+    "type": "Coding",
+    "answer": "DELETE FROM garment WHERE gcode = 116;",
+    "name": "Deletion - 1"
+  },
+  "2.5.1": {
+    "type": "MCQ",
+    "answer": [
+      "B",
+      "C",
+      "E"
+    ],
+    "name": "Introduction to Data Control Language (DCL) in PostgreSQL"
+  },
+  "2.5.2": {
+    "type": "MCQ",
+    "answer": [
+      "B",
+      "C"
+    ],
+    "name": "GRANT Command in PostgreSQL"
+  },
+  "2.5.3": {
+    "type": "MCQ",
+    "answer": [
+      "B",
+      "C",
+      "D"
+    ],
+    "name": "REVOKE Command in PostgreSQL"
+  },
+  "2.5.4": {
+    "type": "Coding",
+    "answer": "GRANT SELECT ON TABLE products TO john;",
+    "name": "Grant SELECT on products Table"
+  },
+  "2.5.5": {
+    "type": "Coding",
+    "answer": "GRANT ALL PRIVILEGES ON TABLE products TO john;",
+    "name": "SQL Exercise"
+  },
+  "2.5.6": {
+    "type": "Coding",
+    "answer": "GRANT SELECT, INSERT ON TABLE products TO emma;",
+    "name": "SQL Exercise"
+  },
+  "2.5.7": {
+    "type": "Coding",
+    "answer": "REVOKE SELECT ON TABLE products FROM john;",
+    "name": "SQL Exercise"
+  },
+  "2.5.8": {
+    "type": "Coding",
+    "answer": "REVOKE SELECT, INSERT ON TABLE inventory FROM alice;",
+    "name": "Revoke User Permissions on Inventory Table"
+  },
+  "2.5.9": {
+    "type": "Coding",
+    "answer": "REVOKE ALL PRIVILEGES ON TABLE inventory FROM mike;",
+    "name": "SQL Exercise"
+  },
+  "2.6.1": {
+    "type": "Coding",
+    "answer": "CREATE USER shop_user;\nGRANT SELECT ON TABLE sales TO shop_user;",
+    "name": "DCL - GRANT - 2"
+  },
+  "2.6.2": {
+    "type": "Coding",
+    "answer": "REVOKE SELECT ON TABLE books FROM student1;",
+    "name": "DCL - REVOKE - 2"
+  },
+  "2.7.1": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "E"
+    ],
+    "name": "Transaction Control Language (TCL)"
+  },
+  "3.1.1": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B"
+    ],
+    "name": "What are Keys and what is a Super Key?"
+  },
+  "3.1.2": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "Understanding the Primary Key: The Heart of Uniqueness in Databases!"
+  },
+  "3.1.3": {
+    "type": "Coding",
+    "answer": "CREATE TABLE FlightsSchedule (\n\t    flight_id INT PRIMARY KEY,\n\t    airline_name VARCHAR(50),\n\t    flight_number VARCHAR(20),\n\t    departure_airport VARCHAR(50)\n\t);\n)",
+    "name": "Airport Flight Management System"
+  },
+  "3.1.4": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "Candidate Key: The Essence of Uniqueness and Minimality"
+  },
+  "3.1.5": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "C",
+      "D"
+    ],
+    "name": "Foreign Key"
+  },
+  "3.1.6": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "Referential actions applied on Foreign Key"
+  },
+  "3.1.7": {
+    "type": "Coding",
+    "answer": "-- Create the doctors Table\n\n\n-- Create the patients Table with foreign key\n\n\n-- Insert Data into doctors Table\n\n\n-- Insert Data into patients Table\n\n",
+    "name": "Hospital Management System"
+  },
+  "3.1.8": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B"
+    ],
+    "name": "Alternate Key"
+  },
+  "3.1.9": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "C"
+    ],
+    "name": "What is Surrogate Key ?"
+  },
+  "3.1.10": {
+    "type": "MCQ",
+    "answer": [
+      "B"
+    ],
+    "name": "Example of Surrogate Key"
+  },
+  "3.1.11": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "Secondary Key"
+  },
+  "3.2.1": {
+    "type": "Coding",
+    "answer": "CREATE TABLE departments (\n    department_id INT PRIMARY KEY,\n    department_name VARCHAR(100) NOT NULL\n);\n\nCREATE TABLE students (\n    student_id INT PRIMARY KEY,\n    name VARCHAR(100) NOT NULL,\n    department_id INT,\n    FOREIGN KEY (department_id) REFERENCES departments(department_id)\n);\n\nINSERT INTO departments (department_id, department_name) VALUES (1, 'Computer Science');\nINSERT INTO departments (department_id, department_name) VALUES (2, 'Mechanical Engineering');\nINSERT INTO departments (department_id, department_name) VALUES (3, 'Electrical Engineering');\n\nINSERT INTO students (student_id, name, department_id) VALUES (1, 'John Doe', 1);\nINSERT INTO students (student_id, name, department_id) VALUES (2, 'Jane Smith', 2);\nINSERT INTO students (student_id, name, department_id) VALUES (3, 'Mary Johnson', 3);",
+    "name": "Foreign Key - 1"
+  },
+  "3.2.2": {
+    "type": "Coding",
+    "answer": "CREATE TABLE missiles (\n    missile_id INT PRIMARY KEY,\n    missile_name VARCHAR(50)\n);\n\nINSERT INTO missiles (missile_id, missile_name) VALUES (101, 'ICBM');\nINSERT INTO missiles (missile_id, missile_name) VALUES (201, 'Agni-V');\nINSERT INTO missiles (missile_id, missile_name) VALUES (301, 'Trident II D5');",
+    "name": "Primary Key - 2"
+  },
+  "3.2.3": {
+    "type": "Coding",
+    "answer": "CREATE TABLE departments (\n    department_id INT PRIMARY KEY,\n    department_name VARCHAR(100) NOT NULL\n);\n\nCREATE TABLE products (\n    product_id INT PRIMARY KEY,\n    product_name VARCHAR(100) NOT NULL,\n    department_id INT,\n    FOREIGN KEY (department_id) REFERENCES departments(department_id)\n);\n\nINSERT INTO departments (department_id, department_name) VALUES (1, 'Electronics');\nINSERT INTO departments (department_id, department_name) VALUES (2, 'Clothing');\nINSERT INTO departments (department_id, department_name) VALUES (3, 'Groceries');\n\nINSERT INTO products (product_id, product_name, department_id) VALUES (1, 'Smartphone', 1);\nINSERT INTO products (product_id, product_name, department_id) VALUES (2, 'T-Shirt', 2);\nINSERT INTO products (product_id, product_name, department_id) VALUES (3, 'Rice', 3);",
+    "name": "Foreign Key - 2"
+  },
+  "3.2.4": {
+    "type": "Coding",
+    "answer": "ALTER TABLE employees DROP CONSTRAINT employees_pkey;\nALTER TABLE employees ADD PRIMARY KEY (employee_code);",
+    "name": "Primary Key - 3"
+  },
+  "3.3.1": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B"
+    ],
+    "name": "What is Data Integrity?"
+  },
+  "3.3.2": {
+    "type": "MCQ",
+    "answer": [
+      "B",
+      "C",
+      "D"
+    ],
+    "name": "What are Constraints?"
+  },
+  "3.3.3": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "DEFAULT Constraint"
+  },
+  "3.3.4": {
+    "type": "MCQ",
+    "answer": [
+      "B"
+    ],
+    "name": "Primary Key Constraint"
+  },
+  "3.3.5": {
+    "type": "Coding",
+    "answer": "\nALTER TABLE students ADD PRIMARY KEY (student_id);",
+    "name": "SQL Exercise - Adding a Primary Key Constraint"
+  },
+  "3.3.6": {
+    "type": "MCQ",
+    "answer": [
+      "B"
+    ],
+    "name": "Foreign Key Constraint"
+  },
+  "3.3.7": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "name": "Example on Foreign Key Constraint"
+  },
+  "3.3.8": {
+    "type": "Coding",
+    "answer": "-- Type Query here\nALTER TABLE courses ADD CONSTRAINT fk_faculty FOREIGN KEY (faculty_id) REFERENCES faculties(faculty_id);",
+    "name": "Altering an Existing Table to Add a Foreign Key"
+  },
+  "3.3.9": {
+    "type": "MCQ",
+    "answer": [
+      "B",
+      "C"
+    ],
+    "name": "Unique Key Constraint"
+  },
+  "3.3.10": {
+    "type": "MCQ",
+    "answer": [
+      "B"
+    ],
+    "name": "Not Null Constraint"
+  },
+  "3.3.11": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "name": "CHECK Constraint"
+  },
+  "3.3.12": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B"
+    ],
+    "name": "Syntax and Example - CHECK Constraint"
+  },
+  "3.3.13": {
+    "type": "MCQ",
+    "answer": [
+      "B"
+    ],
+    "name": "Index Constraint"
+  },
+  "3.4.1": {
+    "type": "Coding",
+    "answer": "CREATE TABLE albums (\n  album_id SERIAL PRIMARY KEY,\n  rating INT CHECK (rating > 0 AND rating < 5),\n  description VARCHAR(255)\n);",
+    "name": "Integrity Constraints - 4"
+  },
+  "3.4.2": {
+    "type": "Coding",
+    "answer": "CREATE TABLE books (\n  book_id SERIAL PRIMARY KEY,\n  title VARCHAR(255),\n  author VARCHAR(255),\n  price INTEGER CHECK (price >= 0 AND price <= 5000)\n);",
+    "name": "Integrity Constraints - 2"
+  },
+  "3.4.3": {
+    "type": "Coding",
+    "answer": "CREATE TABLE teachers (\n\t  teacher_id SERIAL PRIMARY KEY,\n\t  first_name VARCHAR(255),\n\t  last_name VARCHAR(255),\n\t  salary INTEGER CHECK (salary >= 5000 AND salary <= 45000)\n\t);",
+    "name": "Integrity Constraints - 5"
+  },
+  "3.4.4": {
+    "type": "Coding",
+    "answer": "CREATE TABLE participants (\n    participant_id SERIAL PRIMARY KEY,\n    rating INT CHECK (rating < 5),\n    review VARCHAR(255)\n);",
+    "name": "Integrity Constraints - 6"
+  },
+  "3.4.5": {
+    "type": "Coding",
+    "answer": "CREATE TABLE products (\n    product_id SERIAL PRIMARY KEY,\n    rating INT CHECK (rating > 5),\n    review VARCHAR(255)\n);",
+    "name": "Integrity Constraints - 3"
+  },
+  "3.5.1": {
+    "type": "MCQ",
+    "answer": [
+      "C"
+    ],
+    "name": "Understanding Relational operations"
+  },
+  "3.5.2": {
+    "type": "MCQ",
+    "answer": [
+      "C"
+    ],
+    "name": "Arithmetic Operations on Column Values in PostgreSql"
+  },
+  "3.6.1": {
+    "type": "Coding",
+    "answer": "SELECT sname, sid * 2 AS stid FROM stud;",
+    "name": "Simple Queries - Arithmetic Operation - 1"
+  },
+  "3.6.2": {
+    "type": "Coding",
+    "answer": "SELECT sname, sid + 100 AS stid FROM stud;",
+    "name": "Simple Queries - Arithmetic Operation - 1"
+  },
+  "3.6.3": {
+    "type": "Coding",
+    "answer": "SELECT DISTINCT sarea FROM stud;",
+    "name": "Simple Queries - Distinct Values - 1"
+  },
+  "3.6.4": {
+    "type": "Coding",
+    "answer": "CREATE TABLE stud (\n    sname VARCHAR(50),\n    sid INT,\n    sage INT,\n    sarea VARCHAR(50),\n    sdept VARCHAR(50)\n);\n\nINSERT INTO stud (sname, sid, sage, sarea, sdept) VALUES \n('Ashwin', 101, 19, 'anna nagar', 'aeronautical'),\n('Bhavesh', 102, 18, 'nungambakkam', 'marine'),\n('Pruthvik', 103, 20, 'anna nagar', 'aerospace'),\n('Charith', 104, 20, 'kilpauk', 'mechanical');",
+    "name": "DML - 1"
+  },
+  "4.1.1": {
+    "type": "MCQ",
+    "answer": [
+      "B"
+    ],
+    "name": "Functional Dependency"
+  },
+  "4.1.2": {
+    "type": "MCQ",
+    "answer": [
+      "C"
+    ],
+    "name": "Types of Functional Dependency"
+  },
+  "4.1.3": {
+    "type": "MCQ",
+    "answer": [
+      "B"
+    ],
+    "name": "Closure of an Attribute"
+  },
+  "4.1.4": {
+    "type": "MCQ",
+    "answer": [
+      "C"
+    ],
+    "name": "Closure of an Attribute - Example"
+  },
+  "4.2.1": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B"
+    ],
+    "name": "What is Normalization?"
+  },
+  "4.2.2": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "name": "Purpose of Normalization"
+  },
+  "4.2.3": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B"
+    ],
+    "name": " E. F. Codd's Objectives of Normalization"
+  },
+  "4.2.4": {
+    "type": "MCQ",
+    "answer": [
+      "B",
+      "D"
+    ],
+    "name": "What is an Anamoly?"
+  },
+  "4.2.5": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B"
+    ],
+    "name": "Insert Anomaly"
+  },
+  "4.2.6": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B"
+    ],
+    "name": "Update Anomaly"
+  },
+  "4.2.7": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "D"
+    ],
+    "name": "Delete Anomaly"
+  },
+  "4.3.1": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "name": "First Normal Form"
+  },
+  "4.3.2": {
+    "type": "MCQ",
+    "answer": [
+      "B",
+      "C"
+    ],
+    "name": "Zero and First Normal Form - Problems"
+  },
+  "4.3.3": {
+    "type": "MCQ",
+    "answer": [
+      "B"
+    ],
+    "name": "Key PostgreSQL Functions for Table Decomposition and Normalization"
+  },
+  "4.3.4": {
+    "type": "MCQ",
+    "answer": [
+      "C"
+    ],
+    "name": "Key PostgreSQL Functions for Table Decomposition and Normalization"
+  },
+  "4.4.1": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "name": "Second Normal Form"
+  },
+  "4.4.2": {
+    "type": "Coding",
+    "answer": "-- Create Employees Table\nCREATE TABLE Employees (\n    emp_id INT PRIMARY KEY,\n    emp_name VARCHAR(50) NOT NULL\n);\n\n-- Create Projects Table\nCREATE TABLE Projects (\n    project_id INT PRIMARY KEY,\n    project_name VARCHAR(50) NOT NULL\n);\n\n-- Create EmployeeProjectAssignments Table\nCREATE TABLE EmployeeProjectAssignments (\n    emp_id INT NOT NULL,\n    project_id INT NOT NULL,\n    hours_worked INT NOT NULL,\n    PRIMARY KEY (emp_id, project_id),\n    FOREIGN KEY (emp_id) REFERENCES Employees(emp_id),\n    FOREIGN KEY (project_id) REFERENCES Projects(project_id)\n);\n\n-- Insert data into Employees table\nINSERT INTO Employees (emp_id, emp_name) VALUES\n(1, 'John Doe'),\n(2, 'Jane Smith'),\n(3, 'Bob White');\n\n-- Insert Data into Projects Table\nINSERT INTO Projects (project_id, project_name) VALUES\n(101, 'Website Redesign'),\n(102, 'Mobile App'),\n(103, 'Data Migration');\n\n-- Insert Data into EmployeeProjectAssignments Table\nINSERT INTO EmployeeProjectAssignments (emp_id, project_id, hours_worked) VALUES\n(1, 101, 20),\n(1, 102, 15),\n(2, 101, 25),\n(2, 103, 10),\n(3, 102, 30);\n\n-- Reconstruct the original data by joining the normalized tables\nSELECT e.emp_id, e.emp_name, epa.hours_worked, p.project_id, p.project_name\nFROM Employees e\nINNER JOIN EmployeeProjectAssignments epa ON e.emp_id = epa.emp_id\nINNER JOIN Projects p ON epa.project_id = p.project_id\nORDER BY e.emp_id, p.project_id;",
+    "name": "SQL Exercise on 2NF"
+  },
+  "4.5.1": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B"
+    ],
+    "name": "Third Normal Form"
+  },
+  "4.5.2": {
+    "type": "Coding",
+    "answer": "-- Create Customers Table\nCREATE TABLE Customers (\n    customer_id INT PRIMARY KEY,\n    customer_name VARCHAR(100) NOT NULL,\n    customer_address VARCHAR(255) NOT NULL\n);\n\n-- Create Products Table\nCREATE TABLE Products (\n    product_id VARCHAR(10) PRIMARY KEY,\n    product_name VARCHAR(100) NOT NULL,\n    price NUMERIC(10, 2) NOT NULL\n);\n\n\n\n-- Create OrderDetails Table\nCREATE TABLE OrderDetails (\n    order_id INT PRIMARY KEY,\n    customer_id INT NOT NULL,\n    product_id VARCHAR(10) NOT NULL,\n    FOREIGN KEY (customer_id) REFERENCES Customers(customer_id),\n    FOREIGN KEY (product_id) REFERENCES Products(product_id)\n);\n\n-- Insert data into Customers table\nINSERT INTO Customers (customer_id, customer_name, customer_address) VALUES\n(101, 'Alice', '123 Main St'),\n(102, 'Bob', '456 Oak St'),\n(103, 'Charlie', '789 Pine St');\n\n-- Insert data into Products table\nINSERT INTO Products (product_id, product_name, price) VALUES\n('P02', 'Phone', 500.00),\n('P03', 'Tablet', 300.00),\n('P01', 'Laptop', 1000.00);\n\n-- Insert data into OrderDetails table\nINSERT INTO OrderDetails (order_id, customer_id, product_id) VALUES\n(1, 101, 'P01'),\n(2, 102, 'P02'),\n(3, 101, 'P02'),\n(4, 103, 'P03');\n\n-- Reconstruct the original data by joining the normalized tables\nSELECT c.customer_id, c.customer_name, c.customer_address, p.product_id, p.product_name, p.price, od.order_id\nFROM OrderDetails od\nINNER JOIN Customers c ON od.customer_id = c.customer_id\nINNER JOIN Products p ON od.product_id = p.product_id\nORDER BY od.order_id ASC;",
+    "name": "SQL Exercise on 3NF"
+  },
+  "4.6.1": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "name": "Boyce-Codd Normal Form (BCNF)"
+  },
+  "4.7.1": {
+    "type": "MCQ",
+    "answer": [
+      "C"
+    ],
+    "name": "Introduction to Aggregate Functions"
+  },
+  "4.7.2": {
+    "type": "MCQ",
+    "answer": [
+      "B"
+    ],
+    "name": "The SQL COUNT() "
+  },
+  "4.7.3": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B"
+    ],
+    "name": "COUNT function"
+  },
+  "4.7.4": {
+    "type": "Coding",
+    "answer": "SELECT COUNT(DISTINCT species) AS species_count\nFROM animals;",
+    "name": "Count the Number of Different Species in the Zoo"
+  },
+  "4.7.5": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "SUM function"
+  },
+  "4.7.6": {
+    "type": "Coding",
+    "answer": "SELECT SUM(animal_count) AS total_animals\nFROM animals;",
+    "name": "Calculate the Total Number of Animals in a Zoo"
+  },
+  "4.7.7": {
+    "type": "Coding",
+    "answer": "SELECT AVG(price) AS avg_price\nFROM products;",
+    "name": "Calculate the Average Price of Electronics Products in a Store"
+  },
+  "4.7.8": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "D"
+    ],
+    "name": "MAX function"
+  },
+  "4.7.9": {
+    "type": "Coding",
+    "answer": "SELECT MAX(available_copies) AS max_available_copies\nFROM library_inventory;",
+    "name": "SQL Exercise"
+  },
+  "4.7.10": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "C"
+    ],
+    "name": "MIN Function"
+  },
+  "4.7.11": {
+    "type": "Coding",
+    "answer": "SELECT MIN(available_copies) AS min_available_copies\nFROM library_inventory;",
+    "name": "SQL Exercise"
+  },
+  "4.7.12": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B"
+    ],
+    "name": "GROUP BY Clause"
+  },
+  "4.7.13": {
+    "type": "MCQ",
+    "answer": [
+      "F"
+    ],
+    "name": "Select the correct answer"
+  },
+  "4.7.14": {
+    "type": "Coding",
+    "answer": "SELECT category, SUM(quantity_sold) AS total_quantity_sold\nFROM sales\nGROUP BY category\nORDER BY category ASC;",
+    "name": "Track Sales Performance by Product Category in an E-commerce Store"
+  },
+  "4.7.15": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B"
+    ],
+    "name": "HAVING Clause"
+  },
+  "4.7.16": {
+    "type": "Coding",
+    "answer": "SELECT category, SUM(quantity_sold) AS total_quantity_sold\nFROM sales\nGROUP BY category\nHAVING SUM(quantity_sold) >= 30\nORDER BY category ASC;",
+    "name": "Analyzing High-Performing Product Categories in a Retail Chain"
+  },
+  "4.7.17": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B"
+    ],
+    "name": "DISTINCT Clause"
+  },
+  "4.7.18": {
+    "type": "Coding",
+    "answer": "SELECT DISTINCT category \nFROM products;",
+    "name": "Find Unique Product Categories in a Retail Store Inventory"
+  },
+  "4.7.19": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "name": "FETCH Clause"
+  },
+  "4.7.20": {
+    "type": "Coding",
+    "answer": "SELECT name, price \nFROM products \nORDER BY product_id ASC \nOFFSET 4 ROWS \nFETCH NEXT 5 ROWS ONLY;",
+    "name": "SQL Exercise"
+  },
+  "4.7.21": {
+    "type": "Coding",
+    "answer": "SELECT name, price \nFROM products \nORDER BY product_id ASC \nOFFSET 2 ROWS \nFETCH NEXT 4 ROWS ONLY;",
+    "name": "SQL Exercise"
+  },
+  "4.8.1": {
+    "type": "Coding",
+    "answer": "SELECT COUNT(*) AS total_books \nFROM library;",
+    "name": "Aggregate Function - COUNT - 1"
+  },
+  "4.8.2": {
+    "type": "Coding",
+    "answer": "SELECT AVG(price) AS average_price \nFROM toy_system;",
+    "name": "Aggregate function - AVG - 1"
+  },
+  "4.8.3": {
+    "type": "Coding",
+    "answer": "SELECT MAX(price) AS maximum_price \nFROM products;",
+    "name": "Aggregate function - MAX - 1"
+  },
+  "4.9.1": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "name": "What is a JOIN operation and different types of joins"
+  },
+  "4.9.2": {
+    "type": "MCQ",
+    "answer": [
+      "B",
+      "D"
+    ],
+    "name": "Natural Join Operation"
+  },
+  "4.9.3": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "NATURAL JOIN"
+  },
+  "4.9.4": {
+    "type": "Coding",
+    "answer": "SELECT employee_id, name, department_id, project_id, project_name FROM employees NATURAL JOIN projects;",
+    "name": "SQL Exercise on NATURAL JOIN"
+  },
+  "4.9.5": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "C"
+    ],
+    "name": "Theta Join and Equi Join"
+  },
+  "4.9.6": {
+    "type": "MCQ",
+    "answer": [
+      "B"
+    ],
+    "name": "Theta JOIN"
+  },
+  "4.9.7": {
+    "type": "Coding",
+    "answer": "SELECT employees.name, performance.rating\nFROM employees\nJOIN performance ON employees.employee_id = performance.employee_id \nAND performance.rating <= employees.salary / 10000;",
+    "name": "SQL Exercise on Theta Join"
+  },
+  "4.9.8": {
+    "type": "MCQ",
+    "answer": [
+      "C"
+    ],
+    "name": "EQUI JOIN"
+  },
+  "4.9.9": {
+    "type": "Coding",
+    "answer": "SELECT students.name, enrollments.course_name, enrollments.score\nFROM students, enrollments\nWHERE students.student_id = enrollments.student_id;\n\n\n\n\n\n\n\n\n\n",
+    "name": "SQL Exercise on EQUI JOIN"
+  },
+  "4.9.10": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B"
+    ],
+    "name": "INNER Join"
+  },
+  "4.9.11": {
+    "type": "Coding",
+    "answer": "SELECT DISTINCT ON (c.customer_id)\n    c.customer_id,\n    c.email,\n    c.address,\n    o.order_date,\n    o.total_amount\nFROM customers c\nINNER JOIN orders o ON c.customer_id = o.customer_id\nORDER BY c.customer_id, o.order_date DESC;",
+    "name": "Fetch Latest Order per Customer Using INNER JOIN"
+  },
+  "4.9.12": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "LEFT JOIN"
+  },
+  "4.9.13": {
+    "type": "Coding",
+    "answer": "SELECT title, author_name\nFROM books\nLEFT JOIN authors ON books.author_id = authors.author_id;",
+    "name": "Bookstore Inventory"
+  },
+  "4.9.14": {
+    "type": "Coding",
+    "answer": "SELECT p.product_id, p.name, c.email, pr.rating\nFROM products p\nLEFT JOIN product_reviews pr ON p.product_id = pr.product_id\nLEFT JOIN customers c ON pr.customer_id = c.customer_id;",
+    "name": "SQL Exercise"
+  },
+  "4.9.15": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "D"
+    ],
+    "name": "RIGHT JOIN"
+  },
+  "4.9.16": {
+    "type": "Coding",
+    "answer": "SELECT accessories.accessory_name, accessories.type, dresses.dress_name, dresses.color\nFROM dresses\nRIGHT JOIN accessories ON dresses.dress_id = accessories.dress_id;",
+    "name": "SQL Exercise on RIGHT JOIN"
+  },
+  "4.9.17": {
+    "type": "Coding",
+    "answer": "SELECT \n    od.product_id, \n    p.name, \n    o.customer_id, \n    o.total_amount, \n    od.unit_price \nFROM products p \nRIGHT JOIN order_details od ON p.product_id = od.product_id \nRIGHT JOIN orders o ON od.order_id = o.order_id;",
+    "name": "Perform a Right Join on Product Details and Orders"
+  },
+  "4.9.18": {
+    "type": "MCQ",
+    "answer": [
+      "B"
+    ],
+    "name": "FULL JOIN"
+  },
+  "4.9.19": {
+    "type": "Coding",
+    "answer": "SELECT customers.customer_id, customers.name, customers.email, customers.address, customers.phone_number, orders.order_id, orders.customer_id, orders.order_date, orders.total_amount, orders.status\nFROM customers\nFULL JOIN orders ON customers.customer_id = orders.customer_id;",
+    "name": "SQL Exercise"
+  },
+  "4.9.20": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "C"
+    ],
+    "name": "CROSS JOIN"
+  },
+  "4.9.21": {
+    "type": "Coding",
+    "answer": "SELECT customers.customer_id, customers.name, customers.email, customers.address, customers.phone_number, orders.order_id, orders.customer_id, orders.order_date, orders.total_amount, orders.status\nFROM customers\nCROSS JOIN orders;",
+    "name": "SQL Exercise"
+  },
+  "4.9.22": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "SELF JOIN"
+  },
+  "4.9.23": {
+    "type": "Coding",
+    "answer": "SELECT p1.product_name, p2.product_name AS related_product_name, c.category_name\nFROM products p1\nINNER JOIN products p2 ON p1.category_id = p2.category_id AND p1.product_id <> p2.product_id\nINNER JOIN categories c ON p1.category_id = c.category_id;",
+    "name": "SQL Exercise"
+  },
+  "4.10.1": {
+    "type": "Coding",
+    "answer": "SELECT d1.dish_name as dish_name, d2.dish_name as related_dish_name, c.cuisine_name \nFROM dishes d1 \nJOIN dishes d2 ON d1.cuisine_id = d2.cuisine_id \nJOIN cuisines c ON d1.cuisine_id = c.cuisine_id \nWHERE d1.dish_id != d2.dish_id;",
+    "name": "SQL Exercise - Self Join - Restaurant"
+  },
+  "4.10.2": {
+    "type": "Coding",
+    "answer": "SELECT p.name, c.name AS category\nFROM products p\nLEFT JOIN product_categories pc ON p.product_id = pc.product_id\nLEFT JOIN categories c ON pc.category_id = c.category_id;",
+    "name": "SQL Exercise"
+  },
+  "4.10.3": {
+    "type": "Coding",
+    "answer": "SELECT sailors.sailor_id, sailors.email, sailors.address, missions.mission_date, missions.total_cost\nFROM sailors\nINNER JOIN missions ON sailors.sailor_id = missions.sailor_id;",
+    "name": "SQL Exercise - Inner Join - Navy"
+  },
+  "4.10.4": {
+    "type": "Coding",
+    "answer": "SELECT\n  s.station_id,\n  s.name,\n  s.region,\n  wr.report_date,\n  rd.value\nFROM stations s\nRIGHT JOIN weather_reports wr ON s.station_id = wr.station_id\nRIGHT JOIN report_details rd ON wr.report_id = rd.report_id;",
+    "name": "SQL Exercise\t- Right Join 1 - Weather Monitoring Systemstat"
+  },
+  "4.10.5": {
+    "type": "Coding",
+    "answer": "SELECT officer_id, officer_name, badge_number, precinct, years_of_service\nFROM police_officers\nNATURAL JOIN officer_details;",
+    "name": "Natural Join - Police Department"
+  },
+  "4.10.6": {
+    "type": "Coding",
+    "answer": "SELECT police_officers.officer_id, police_officers.officer_name, police_officers.badge_number, officer_details.precinct, officer_details.years_of_service FROM police_officers CROSS JOIN officer_details;",
+    "name": "Cross Join - Police Department"
+  },
+  "4.10.7": {
+    "type": "Coding",
+    "answer": "SELECT police_officers.officer_id, police_officers.officer_name, police_officers.badge_number, officer_details.precinct, officer_details.years_of_service\nFROM police_officers\nLEFT OUTER JOIN officer_details\nON police_officers.officer_id = officer_details.officer_id;",
+    "name": "Left Outer Join - Police Department"
+  },
+  "4.10.8": {
+    "type": "Coding",
+    "answer": "\tSELECT p.officer_id, p.officer_name, p.badge_number, o.precinct, o.years_of_service FROM police_officers p RIGHT OUTER JOIN officer_details o ON p.officer_id = o.officer_id;",
+    "name": "Right Outer Join - Police Department"
+  },
+  "4.10.9": {
+    "type": "Coding",
+    "answer": "SELECT satellite_system.id, satellite_system.satellite_name, satellite_system.frequency, communication_data.location, communication_data.signal_strength\nFROM satellite_system\nCROSS JOIN communication_data;",
+    "name": "Cross Join - Satellite Communication"
+  },
+  "4.10.10": {
+    "type": "Coding",
+    "answer": "SELECT satellite_info.satellite_id, satellite_info.satellite_name, satellite_info.launch_year, satellite_usage.region, satellite_usage.usage_hours\nFROM satellite_info\nLEFT OUTER JOIN satellite_usage ON satellite_info.satellite_id = satellite_usage.satellite_id;",
+    "name": "Left Outer Join - Satellite Communication"
+  },
+  "4.10.11": {
+    "type": "Coding",
+    "answer": "\nSELECT \n    s.satellite_id,\n    s.satellite_name,\n    s.launch_date,\n    u.region,\n    u.usage_hours\nFROM satellite_info s\nFULL OUTER JOIN satellite_usage u\n    ON s.satellite_id = u.satellite_id;\n",
+    "name": "Full Outer Join - Satellite Communication"
+  },
+  "4.10.12": {
+    "type": "Coding",
+    "answer": "\nSELECT \n    d1.device_name,\n    d2.device_name AS related_device_name,\n    dc.device_category_name\nFROM devices d1\nJOIN devices d2 \n    ON d1.device_category_id = d2.device_category_id \n    AND d1.device_id != d2.device_id\nJOIN device_categories dc \n    ON d1.device_category_id = dc.device_category_id\nORDER BY \n    dc.device_category_name, \n    d1.device_name, \n    d2.device_name;\n",
+    "name": "Self Join - Satellite Communication"
+  },
+  "4.10.13": {
+    "type": "Coding",
+    "answer": "SELECT t1.toy_name, t2.toy_name AS related_toy_name, c.toy_category_name\nFROM toys t1\nJOIN toys t2 ON t1.toy_category_id = t2.toy_category_id\nJOIN toy_categories c ON t1.toy_category_id = c.toy_category_id\nWHERE t1.toy_id < t2.toy_id;",
+    "name": "Self Join - Toy System"
+  },
+  "4.10.14": {
+    "type": "Coding",
+    "answer": "SELECT officer_id, officer_name, badge_number, base_location, years_of_service \nFROM navy_officers \nNATURAL JOIN officer_details;",
+    "name": "Navy Officer Database"
+  },
+  "4.10.15": {
+    "type": "Coding",
+    "answer": "SELECT officer_id, officer_name, badge_number, base_location, years_of_service FROM air_force_officers NATURAL JOIN officer_details;",
+    "name": "Air Force Personnel Database"
+  },
+  "4.10.16": {
+    "type": "Coding",
+    "answer": "\nSELECT \n*\nFROM \n    class_A\nLEFT OUTER JOIN \n    class_B ON class_A.id = class_B.id;\n",
+    "name": "Left Outer Join"
+  },
+  "4.10.17": {
+    "type": "Coding",
+    "answer": "SELECT customer_id, name, food_item, quantity, city FROM orders NATURAL JOIN customers;",
+    "name": "Natural Join - Restaurant"
+  },
+  "4.10.18": {
+    "type": "Coding",
+    "answer": "SELECT orders.restaurant_id, customer_name, food_item, quantity, address, city\nFROM orders\nRIGHT OUTER JOIN restaurants ON orders.restaurant_id = restaurants.restaurant_id;",
+    "name": "Right Outer Join - Restaurant"
+  },
+  "4.10.19": {
+    "type": "Coding",
+    "answer": "SELECT customers.customer_name, orders.order_total, payments.amount_paid\nFROM customers\nFULL OUTER JOIN orders ON customers.customer_id = orders.customer_id\nFULL OUTER JOIN payments ON orders.order_id = payments.order_id;",
+    "name": "FULL OUTER JOIN on Three Tables in PostgreSQL"
+  },
+  "4.10.20": {
+    "type": "Coding",
+    "answer": "SELECT innovation_name, category, material_name, amount\nFROM innovations\nLEFT JOIN materials ON innovations.innovation_id = materials.innovation_id\nLEFT JOIN research_grants ON innovations.innovation_id = research_grants.innovation_id;",
+    "name": "Retrieve Innovation Details with Sustainability Focus"
+  },
+  "4.10.21": {
+    "type": "Coding",
+    "answer": "SELECT a.act_name\nFROM ACTOR a\nJOIN MOVIE_CAST mc ON a.act_id = mc.act_id\nJOIN MOVIES m ON mc.mov_id = m.mov_id\nGROUP BY a.act_id, a.act_name\nHAVING MIN(m.mov_year) < 2000 AND MAX(m.mov_year) > 2023;",
+    "name": "Movie Database Management"
+  },
+  "4.10.22": {
+    "type": "Coding",
+    "answer": "SELECT destination_name, package_type, season_name\nFROM destinations\nCROSS JOIN travel_packages\nCROSS JOIN seasons;",
+    "name": "Travel Agency Packages"
+  },
+  "4.10.23": {
+    "type": "Coding",
+    "answer": "SELECT tour_packages.package_name, tour_packages.destination, customers.customer_name, bookings.booking_date\nFROM bookings\nRIGHT JOIN tour_packages ON bookings.package_id = tour_packages.package_id\nRIGHT JOIN customers ON bookings.customer_id = customers.customer_id;",
+    "name": "Finding Details of All Tour Packages"
+  },
+  "4.11.1": {
+    "type": "MCQ",
+    "answer": [
+      "B"
+    ],
+    "name": "SQL Set Operators"
+  },
+  "4.11.2": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B"
+    ],
+    "name": "SQL Set Operators - UNION vs JOIN"
+  },
+  "4.11.3": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "C"
+    ],
+    "name": "Set Difference"
+  },
+  "4.11.4": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "D"
+    ],
+    "name": "Set Union Operation"
+  },
+  "4.11.5": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "C"
+    ],
+    "name": "UNION "
+  },
+  "4.11.6": {
+    "type": "Coding",
+    "answer": "SELECT name FROM electronics\nUNION\nSELECT name FROM apparel;",
+    "name": "SQL Exercise"
+  },
+  "4.11.7": {
+    "type": "Coding",
+    "answer": "SELECT email FROM customers\nUNION\nSELECT email FROM employees;",
+    "name": "Combined Unique Email List"
+  },
+  "4.11.8": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "Set Intersection Operation"
+  },
+  "4.11.9": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "INTERSECT"
+  },
+  "4.11.10": {
+    "type": "Coding",
+    "answer": "SELECT product_name FROM new_customers\nINTERSECT\nSELECT product_name FROM returning_customers;",
+    "name": "SQL Exercise"
+  },
+  "4.11.11": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "EXCEPT"
+  },
+  "4.11.12": {
+    "type": "Coding",
+    "answer": "SELECT name FROM CityClub\nEXCEPT\nSELECT name FROM CountryClub;\n",
+    "name": "SQL Exercise"
+  },
+  "4.11.13": {
+    "type": "Coding",
+    "answer": "SELECT name FROM all_products\nEXCEPT ALL\nSELECT name FROM sold_out_products;",
+    "name": "SQL Exercise"
+  },
+  "4.11.14": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B"
+    ],
+    "name": "Cartesian Product Operation"
+  },
+  "4.11.15": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "C"
+    ],
+    "name": "More on Cartesian Product"
+  },
+  "4.11.16": {
+    "type": "MCQ",
+    "answer": [
+      "B"
+    ],
+    "name": "The Assignment Operation"
+  },
+  "4.12.1": {
+    "type": "Coding",
+    "answer": "\nSELECT dish_name \nFROM first_time_customers\nINTERSECT\nSELECT dish_name \nFROM regular_customers;\n",
+    "name": "SQL Exercise - Set Operators - Intersect"
+  },
+  "4.12.2": {
+    "type": "Coding",
+    "answer": "\n--Type SQL here\nSELECT name\nFROM SatCom1\nEXCEPT\nSELECT name\nFROM SatCom2;\n",
+    "name": "SQL Exercise - Set Operators - Except"
+  },
+  "4.12.3": {
+    "type": "Coding",
+    "answer": "SELECT email FROM engineers\nUNION\nSELECT email FROM clients;",
+    "name": "SQL Exercise - Set Operators - Union"
+  },
+  "5.1.1": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "name": "CREATE VIEW Command"
+  },
+  "5.1.2": {
+    "type": "Coding",
+    "answer": "CREATE VIEW product_view AS\nSELECT name, category, price, description, stock_quantity\nFROM products;",
+    "name": "Create View for Product Insights"
+  },
+  "5.1.3": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "C"
+    ],
+    "name": "CREATE OR REPLACE View"
+  },
+  "5.1.4": {
+    "type": "Coding",
+    "answer": "\n-- Write your query here\nCREATE OR REPLACE VIEW product_stock AS\nSELECT name, stock_quantity\nFROM products;\n",
+    "name": "Update Existing Database View"
+  },
+  "5.1.5": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B"
+    ],
+    "name": "DROP VIEW"
+  },
+  "5.1.6": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "ALTER View - Renaming a View"
+  },
+  "5.1.7": {
+    "type": "Coding",
+    "answer": "-- Write your query here \nDROP VIEW IF EXISTS product_stock;",
+    "name": "SQL Exercise"
+  },
+  "5.1.8": {
+    "type": "Coding",
+    "answer": "-- Write your query here \nALTER VIEW product_stock RENAME TO product_quantity;",
+    "name": "SQL Exercise"
+  },
+  "5.2.1": {
+    "type": "Coding",
+    "answer": "\n-- Type SQL here\nCREATE OR REPLACE VIEW officer_inventory AS\nSELECT officer_name, active_cases\nFROM police_officers;\n",
+    "name": "SQL Exercise - Views - Replace"
+  },
+  "5.3.1": {
+    "type": "MCQ",
+    "answer": [
+      "D"
+    ],
+    "name": "Introduction to Subquery"
+  },
+  "5.3.2": {
+    "type": "MCQ",
+    "answer": [
+      "B",
+      "C",
+      "D"
+    ],
+    "name": "What is a Query Tree?"
+  },
+  "5.3.3": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "C"
+    ],
+    "name": "Query Processing "
+  },
+  "5.3.4": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "Different types of subqueries"
+  },
+  "5.3.5": {
+    "type": "MCQ",
+    "answer": [
+      "B"
+    ],
+    "name": "Independent Subquery"
+  },
+  "5.3.6": {
+    "type": "MCQ",
+    "answer": [
+      "C"
+    ],
+    "name": "Correlated Subquery"
+  },
+  "5.3.7": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B"
+    ],
+    "name": "Execution Plans"
+  },
+  "5.3.8": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B"
+    ],
+    "name": "What is Cost based optimization ?"
+  },
+  "5.3.9": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B"
+    ],
+    "name": "Purpose of the Query Optimizer"
+  },
+  "5.3.10": {
+    "type": "MCQ",
+    "answer": [
+      "B"
+    ],
+    "name": "Sub Queries"
+  },
+  "5.3.11": {
+    "type": "Coding",
+    "answer": "\nSELECT \n    o.order_id,\n    o.customer_id,\n    o.total_amount,\n    (SELECT AVG(total_amount) \n     FROM orders \n     WHERE customer_id = o.customer_id) AS customer_avg_order_amount\nFROM orders o;\n",
+    "name": "SQL Exercise"
+  },
+  "5.3.12": {
+    "type": "Coding",
+    "answer": "SELECT name\nFROM customers c\nWHERE EXISTS (\n    SELECT 1\n    FROM orders o\n    WHERE o.customer_id = c.customer_id\n);",
+    "name": "SQL Exercise"
+  },
+  "5.3.13": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "C"
+    ],
+    "name": "Heuristics"
+  },
+  "5.3.14": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "C"
+    ],
+    "name": "Understanding Heuristics"
+  },
+  "5.3.15": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "Understanding Nested Queries"
+  },
+  "5.3.16": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "name": "Nested Queries - Examples"
+  },
+  "5.4.1": {
+    "type": "Coding",
+    "answer": "SELECT \n    o.order_id, \n    o.sailor_id, \n    o.order_cost, \n    (SELECT AVG(o2.order_cost) \n     FROM naval_orders o2 \n     WHERE o2.sailor_id = o.sailor_id) AS sailor_avg_order_cost\nFROM naval_orders o;",
+    "name": "Navy Logistics"
+  },
+  "5.4.2": {
+    "type": "Coding",
+    "answer": "SELECT station_name\nFROM readings\nWHERE temperature >= (\n    SELECT SUM(temperature)\n    FROM readings\n    WHERE weather_condition = 'Clear'\n);",
+    "name": "Weather Monitoring System Query Task"
+  },
+  "5.4.3": {
+    "type": "Coding",
+    "answer": "SELECT student_name\nFROM students_grades\nWHERE grade >= ANY (\n    SELECT grade\n    FROM students_grades\n    WHERE department = 'CS'\n);",
+    "name": "Selecting Students Based on Grades in the CS Department"
+  },
+  "5.4.4": {
+    "type": "Coding",
+    "answer": "SELECT sname FROM sstud1 WHERE sname NOT IN (SELECT sname FROM sstud2);",
+    "name": "SQL Exercise on Sub Queries"
+  },
+  "5.4.5": {
+    "type": "Coding",
+    "answer": "-- write your query here..\nSELECT sname\nFROM sstud1\nWHERE sname IN (\n    SELECT sname\n    FROM sstud2\n);",
+    "name": "SQL Exercise on Sub Queries"
+  },
+  "5.4.6": {
+    "type": "Coding",
+    "answer": "--Type Content here...\nSELECT book_name\nFROM books_available\nWHERE book_name NOT IN (\n    SELECT book_name\n    FROM books_borrowed\n);",
+    "name": "Sub Queries - 15"
+  },
+  "5.4.7": {
+    "type": "Coding",
+    "answer": "\n-- Type SQl here \nSELECT \n    o.order_id,\n    o.customer_id,\n    o.total_amount,\n    (SELECT AVG(total_amount)\n     FROM restaurant_orders\n     WHERE customer_id = o.customer_id) AS customer_avg_order_amount\nFROM restaurant_orders o\nORDER BY o.order_id;\n",
+    "name": "Generate a Customer Spending Report"
+  },
+  "5.4.8": {
+    "type": "Coding",
+    "answer": "\n--Type Content here...\nSELECT m.astronaut_name\nFROM missions m\nWHERE m.mission_score >= ANY (\n    SELECT mission_score\n    FROM missions\n    WHERE astronaut_name IN (\n        SELECT astronaut_name\n        FROM astronauts\n        WHERE station = 'Mars Station'\n    )\n);\n",
+    "name": "Sub Queries - 4"
+  },
+  "5.4.9": {
+    "type": "Coding",
+    "answer": "\n--Type Content here...\nSELECT cr.customer_name\nFROM customer_rentals cr\nWHERE cr.rating >= (\n    SELECT MAX(cr2.rating)\n    FROM customer_rentals cr2\n    JOIN movie_details md ON cr2.movie_name = md.movie_name\n    WHERE md.genre = 'action'\n);\n",
+    "name": "Sub Queries - 5"
+  },
+  "5.4.10": {
+    "type": "Coding",
+    "answer": "SELECT name\nFROM employees\nWHERE salary > ALL (\n    SELECT salary\n    FROM employees\n    WHERE department = 'HR'\n);",
+    "name": "ALL"
+  },
+  "5.5.1": {
+    "type": "MCQ",
+    "answer": [
+      "B",
+      "D"
+    ],
+    "name": "Introduction to Relational Algebra"
+  },
+  "5.5.2": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "Basic Operations: Selection"
+  },
+  "5.5.3": {
+    "type": "MCQ",
+    "answer": [
+      "B"
+    ],
+    "name": "Basic Operations: Projection and Renaming"
+  },
+  "5.5.4": {
+    "type": "MCQ",
+    "answer": [
+      "C",
+      "D"
+    ],
+    "name": "Set Operations: Union and Intersection"
+  },
+  "5.5.5": {
+    "type": "MCQ",
+    "answer": [
+      "D"
+    ],
+    "name": "Set Operations: Difference and Cartesian Product"
+  },
+  "5.5.6": {
+    "type": "MCQ",
+    "answer": [
+      "B"
+    ],
+    "name": "Relational Algebra Operations: Joins"
+  },
+  "5.5.7": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "C",
+      "D"
+    ],
+    "name": "Relational Algebra Operations: Joins"
+  },
+  "5.5.8": {
+    "type": "MCQ",
+    "answer": [
+      "C"
+    ],
+    "name": "Division Operator in Relational Algebra"
+  },
+  "6.1.1": {
+    "type": "MCQ",
+    "answer": [
+      "B"
+    ],
+    "name": "Introduction to PL/pgSQL"
+  },
+  "6.1.2": {
+    "type": "MCQ",
+    "answer": [
+      "B"
+    ],
+    "name": "Variables and Data Types"
+  },
+  "6.1.3": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "C",
+      "E"
+    ],
+    "name": "Data Conversion"
+  },
+  "6.1.4": {
+    "type": "MCQ",
+    "answer": [
+      "C",
+      "D"
+    ],
+    "name": "Advanced Data Type Conversions"
+  },
+  "6.2.1": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "Control Structures - IF"
+  },
+  "6.2.2": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "Control Structures - IF ELSE"
+  },
+  "6.2.3": {
+    "type": "MCQ",
+    "answer": [
+      "C"
+    ],
+    "name": "Control Structures - LOOP"
+  },
+  "6.2.4": {
+    "type": "Coding",
+    "answer": "CREATE FUNCTION find_first_zero_quantity_product() RETURNS INT AS $$\nDECLARE\n    counter INT := 1; \n    c_quantity INT;\n    max_id INT;\nBEGIN\n    SELECT MAX(product_id) INTO max_id FROM products;\n\n    LOOP\n        SELECT quantity INTO c_quantity FROM products WHERE product_id = counter;\n        \n        IF c_quantity = 0 THEN\n            RETURN counter;\n        END IF;\n        \n        counter := counter + 1;\n        \n        IF counter > max_id THEN\n            RETURN NULL;\n        END IF;\n    END LOOP;\nEND;\n$$ LANGUAGE plpgsql;",
+    "name": "LOOP - SQL Exercise"
+  },
+  "6.2.5": {
+    "type": "MCQ",
+    "answer": [
+      "B"
+    ],
+    "name": "Control Structures - WHILE"
+  },
+  "6.2.6": {
+    "type": "Coding",
+    "answer": "\nCREATE OR REPLACE FUNCTION find_first_prolific_customer(min_orders INT)\nRETURNS INT AS $$\nDECLARE\n    result INT;\nBEGIN\n    SELECT customer_id INTO result\n    FROM customer_orders\n    WHERE number_of_orders > min_orders\n    ORDER BY customer_id ASC\n    LIMIT 1;\n    \n    RETURN result;\nEND;\n$$ LANGUAGE plpgsql;\n",
+    "name": "WHILE - SQL Exercise"
+  },
+  "6.2.7": {
+    "type": "MCQ",
+    "answer": [
+      "D"
+    ],
+    "name": "Control Structures - FOR"
+  },
+  "6.2.8": {
+    "type": "Coding",
+    "answer": "\nCREATE OR REPLACE FUNCTION list_low_stock_products(threshold INT)\nRETURNS SETOF VARCHAR(255) AS $$\n    SELECT p.product_name\n    FROM products p\n    WHERE p.quantity < threshold\n    ORDER BY p.product_id;\n$$ LANGUAGE sql;\n",
+    "name": "Control Structures - FOR"
+  },
+  "6.3.1": {
+    "type": "Coding",
+    "answer": "CREATE OR REPLACE FUNCTION check_number(v_num INTEGER)\nRETURNS TEXT AS $$\nDECLARE\n    v_result TEXT;\nBEGIN\n    IF v_num > 0 THEN\n        v_result := 'Positive';\n    ELSIF v_num < 0 THEN\n        v_result := 'Negative';\n    ELSE\n        v_result := 'Zero';\n    END IF;\n    \n    RETURN v_result;\nEND $$ LANGUAGE plpgsql;",
+    "name": "Check the Number - Control Statement - If Else End If 1"
+  },
+  "6.3.2": {
+    "type": "Coding",
+    "answer": "CREATE OR REPLACE FUNCTION sum_numbers(v_max INTEGER)\nRETURNS INTEGER AS $$\nDECLARE\n    v_sum INTEGER := 0;\n    i INTEGER;\nBEGIN\n    FOR i IN 1..v_max LOOP\n        v_sum := v_sum + i;\n    END LOOP;\n    \n    RETURN v_sum;\nEND $$ LANGUAGE plpgsql;",
+    "name": "Sum of Integers - Control Statement - For Loop 1"
+  },
+  "6.4.1": {
+    "type": "MCQ",
+    "answer": [
+      "B"
+    ],
+    "name": "Arithmetic Functions"
+  },
+  "6.4.2": {
+    "type": "MCQ",
+    "answer": [
+      "C"
+    ],
+    "name": "Arithmetic Functions - continuation"
+  },
+  "6.4.3": {
+    "type": "MCQ",
+    "answer": [
+      "D"
+    ],
+    "name": "Character Function"
+  },
+  "6.4.4": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B"
+    ],
+    "name": "PostgresSQL Functions"
+  },
+  "6.4.5": {
+    "type": "MCQ",
+    "answer": [
+      "B",
+      "D"
+    ],
+    "name": "Creating and Using Functions"
+  },
+  "6.4.6": {
+    "type": "MCQ",
+    "answer": [
+      "C",
+      "D"
+    ],
+    "name": "Chained Functions"
+  },
+  "6.4.7": {
+    "type": "Coding",
+    "answer": "\nCREATE OR REPLACE FUNCTION calculate_average_price(p_category_name VARCHAR)\nRETURNS INT AS $$\nDECLARE\n    avg_price NUMERIC(10,2);\nBEGIN\n    SELECT AVG(price)\n    INTO avg_price\n    FROM products\n    WHERE category = p_category_name;\n    \n    RETURN COALESCE(avg_price, 0)::INT;\nEND;\n$$ LANGUAGE plpgsql;",
+    "name": "Practical Assignment"
+  },
+  "6.4.8": {
+    "type": "Coding",
+    "answer": "\nCREATE OR REPLACE FUNCTION get_total_order_amount(customer_email VARCHAR)\nRETURNS DECIMAL(10,2) AS $$\nDECLARE\n    total_amount DECIMAL(10,2);\nBEGIN\n    SELECT COALESCE(SUM(o.amount), 0)\n    INTO total_amount\n    FROM customers c\n    LEFT JOIN orders o ON c.customer_id = o.customer_id\n    WHERE c.email = get_total_order_amount.customer_email;\n    \n    RETURN COALESCE(total_amount, 0.00);\nEND;\n$$ LANGUAGE plpgsql;\n",
+    "name": "SQL Exercise"
+  },
+  "6.4.9": {
+    "type": "Coding",
+    "answer": "\nCREATE OR REPLACE FUNCTION calculate_discount(order_total NUMERIC)\nRETURNS NUMERIC AS $$\nDECLARE\n    discount_amount NUMERIC;\nBEGIN\n    IF order_total >= 1000 THEN\n        discount_amount := order_total * 0.10;\n    ELSIF order_total >= 500 THEN\n        discount_amount := order_total * 0.05;\n    ELSE\n        discount_amount := 0.0;\n    END IF;\n    \n    RETURN discount_amount;\nEND;\n$$ LANGUAGE plpgsql;\n",
+    "name": "SQL Exercise"
+  },
+  "6.4.10": {
+    "type": "Coding",
+    "answer": "CREATE OR REPLACE FUNCTION calculate_shipping_cost(order_total NUMERIC, shipping_distance NUMERIC)\nRETURNS NUMERIC AS $$\nBEGIN\n    IF order_total >= 1000 THEN\n        IF shipping_distance <= 50 THEN\n            RETURN order_total * 0.05;\n        ELSE\n            RETURN order_total * 0.10;\n        END IF;\n    ELSE\n        RETURN 50.0;\n    END IF;\nEND;\n$$ LANGUAGE plpgsql;",
+    "name": "SQL Exercise\t"
+  },
+  "6.4.11": {
+    "type": "Coding",
+    "answer": "\nCREATE OR REPLACE FUNCTION update_product_quantity(product_id INT, new_quantity INT)\nRETURNS VOID AS $$\nBEGIN\n    UPDATE products\n    SET quantity_in_stock = new_quantity\n    WHERE products.product_id = update_product_quantity.product_id;\nEND;\n$$ LANGUAGE plpgsql;\n",
+    "name": "SQL Exercise"
+  },
+  "6.5.1": {
+    "type": "Coding",
+    "answer": "CREATE OR REPLACE FUNCTION remove_vowels(input_string TEXT)\nRETURNS TEXT AS $$\nBEGIN\n    RETURN regexp_replace(input_string, '[aeiouAEIOU]', '', 'g');\nEND;\n$$ LANGUAGE plpgsql;",
+    "name": "Remove the vowels from the string"
+  },
+  "6.5.2": {
+    "type": "Coding",
+    "answer": "CREATE OR REPLACE FUNCTION sum_even_numbers(n INT)\nRETURNS INT AS $$\nBEGIN\n    RETURN n * (n + 1);\nEND;\n$$ LANGUAGE plpgsql;",
+    "name": "Sum of Even Numbers 1"
+  },
+  "6.5.3": {
+    "type": "Coding",
+    "answer": "CREATE OR REPLACE FUNCTION sum_odd_numbers(n INT)\nRETURNS INT AS $$\nBEGIN\n    RETURN n * n;\nEND;\n$$ LANGUAGE plpgsql;",
+    "name": "Sum of Odd Numbers - 1"
+  },
+  "6.5.4": {
+    "type": "Coding",
+    "answer": "CREATE OR REPLACE FUNCTION fact(n INTEGER) RETURNS INTEGER AS $$\nDECLARE\n    result INTEGER := 1;\n    i INTEGER;\nBEGIN\n    IF n < 0 THEN\n        RETURN NULL;\n    END IF;\n    \n    FOR i IN 1..n LOOP\n        result := result * i;\n    END LOOP;\n    \n    RETURN result;\nEND;\n$$ LANGUAGE plpgsql;",
+    "name": "fact function to find factorial - 1"
+  },
+  "6.5.5": {
+    "type": "Coding",
+    "answer": "\nCREATE OR REPLACE FUNCTION findAddress(p_phone_no INTEGER) \nRETURNS VARCHAR(200) AS $$\nDECLARE\n    result VARCHAR(200);\nBEGIN\n    SELECT COALESCE(\n        username || ', ' || \n        COALESCE(doorno::TEXT, '') || ', ' || \n        COALESCE(street, '') || ', ' || \n        COALESCE(place, '') || ', ' || \n        COALESCE(pincode::TEXT, ''),\n        'Address not found'\n    )\n    INTO result\n    FROM phonebook\n    WHERE phone_no = p_phone_no;\n\n    IF result IS NULL OR result = 'Address not found' THEN\n        RETURN 'Address not found';\n    ELSE\n        RETURN result;\n    END IF;\nEND;\n$$ LANGUAGE plpgsql;\n",
+    "name": "Functions - 2"
+  },
+  "6.6.1": {
+    "type": "MCQ",
+    "answer": [
+      "B"
+    ],
+    "name": "Anonymous Blocks in PostgreSQL"
+  },
+  "6.6.2": {
+    "type": "MCQ",
+    "answer": [
+      "E"
+    ],
+    "name": "Subblocks in PostgreSQL (PL/pgSQL)"
+  },
+  "6.6.3": {
+    "type": "MCQ",
+    "answer": [
+      "D"
+    ],
+    "name": "Procedures in PL/pgSQL"
+  },
+  "6.6.4": {
+    "type": "Coding",
+    "answer": "\nCREATE OR REPLACE PROCEDURE archive_old_orders()\nLANGUAGE plpgsql\nAS $$\nBEGIN\n    -- Insert old records into archive\n    INSERT INTO archived_orders (order_id, user_id, order_date, total)\n    SELECT order_id, user_id, order_date, total\n    FROM orders\n    WHERE order_date < '2022-01-01';\n\n    -- Delete archived records from original table\n    DELETE FROM orders\n    WHERE order_date < '2022-01-01';\n    \n    COMMIT;\nEND;\n$$;\n",
+    "name": "Procedures in PL/pgSQL"
+  },
+  "6.7.1": {
+    "type": "Coding",
+    "answer": "-- Step 1: Create the `students` Table\nDROP TABLE students;\nCREATE TABLE students (\n    student_id INT PRIMARY KEY,\n    student_name VARCHAR(100),\n    marks INT\n);\n\n-- Step 2: Insert Sample Data into the `students` Table\nINSERT INTO students (student_id, student_name, marks) VALUES\n(1, 'John Doe', 75),\n(2, 'Jane Smith', 88),\n(3, 'Michael Johnson', 90),\n(4, 'Emily Brown', 82),\n(5, 'David Lee', 95);\n\n-- Step 3: Create the Stored Procedure to Update Marks by a Fixed Amount\nCREATE OR REPLACE procedure UpdateMarks()\nLANGUAGE plpgsql\nAS $$\nBEGIN\n\tUPDATE students SET marks = marks + 10;\n\nEND;\n$$;\n",
+    "name": "Procedure to Update Marks "
+  },
+  "6.7.2": {
+    "type": "Coding",
+    "answer": "-- Step 1: create the table\nCREATE TABLE employees (\n    emp_id INT PRIMARY KEY,\n    emp_name VARCHAR(100),\n    salary DECIMAL(10, 2)\n);\n\n-- Step 2: Insert Sample Data into the `employees` Table\nINSERT INTO employees (emp_id, emp_name, salary) VALUES\n(1, 'John Doe', 50000),\n(2, 'Jane Smith', 60000),\n(3, 'Michael Johnson', 55000),\n(4, 'Emily Brown', 52000),\n(5, 'David Lee', 58000);\n\n\nCREATE OR REPLACE PROCEDURE UpdateSalaries(amount_increase DECIMAL)\nLANGUAGE plpgsql\nAS $$\nBEGIN\n    UPDATE employees\n    SET salary = salary + amount_increase;\nEND;\n$$;",
+    "name": "Procedure to Update Salaries 1"
+  },
+  "6.7.3": {
+    "type": "Coding",
+    "answer": "-- Step 1: Create the `menu_items` Table\n-- This table will hold the menu items along with their prices.\nCREATE TABLE menu_items (\n    item_id INT PRIMARY KEY,       -- Unique identifier for each menu item\n    item_name VARCHAR(100),        -- Name of the menu item\n    price DECIMAL(10, 2)           -- Price of the menu item, stored as a decimal with 2 decimal places\n);\n\n-- Step 2: Insert Sample Data into the `menu_items` Table\n-- Inserting 5 sample menu items with their respective prices\nINSERT INTO menu_items (item_id, item_name, price) VALUES\n(1, 'Spaghetti Bolognese', 150.00),\n(2, 'Margherita Pizza', 120.00),\n(3, 'Caesar Salad', 80.00),\n(4, 'Cheeseburger', 100.00),\n(5, 'Vegetable Stir Fry', 90.00);\n\n\nCREATE OR REPLACE PROCEDURE UpdateItemPrices()\nLANGUAGE plpgsql\nAS $$\nBEGIN\n    UPDATE menu_items\n    SET price = price * 1.20;\nEND;\n$$;",
+    "name": "Increase the price by 20% of their current price"
+  },
+  "6.7.4": {
+    "type": "Coding",
+    "answer": "CREATE OR REPLACE PROCEDURE GREETINGS(\n    input_value IN TEXT,\n    OUT output_value TEXT\n)\nLANGUAGE plpgsql\nAS $$\nBEGIN\n    output_value := input_value;\nEND;\n$$;",
+    "name": "Procedure - Creating Simple Procedure 1"
+  },
+  "6.7.5": {
+    "type": "Coding",
+    "answer": "-- Step 1: Create the `students` Table\nCREATE TABLE students (\n    student_id INT PRIMARY KEY,\n    student_name VARCHAR(100),\n    marks INT\n);\n\n-- Step 2: Insert Sample Data into the `students` Table\nINSERT INTO students (student_id, student_name, marks) VALUES\n(1, 'John Doe', 75),\n(2, 'Jane Smith', 88),\n(3, 'Michael Johnson', 90),\n(4, 'Emily Brown', 82),\n(5, 'David Lee', 95);\n\nCREATE OR REPLACE PROCEDURE UpdateMarksPercentage()\nLANGUAGE plpgsql\nAS $$\nBEGIN\n    UPDATE students\n    SET marks = marks + (marks * 0.10);\nEND;\n$$;",
+    "name": "Increase the marks by 10% of their current marks"
+  },
+  "6.8.1": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "CURSOR and RECORD in PL/SQL"
+  },
+  "6.8.2": {
+    "type": "Coding",
+    "answer": "CREATE FUNCTION apply_discount_to_category(category_name VARCHAR, discount_percentage NUMERIC) RETURNS VOID AS $$\nBEGIN\n    UPDATE products\n    SET price = GREATEST(0, price - (price * (discount_percentage / 100)))\n    WHERE category = category_name;\nEND;\n$$ LANGUAGE plpgsql;",
+    "name": "CURSOR and RECORD in PL/SQL"
+  },
+  "6.9.1": {
+    "type": "Coding",
+    "answer": "BEGIN;\n\nDECLARE vessel_cursor CURSOR FOR SELECT * FROM naval_vessels;\n\nFETCH 2 FROM vessel_cursor;\n\nCLOSE vessel_cursor;\nCOMMIT;",
+    "name": "Working with Cursors - 2"
+  },
+  "6.9.2": {
+    "type": "Coding",
+    "answer": "BEGIN;\n\nDECLARE officer_cursor CURSOR FOR SELECT * FROM police_officers;\n\nFETCH 1 FROM officer_cursor;\n\nCOMMIT;",
+    "name": "Working with Cursors - 3"
+  },
+  "6.9.3": {
+    "type": "Coding",
+    "answer": "CREATE FUNCTION apply_discount_to_category(category_name VARCHAR, discount_percentage NUMERIC) RETURNS VOID AS $$\nBEGIN\n    UPDATE products\n    SET price = price - (price * (discount_percentage / 100))\n    WHERE category = category_name;\nEND;\n$$ LANGUAGE plpgsql;",
+    "name": "CURSOR and RECORD in PL/SQL - 1"
+  },
+  "6.9.4": {
+    "type": "Coding",
+    "answer": "CREATE OR REPLACE FUNCTION apply_discount_to_menu_category(\n    category_name VARCHAR, \n    discount_percentage NUMERIC\n) \nRETURNS VOID AS $$\nBEGIN\n    UPDATE menu_items\n    SET price = price - (price * (discount_percentage / 100))\n    WHERE category = category_name;\nEND;\n$$ LANGUAGE plpgsql;",
+    "name": "CURSOR and RECORD in PL/SQL - 2"
+  },
+  "6.10.1": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "C"
+    ],
+    "name": "Triggers and It's types"
+  },
+  "6.10.2": {
+    "type": "MCQ",
+    "answer": [
+      "C"
+    ],
+    "name": "Example on Triggers"
+  },
+  "6.10.3": {
+    "type": "MCQ",
+    "answer": [
+      "B",
+      "D"
+    ],
+    "name": "Triggers in PL/pgSQL"
+  },
+  "6.10.4": {
+    "type": "MCQ",
+    "answer": [
+      "B"
+    ],
+    "name": "Examples on Triggers"
+  },
+  "6.10.5": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "CREATE TRIGGER Command"
+  },
+  "6.10.6": {
+    "type": "Coding",
+    "answer": "CREATE OR REPLACE FUNCTION update_product_stock_function()\nRETURNS TRIGGER AS $$\nBEGIN\n    IF NOT EXISTS (SELECT 1 FROM products WHERE product_id = NEW.product_id) THEN\n        RAISE EXCEPTION 'ERROR: Invalid product ID';\n    END IF;\n\n    UPDATE products\n    SET stock_quantity = stock_quantity - NEW.quantity\n    WHERE product_id = NEW.product_id;\n\n    RETURN NEW;\nEND;\n$$ LANGUAGE plpgsql;\n\nCREATE TRIGGER update_product_stock\nAFTER INSERT ON orders\nFOR EACH ROW\nEXECUTE FUNCTION update_product_stock_function();",
+    "name": "SQL Exercise"
+  },
+  "6.10.7": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "C"
+    ],
+    "name": "DROP TRIGGER"
+  },
+  "6.10.8": {
+    "type": "Coding",
+    "answer": "DROP TRIGGER customer_update_trigger ON customers;",
+    "name": "SQL Exercise\t"
+  },
+  "6.10.9": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "D"
+    ],
+    "name": "ALTER Trigger Command"
+  },
+  "6.10.10": {
+    "type": "Coding",
+    "answer": "CREATE OR REPLACE FUNCTION update_email_log_function()\nRETURNS TRIGGER AS $$\nBEGIN\n    INSERT INTO logs (message, date_insert)\n    VALUES (NEW.email, NOW());\n    RETURN NEW;\nEND;\n$$ LANGUAGE plpgsql;\n\nDROP TRIGGER IF EXISTS update_email_log ON customers;\n\nCREATE TRIGGER update_email_log\nAFTER INSERT ON customers\nFOR EACH ROW\nEXECUTE FUNCTION update_email_log_function();",
+    "name": "SQL Exercise"
+  },
+  "6.10.11": {
+    "type": "MCQ",
+    "answer": [
+      "B"
+    ],
+    "name": "Enabling Trigger"
+  },
+  "6.10.12": {
+    "type": "Coding",
+    "answer": "ALTER TABLE customers ENABLE TRIGGER update_email_trigger;",
+    "name": "SQL Exercise"
+  },
+  "6.10.13": {
+    "type": "MCQ",
+    "answer": [
+      "B"
+    ],
+    "name": "Disabling Trigger"
+  },
+  "6.10.14": {
+    "type": "Coding",
+    "answer": "ALTER TABLE customers DISABLE TRIGGER update_email_trigger;",
+    "name": "SQL Exercise"
+  },
+  "6.11.1": {
+    "type": "Coding",
+    "answer": "CREATE OR REPLACE FUNCTION calculate_marks() RETURNS TRIGGER AS $$\nDECLARE\n    total_val INTEGER;\n    avg_val NUMERIC(8,2);\n    result_val VARCHAR(20);\nBEGIN\n    total_val := NEW.mark + NEW.mark2 + NEW.mark3;\n    avg_val := total_val / 3.0;\n    \n    IF NEW.mark > 50 AND NEW.mark2 > 50 AND NEW.mark3 > 50 THEN\n        result_val := 'pass';\n    ELSE\n        result_val := 'fail';\n    END IF;\n\n    INSERT INTO stu1 (rollno, total, average, result)\n    VALUES (NEW.rollno, total_val, avg_val, result_val);\n    \n    RETURN NEW;\nEND;\n$$ LANGUAGE plpgsql;\n\nCREATE TRIGGER calculate_marks_trigger \nAFTER INSERT ON stu \nFOR EACH ROW \nEXECUTE FUNCTION calculate_marks();",
+    "name": "Triggers 1"
+  },
+  "6.11.2": {
+    "type": "Coding",
+    "answer": "CREATE OR REPLACE FUNCTION update_product_quantity()\nRETURNS TRIGGER AS $$\nBEGIN\n    UPDATE products\n    SET quantity = quantity - NEW.quantitysold\n    WHERE productid = NEW.productid;\n    RETURN NEW;\nEND;\n$$ LANGUAGE plpgsql;\n\nCREATE TRIGGER after_sale_insert\nAFTER INSERT ON sales\nFOR EACH ROW\nEXECUTE FUNCTION update_product_quantity();",
+    "name": "Trigger after INSERT 1"
+  },
+  "6.11.3": {
+    "type": "Coding",
+    "answer": "CREATE OR REPLACE FUNCTION restore_product_quantity()\nRETURNS TRIGGER AS $$\nBEGIN\n    UPDATE products\n    SET quantity = quantity + OLD.quantitysold\n    WHERE productid = OLD.productid;\n    RETURN OLD;\nEND;\n$$ LANGUAGE plpgsql;\n\nCREATE TRIGGER after_sale_delete\nAFTER DELETE ON sales\nFOR EACH ROW\nEXECUTE FUNCTION restore_product_quantity();",
+    "name": "Trigger after DELETE 1"
+  },
+  "6.11.4": {
+    "type": "Coding",
+    "answer": "CREATE OR REPLACE FUNCTION update_product_quantity()\nRETURNS TRIGGER AS $$\nBEGIN\n    UPDATE products\n    SET quantity = quantity + OLD.quantitysold - NEW.quantitysold\n    WHERE productid = NEW.productid;\n    RETURN NEW;\nEND;\n$$ LANGUAGE plpgsql;\n\nCREATE TRIGGER after_sale_update\nAFTER UPDATE ON sales\nFOR EACH ROW\nEXECUTE FUNCTION update_product_quantity();",
+    "name": "Trigger after UPDATE 1"
+  },
+  "6.12.1": {
+    "type": "Coding",
+    "answer": "CREATE FUNCTION update_order_total(id INT, new_total NUMERIC) RETURNS VOID AS $$\nBEGIN\n    IF new_total < 0 THEN\n        RAISE EXCEPTION 'Total cannot be negative';\n    END IF;\n\n    BEGIN\n        UPDATE orders SET total = new_total WHERE order_id = id;\n    EXCEPTION\n        WHEN OTHERS THEN\n            RAISE NOTICE 'An unexpected error occurred while updating the order total.';\n    END;\nEND;\n$$ LANGUAGE plpgsql;",
+    "name": "Exception Handling"
+  },
+  "6.13.1": {
+    "type": "Coding",
+    "answer": "CREATE OR REPLACE FUNCTION get_first_class_students()\nRETURNS TABLE(student_id INTEGER, student_name TEXT, marks INTEGER) AS $$\nDECLARE\n    row_count INTEGER;\nBEGIN\n    RETURN QUERY\n    SELECT s.student_id, s.student_name, s.marks\n    FROM student_marks s\n    WHERE s.marks >= 60;\n\n    GET DIAGNOSTICS row_count = ROW_COUNT;\n\n    IF row_count = 0 THEN\n        RAISE EXCEPTION 'No students secured first class';\n    END IF;\nEND;\n$$ LANGUAGE plpgsql;",
+    "name": "Function Execution and Exception Handling 1"
+  },
+  "6.13.2": {
+    "type": "Coding",
+    "answer": "CREATE OR REPLACE FUNCTION check_positive(num INT)\nRETURNS BOOLEAN AS $$\nBEGIN\n    IF num <= 0 THEN\n        RAISE EXCEPTION 'Number must be positive';\n    ELSE\n        RETURN TRUE;\n    END IF;\nEND;\n$$ LANGUAGE plpgsql;",
+    "name": "Custom Exception 1"
+  },
+  "7.1.1": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "name": "What is a Transaction ?"
+  },
+  "7.1.2": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B"
+    ],
+    "name": "Important Parts of a Transaction"
+  },
+  "7.1.3": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "C",
+      "D"
+    ],
+    "name": "Transaction Management"
+  },
+  "7.1.4": {
+    "type": "Coding",
+    "answer": "START TRANSACTION;\n\n-- First update\nUPDATE customers\nSET phone_number = '111-111-1111'\nWHERE customer_id <= 3;\n\n-- Create a SAVEPOINT named sp1\nSAVEPOINT sp1;\n\n-- Second update (should be undone)\nUPDATE customers\nSET phone_number = '999-999-9999'\nWHERE customer_id > 3;\n\n-- Rollback to the SAVEPOINT sp1\nROLLBACK TO SAVEPOINT sp1;\n\n-- Commit transaction\nCOMMIT;",
+    "name": "Smart City Data Update with Savepoint and Partial Rollback"
+  },
+  "7.1.5": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "C"
+    ],
+    "name": "Types of Locks in PostgreSQL"
+  },
+  "7.1.6": {
+    "type": "MCQ",
+    "answer": [
+      "C"
+    ],
+    "name": "Effective Error Handling within Transactions"
+  },
+  "7.1.7": {
+    "type": "Coding",
+    "answer": "BEGIN TRANSACTION;\n\nUPDATE accounts \nSET balance = balance - 500 \nWHERE account_id = 1;\n\nUPDATE accounts \nSET balance = balance + 500 \nWHERE account_id = 2;\n\nCOMMIT;",
+    "name": "Atomic Fund Transfer Between Accounts"
+  },
+  "7.1.8": {
+    "type": "MCQ",
+    "answer": [
+      "B",
+      "D"
+    ],
+    "name": "Introduction to Transactions in PostgreSQL"
+  },
+  "7.1.9": {
+    "type": "Coding",
+    "answer": "\nSTART TRANSACTION;\n\nUPDATE accounts \nSET balance = balance - 200.00 \nWHERE account_id = 101;\n\nUPDATE accounts \nSET balance = balance + 200.00 \nWHERE account_id = 102;\n\nCOMMIT;\n\nSTART TRANSACTION;\n\nUPDATE accounts \nSET balance = balance - 300.00 \nWHERE account_id = 102;\n\nUPDATE accounts \nSET balance = balance + 300.00 \nWHERE account_id = 103;\n\nROLLBACK;\n",
+    "name": "Transfer with Commit and Rollback"
+  },
+  "7.2.1": {
+    "type": "MCQ",
+    "answer": [
+      "B",
+      "D"
+    ],
+    "name": "Understanding ACID properties."
+  },
+  "7.2.2": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "C"
+    ],
+    "name": "Understanding Atomicity"
+  },
+  "7.2.3": {
+    "type": "MCQ",
+    "answer": [
+      "B"
+    ],
+    "name": "What is a Transaction log ?"
+  },
+  "7.2.4": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "name": "How are entries written in a Transaction Log?"
+  },
+  "7.2.5": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B"
+    ],
+    "name": "What is a SavePoint?"
+  },
+  "7.2.6": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "D"
+    ],
+    "name": "Features of SavePoint"
+  },
+  "7.2.7": {
+    "type": "MCQ",
+    "answer": [
+      "B",
+      "D"
+    ],
+    "name": "Understanding Consistency"
+  },
+  "7.2.8": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B"
+    ],
+    "name": "Transaction Anomalies"
+  },
+  "7.2.9": {
+    "type": "MCQ",
+    "answer": [
+      "C"
+    ],
+    "name": "Transaction Anomalies - Non Repeatable Reads"
+  },
+  "7.2.10": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": " Transaction Anomalies - Phantom Reads "
+  },
+  "7.2.11": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "Understanding Isolation"
+  },
+  "7.2.12": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B"
+    ],
+    "name": "The 4 Isolation Levels"
+  },
+  "7.2.13": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "C",
+      "D"
+    ],
+    "name": "Isolation Level - Read_Uncommitted"
+  },
+  "7.2.14": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "C"
+    ],
+    "name": "Isolation Level -- Read_Committed"
+  },
+  "7.2.15": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B"
+    ],
+    "name": "Isolation Level -- Repeatable_Reads"
+  },
+  "7.2.16": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B"
+    ],
+    "name": "Isolation level - Serializable"
+  },
+  "7.2.17": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "Mapping Isolations Levels "
+  },
+  "7.2.18": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "C"
+    ],
+    "name": "What is a Rollback?"
+  },
+  "7.2.19": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "name": "What is the Commit statement?"
+  },
+  "7.3.1": {
+    "type": "Coding",
+    "answer": "BEGIN;\n\nINSERT INTO student_marks (student_name, marks) VALUES ('Alice', 85);\n\nSAVEPOINT sp1;\n\nINSERT INTO student_marks (student_name, marks) VALUES ('Bob', 92);\n\nROLLBACK TO SAVEPOINT sp1;\n\nINSERT INTO student_marks (student_name, marks) VALUES ('Bob', 88);\n\nCOMMIT;\n\nSELECT * FROM student_marks;",
+    "name": "SAVEPOINT 1"
+  },
+  "7.3.2": {
+    "type": "Coding",
+    "answer": "BEGIN TRANSACTION;\n\nINSERT INTO student_marks (student_id, student_name, marks) VALUES (1, 'Alice', 85);\nINSERT INTO student_marks (student_id, student_name, marks) VALUES (2, 'Bob', 92);\n\nSAVEPOINT sp1;\n\nINSERT INTO student_marks (student_id, student_name, marks) VALUES (3, 'Charlie', 90);\n\nROLLBACK TO SAVEPOINT sp1;\n\nCOMMIT;",
+    "name": "ROLLBACK 1"
+  },
+  "7.4.1": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "What is a Transaction Schedule?"
+  },
+  "7.4.2": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "name": "Types of Schedule"
+  },
+  "7.4.3": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "C"
+    ],
+    "name": "Serial Schedules"
+  },
+  "7.4.4": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B"
+    ],
+    "name": "Non Serial Schedules"
+  },
+  "7.4.5": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B"
+    ],
+    "name": "The Problem with Concurrent Transactions"
+  },
+  "7.5.1": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "C"
+    ],
+    "name": "What is Serializability?"
+  },
+  "7.5.2": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "name": "Types of Serializability"
+  },
+  "7.5.3": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "C"
+    ],
+    "name": "What is a Conflict?"
+  },
+  "7.5.4": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "C"
+    ],
+    "name": "View Serializability"
+  },
+  "7.5.5": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B"
+    ],
+    "name": "What is Serializability Schedule?"
+  },
+  "7.6.1": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B"
+    ],
+    "name": "What is Concurrency Control?"
+  },
+  "7.6.2": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B"
+    ],
+    "name": "Why does Database need Concurrency Control?"
+  },
+  "7.6.3": {
+    "type": "MCQ",
+    "answer": [
+      "B",
+      "D"
+    ],
+    "name": "Types of Concurrency Control"
+  },
+  "7.6.4": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "C"
+    ],
+    "name": "Pessimistic Concurrency Control"
+  },
+  "7.6.5": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B"
+    ],
+    "name": "Optimistic Concurrency Control"
+  },
+  "7.6.6": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "D"
+    ],
+    "name": "What is Locking Granularity?"
+  },
+  "7.6.7": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "name": "Features of Lock Granularity"
+  },
+  "7.6.8": {
+    "type": "MCQ",
+    "answer": [
+      "C",
+      "E"
+    ],
+    "name": "Types of Lock Granularity"
+  },
+  "7.6.9": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B"
+    ],
+    "name": "How does Lock Help?"
+  },
+  "7.6.10": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "C"
+    ],
+    "name": "What is a Dead Lock?"
+  },
+  "7.6.11": {
+    "type": "MCQ",
+    "answer": [
+      "B",
+      "D"
+    ],
+    "name": "Preventing Deadlocks"
+  },
+  "7.6.12": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "E"
+    ],
+    "name": "Concurrency Control with Locks"
+  },
+  "7.6.13": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "D"
+    ],
+    "name": "Concurrency Control - Interleaving"
+  },
+  "7.6.14": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B"
+    ],
+    "name": "What is Two-Phase Locking?"
+  },
+  "7.6.15": {
+    "type": "MCQ",
+    "answer": [
+      "B"
+    ],
+    "name": "Conservative 2 Phase Locking"
+  },
+  "7.6.16": {
+    "type": "MCQ",
+    "answer": [
+      "B",
+      "C"
+    ],
+    "name": "Strict 2 Phase Locking"
+  },
+  "7.6.17": {
+    "type": "MCQ",
+    "answer": [
+      "B",
+      "C"
+    ],
+    "name": "Type of Locks"
+  },
+  "7.6.18": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "D"
+    ],
+    "name": "Write Locks"
+  },
+  "7.6.19": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "name": "Wait for Graph"
+  },
+  "7.6.20": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "Dead Lock Prevention"
+  },
+  "7.6.21": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "Inconsistent Retrievals"
+  },
+  "7.6.22": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "C",
+      "D"
+    ],
+    "name": "Uncommitted dependency"
+  },
+  "7.6.23": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "C"
+    ],
+    "name": "Wait-Die Algorithm for Deadlock Prevention"
+  },
+  "7.6.24": {
+    "type": "MCQ",
+    "answer": [
+      "C"
+    ],
+    "name": "What is Time Stamping (TS) Scheme?"
+  },
+  "7.6.25": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "C"
+    ],
+    "name": "More on Timestamping Schemes"
+  },
+  "7.6.26": {
+    "type": "MCQ",
+    "answer": [
+      "B",
+      "C"
+    ],
+    "name": "Wound-Wait Scheme"
+  },
+  "7.6.27": {
+    "type": "MCQ",
+    "answer": [
+      "B",
+      "C"
+    ],
+    "name": "Handling Deadlocks"
+  },
+  "7.6.28": {
+    "type": "MCQ",
+    "answer": [
+      "B",
+      "C"
+    ],
+    "name": "What is a Lost Update?"
+  },
+  "7.7.1": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "name": "What is Recovery?"
+  },
+  "7.7.2": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B"
+    ],
+    "name": "Types of Recovery"
+  },
+  "7.7.3": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "B",
+      "E"
+    ],
+    "name": "Automatic Recovery"
+  },
+  "7.7.4": {
+    "type": "MCQ",
+    "answer": [
+      "C",
+      "D"
+    ],
+    "name": "Introduction to Failures and Its Types"
+  },
+  "8.1.1": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "CAP Theorem"
+  },
+  "8.1.2": {
+    "type": "MCQ",
+    "answer": [
+      "C"
+    ],
+    "name": "The Three Pillars of the CAP Theorem"
+  },
+  "8.1.3": {
+    "type": "MCQ",
+    "answer": [
+      "D"
+    ],
+    "name": "Sharding in DBMS"
+  },
+  "8.1.4": {
+    "type": "MCQ",
+    "answer": [
+      "B"
+    ],
+    "name": "Replication"
+  },
+  "8.2.1": {
+    "type": "MCQ",
+    "answer": [
+      "D"
+    ],
+    "name": "Redis"
+  },
+  "8.2.2": {
+    "type": "MCQ",
+    "answer": [
+      "C"
+    ],
+    "name": "Cassandra"
+  },
+  "8.2.3": {
+    "type": "MCQ",
+    "answer": [
+      "D"
+    ],
+    "name": "What is Mongo DB"
+  },
+  "8.2.4": {
+    "type": "MCQ",
+    "answer": [
+      "A",
+      "C",
+      "D"
+    ],
+    "name": "Structure of MongoDB"
+  },
+  "8.2.5": {
+    "type": "MCQ",
+    "answer": [
+      "A"
+    ],
+    "name": "Introduction to JSON"
+  },
+  "8.2.7": {
+    "type": "Coding",
+    "answer": "db.students.insertMany([\n  {\n    \"name\": \"Student1\",\n    \"age\": 16,\n    \"grade\": \"10th\",\n    \"isActive\": true,\n    \"enrollmentDate\": new Date(\"2021-09-01\"),\n    \"height\": 165.5,\n    \"school\": \"XYZ\"\n  },\n  {\n    \"name\": \"Student2\",\n    \"age\": 14,\n    \"grade\": \"8th\",\n    \"isActive\": true,\n    \"enrollmentDate\": new Date(\"2022-09-01\"),\n    \"height\": 160.2,\n    \"school\": \"ABC\"\n  }\n]);\n\nvar z=db.students.find();\nprintjson(z.toArray());",
+    "name": "Introduction to insertMany()"
+  },
+  "8.2.8": {
+    "type": "Coding",
+    "answer": "var z = db.students.findOne({ age: 15 });\n\t\nprintjson(z);",
+    "name": "Using findOne() Method"
+  },
+  "8.2.9": {
+    "type": "Coding",
+    "answer": "var z = db.students.find({ age: 15 });\nprintjson(z.toArray());",
+    "name": "find() method"
+  },
+  "8.2.10": {
+    "type": "Coding",
+    "answer": "// Step 1: Insert the initial researcher record\ndb.researcher.insertOne({\n    \"researcher_id\": \"R98765\",\n    \"name\": \"Dr. Emily Zhang\",\n    \"age\": 35,\n    \"specialization\": \"Quantum Computing\"\n});\n\n// Step 2: Update the specialization field from \"Quantum Computing\" to \"Artificial Intelligence\"\ndb.researcher.updateOne(\n    { \"researcher_id\": \"R98765\" },           // Filter: find the specific researcher\n    { $set: { \"specialization\": \"Artificial Intelligence\" } }  // Update: set new specialization value\n);\n\nvar z = db.researcher.findOne({researcher_id: 'R98765'});\nprintjson(z);",
+    "name": "Update the record from researcher collection"
+  },
+  "8.2.12": {
+    "type": "Coding",
+    "answer": "db.mobiles.deleteOne({name: \"Realme\"});\n\nvar z = db.mobiles.find();\nprintjson(z.toArray());",
+    "name": "Deleting a record from mobiles collection"
+  },
+  "8.2.13": {
+    "type": "Coding",
+    "answer": "db.students.deleteMany({ branch: \"CSE\" });\n\nvar z = db.students.find();\nprintjson(z.toArray());",
+    "name": "Deleting multiple records from students collection"
+  },
+  "8.2.14": {
+    "type": "Coding",
+    "answer": "db.scores.findAndModify({\n  query: { name: \"Sai\" },\n  update: { $inc: { score: 5 } },\n  new: true\n});\n\nvar z = db.scores.findOne({name: 'Sai'});\nprintjson(z);",
+    "name": "Updating the record of scores collection by findAndModify"
+  }
+}
